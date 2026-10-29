@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:31
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:44
  restricted system commands enabled.
 **master_parliamentary_ai_training_manual.tex
 (./master_parliamentary_ai_training_manual.tex
@@ -1710,7 +1710,7 @@ r.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-It
 alic.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans
 -Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb>
-Output written on master_parliamentary_ai_training_manual.pdf (15 pages, 707948
+Output written on master_parliamentary_ai_training_manual.pdf (15 pages, 702075
  bytes).
 
 PDF statistics: 254 PDF objects out of 1000 (max. 8388607)

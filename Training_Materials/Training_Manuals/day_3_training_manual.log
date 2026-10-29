@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:31
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:43
  restricted system commands enabled.
 **day_3_training_manual.tex
 (./day_3_training_manual.tex
@@ -1808,7 +1808,7 @@ tf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Regul
 ar.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-I
 talic.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSan
 s-Bold.ttf>
-Output written on day_3_training_manual.pdf (15 pages, 1463291 bytes).
+Output written on day_3_training_manual.pdf (15 pages, 1386636 bytes).
 
 PDF statistics: 292 PDF objects out of 1000 (max. 8388607)
  245 compressed objects within 3 object streams
