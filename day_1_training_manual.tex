@@ -1,0 +1,409 @@
+\documentclass[11pt, a4paper]{report}
+
+% --- UNIVERSAL PREAMBLE BLOCK ---
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{fontspec}
+
+\usepackage[english, bidi=basic, provide=*]{babel}
+\babelprovide[import, onchar=ids fonts]{english}
+
+% Set default/Latin font to Sans Serif in the main (rm) slot
+\babelfont{rm}{Noto Sans}
+
+% --- ESSENTIAL PACKAGES ---
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+
+% Color definitions for professional layout
+\definecolor{tanzaniablue}{RGB}{0, 102, 178}
+\definecolor{suagreen}{RGB}{0, 112, 60}
+\definecolor{darkcharcoal}{RGB}{40, 40, 40}
+\definecolor{lightgrey}{RGB}{246, 248, 250}
+\definecolor{calloutbg}{RGB}{240, 244, 248}
+\definecolor{bordergrey}{RGB}{210, 215, 220}
+
+% Header and Footer styling
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textcolor{darkcharcoal}{\textbf{Day 1 Practical Manual} | Direct Native File Ingestion in VS Code}}
+\fancyhead[R]{\small\textcolor{darkcharcoal}{AB Consult (COEBS, SUA)}}
+\fancyfoot[L]{\small\textcolor{darkcharcoal}{Lead Facilitator: Eng. Dr. Kadeghe Fue (SUA)}}
+\fancyfoot[R]{\small\textcolor{darkcharcoal}{Page \thepage}}
+\renewcommand{\headrulewidth}{0.6pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% Hyperref must always be loaded last
+\usepackage[colorlinks=true, linkcolor=tanzaniablue, urlcolor=tanzaniablue]{hyperref}
+
+\begin{document}
+
+% --- TITLE PAGE ---
+\begin{titlepage}
+    \centering
+    \vspace*{0.5cm}
+    
+    {\LARGE \textbf{\textcolor{tanzaniablue}{AB CONSULT}}}\\[0.2cm]
+    {\large \textbf{College of Economics and Business Studies (COEBS)}}\\[0.15cm]
+    {\normalsize Sokoine University of Agriculture (SUA) \textbullet{} Morogoro, Tanzania}\\[1.2cm]
+    
+    {\LARGE \textbf{\textcolor{suagreen}{APPLICATION OF ARTIFICIAL INTELLIGENCE IN PARLIAMENTARY RESEARCH}}}\\[0.4cm]
+    {\Huge \textbf{DAY 1 TRAINING MANUAL}}\\[0.4cm]
+    {\Large \textbf{Automated Native File Ingestion \& Direct AI Querying in Visual Studio Code}}\\[0.25cm]
+    {\large An Applied, Zero-Copy Guide for Parliamentary Researchers, Clerks, and Social Scientists to Interrogate Native Word and PDF Documents Using Artificial Intelligence}\\[1.2cm]
+    
+    \begin{minipage}{0.92\textwidth}
+        \centering
+        \textbf{Target Audience:}\\
+        Parliamentary Researchers, Committee Clerks, Legislators and Politicians,\\
+        Social and Political Scientists, Policy Analysts, and Governance Practitioners\\[0.6cm]
+        
+        \textbf{Lead Technical Facilitator \& Senior AI Consultant:}\\
+        \textbf{\Large Eng. Dr. Kadeghe Fue, PhD}\\
+        Senior AI \& Systems Consultant\\
+        AB Consult \textbullet{} College of Economics and Business Studies (COEBS)\\
+        Sokoine University of Agriculture (SUA), Morogoro, Tanzania\\[0.6cm]
+        
+        \textbf{Date of Session:} Monday, 9\textsuperscript{th} November 2026\\
+        \textbf{Daily Timing:} 08:30 -- 16:00\\
+        \textbf{Breaks:} Health Break / Tea: 10:00 -- 11:00 \textbar{} Executive Lunch: 14:00 -- 15:00\\
+        \textbf{Zero-Copy Mandate:} Manual copy-pasting is strictly prohibited. Trainees drop native Microsoft Word (\texttt{.docx}) and PDF (\texttt{.pdf}) files directly into workspace folders and query them via file-grounded AI commands.
+    \end{minipage}
+    
+    \vfill
+    {\footnotesize \textbf{AB Consult \textbullet{} College of Economics and Business Studies (COEBS), Sokoine University of Agriculture}\\
+    Prepared in Strategic Partnership with Parliamentary Research Institutions}
+    \vspace*{0.2cm}
+\end{titlepage}
+
+% --- TABLE OF CONTENTS ---
+\tableofcontents
+\newpage
+
+% --- CHAPTER 1: OVERVIEW & SCHEDULE ---
+\chapter{Day 1 Overview: Direct File Ingestion from Day One}
+
+\section{Orientation from Eng. Dr. Kadeghe Fue}
+Welcome to Day 1 of our practical training program on the \textbf{Application of Artificial Intelligence in Parliamentary Research}. On behalf of \textbf{AB Consult} at the \textbf{College of Economics and Business Studies (COEBS), Sokoine University of Agriculture (SUA)}, I welcome you to an applied, modern research laboratory.
+
+In traditional office workflows, parliamentary researchers and committee staff spend hours performing tedious manual copy-and-paste routines: highlighting text from scanned government PDFs, fixing broken line breaks, and manually re-typing tables from Microsoft Word documents. 
+
+\textbf{In this training, manual copy-pasting is strictly prohibited.}
+\begin{itemize}[label=-]
+    \item You will never manually highlight and copy chunks of text between separate application windows.
+    \item You will drop your native, unedited Microsoft Word (\texttt{.docx}) and Adobe PDF (\texttt{.pdf}) files directly into your workspace folder.
+    \item You will instruct your embedded AI assistant to read, parse, extract, cross-tabulate, and summarize your files directly through structured, role-grounded prompts.
+\end{itemize}
+
+\textbf{You are not programmers, and you do not need to become programmers.} Visual Studio Code (VS Code) is configured simply as your high-speed, non-programmer document scrutiny workbench. By 16:00 today, you will drop your first authentic institutional files into your workspace, direct the AI to extract their core policy metrics, instruct it to write a complete analytical brief in Markdown, and compile it into an executive-level PDF report.
+
+\section{Specific Learning Outcomes for Day 1}
+By the conclusion of today's training at 16:00, participants will be able to:
+\begin{enumerate}[label=\textbf{1.\arabic*}]
+    \item \textbf{Configure a Non-Programmer Digital Workspace:} Establish a permanent, organized research directory in Visual Studio Code without touching the command line or writing code.
+    \item \textbf{Ingest Native Word and PDF Files Directly:} Drag and drop native \texttt{.docx} and \texttt{.pdf} files into the workspace folder for immediate AI access.
+    \item \textbf{Operate AI Direct-File Tagging (\texttt{@filename}):} Query native files directly in the AI sidebar without manual copying or text transcription.
+    \item \textbf{Instruct AI to Generate Formatted Markdown:} Direct the AI assistant to write clean Markdown briefs containing structured data tables, executive callouts, and institutional disclosures.
+    \item \textbf{Compile an Executive PDF Brief:} Generate a publication-ready PDF deliverable combining your professional profile with a structured analysis of your ingested file before 16:00.
+\end{enumerate}
+
+\section{Detailed Day 1 Master Schedule}
+\begin{table}[htbp]
+\centering
+\caption{Official Time Allocation for Monday, 9\textsuperscript{th} November 2026}
+\vspace{0.2cm}
+\begin{tabular}{@{}>{\bfseries}lp{11.5cm}@{}}
+\toprule
+Time Window & Module / Session Activity \\
+\midrule
+08:30 -- 09:15 & \textbf{Session 1.1:} Institutional Welcome (AB Consult / COEBS, SUA), Objectives, and the Non-Programmer Zero-Copy Paradigm. \\
+09:15 -- 10:00 & \textbf{Session 1.2:} The Direct Ingestion Challenge: Inspecting Participant Word and PDF Files and Setting Ground Rules. \\
+\addlinespace
+\textbf{10:00 -- 11:00} & \textbf{HEALTH BREAK / REFRESHMENTS \& NETWORKING TEA TIME} \\
+\addlinespace
+11:00 -- 12:15 & \textbf{Session 1.3:} Step-by-Step Configuration of Visual Studio Code: Workspaces, Folders, and Non-Programmer Extensions. \\
+12:15 -- 13:15 & \textbf{Session 1.4:} Direct File Tagging (\texttt{@filename}): Querying Native Word (\texttt{.docx}) and PDF Files Directly via AI. \\
+13:15 -- 14:00 & \textbf{Session 1.5:} Automated Markdown Drafting: Commanding AI to Write Structured Tables and Briefing Sections. \\
+\addlinespace
+\textbf{14:00 -- 15:00} & \textbf{EXECUTIVE LUNCH BREAK} \\
+\addlinespace
+15:00 -- 15:45 & \textbf{Practical Lab 1.1:} Hands-On Synthesis: Ingesting a Real Policy File via AI and Compiling the Researcher Portfolio Brief into PDF. \\
+15:45 -- 16:00 & \textbf{Session 1.6:} Daily Wrap-up, Verification Checklist Sign-off with Dr. Fue, and Preview of Day 2. \\
+\textbf{16:00} & \textbf{Official Adjournment} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\newpage
+
+% --- CHAPTER 2: MORNING FOUNDATIONS ---
+\chapter{Morning Session: The Zero-Copy AI Ingestion Paradigm}
+
+\section{Why Manual Copy-Pasting Compromises Parliamentary Work}
+Parliamentary researchers and clerks regularly handle files with thousands of paragraphs and dense statistical exhibits. The conventional habit of manually highlighting and copying text into a separate editor introduces severe operational hazards:
+\begin{enumerate}
+    \item \textbf{Truncation and Omission:} Critical statutory qualifiers (such as \textit{"subject to the prior written approval of the Minister"} or \textit{"provided that expenditure shall not exceed 10\%"}) are frequently missed during manual copying.
+    \item \textbf{Scrambled Tabular Data:} Highlighting tables in PDF files copies characters in visual order rather than tabular structure, scrambling numbers, column headers, and totals.
+    \item \textbf{Version Instability:} Copying back and forth between different versions of Microsoft Word corrupts margins, numbering schemes, and font hierarchies.
+\end{enumerate}
+
+\begin{figure}[htbp]
+  \centering
+  \framebox{\parbox{0.9\textwidth}{\centering
+    \vspace{1.2cm}
+    \textbf{The AB Consult Automated Ingestion Architecture} \\[0.3cm]
+    \small
+    \textbf{[ Your Laptop: Confidential \& Local ]}\\
+    $\downarrow$\\
+    \textbf{Step 1: Direct File Drop} $\rightarrow$ Place native Word (\texttt{.docx}) and PDF (\texttt{.pdf}) files into \texttt{documents/}.\\[0.15cm]
+    \textbf{Step 2: AI Context Tagging} $\rightarrow$ Point the AI assistant directly to the file using \texttt{@filename}.\\[0.15cm]
+    \textbf{Step 3: Automated AI Extraction} $\rightarrow$ Command the AI to extract targets, budgets, and statutory provisions.\\[0.15cm]
+    \textbf{Step 4: Automated Output Writing} $\rightarrow$ Direct the AI to save structured Markdown into \texttt{briefs\_and\_reports/}.\\[0.15cm]
+    \textbf{Step 5: One-Click PDF Compilation} $\rightarrow$ Export the publication-ready PDF using VS Code shortcuts.
+    \vspace{1.2cm}
+  }}
+  \caption{Direct File Tagging and Automated Extraction Architecture.}
+  \label{fig:auto_ingestion_arch}
+\end{figure}
+
+\section{Guiding Principles for Direct AI Querying}
+To safeguard parliamentary integrity, participants must follow three rules:
+\begin{itemize}[label=-]
+    \item \textbf{Explicit File Grounding:} Every AI prompt must explicitly reference the file name (e.g., \texttt{@documents/national\_water\_policy.pdf}). Never ask broad, ungrounded questions like \textit{"Tell me about water policy in Tanzania."}
+    \item \textbf{Strict Text Boundary Injection:} Always instruct the model: \textit{"Rely exclusively on the referenced file. If a figure or provision is not in the document, state 'Not Found in Source' rather than inferring."}
+    \item \textbf{Reproducible Output Commands:} Command the AI to output clean Markdown code blocks that can be saved directly into your reports folder with a single click.
+\end{itemize}
+
+\vspace{1.5em}
+\noindent\fbox{%
+    \parbox{0.96\textwidth}{%
+        \centering\textbf{\textcolor{tanzaniablue}{TEA TIME INTERMISSION: 10:00 AM -- 11:00 AM}}\\
+        \textit{Please enjoy tea, coffee, and refreshments in the executive foyer. Facilitators from AB Consult are available to inspect participant laptops, verify VS Code setups, and confirm that sample files are placed in the documents folder.}
+    }%
+}
+\vspace{1.5em}
+
+\newpage
+
+% --- CHAPTER 3: MID-DAY DIRECT INGESTION TECHNIQUES ---
+\chapter{Mid-Day Session: VS Code Setup and Direct AI File Querying}
+
+\section{Configuring Your Parliamentary Workspace}
+Follow these exact steps to configure your digital scrutiny desk:
+
+\begin{figure}[htbp]
+  \centering
+  \framebox{\parbox{0.88\textwidth}{\centering
+    \vspace{1.0cm}
+    \textbf{Standard Parliamentary Workspace Folder Layout} \\[0.3cm]
+    \small
+    \textbf{Workspace Root:} \texttt{Parliamentary\_Research\_2026/}\\[0.15cm]
+    \texttt{-- documents/} \quad $\rightarrow$ Native Word and PDF files dropped by trainee\\[0.1cm]
+    \texttt{-- briefs\_and\_reports/} \quad $\rightarrow$ AI-generated Markdown files and compiled PDFs\\[0.1cm]
+    \texttt{-- templates/} \quad $\rightarrow$ Reusable parliamentary briefing templates
+    \vspace{1.0cm}
+  }}
+  \caption{Hierarchical Structure of the Automated Research Desk.}
+  \label{fig:workspace_tree}
+\end{figure}
+
+\subsection{Action Item 1: Creating the Workspace Directory}
+\begin{enumerate}[label=\textbf{Step \arabic*:}]
+    \item Open Visual Studio Code.
+    \item From the top menu, select \textbf{File $\rightarrow$ Open Folder...}
+    \item Navigate to your \textbf{Documents} folder. Click \textbf{New Folder}, name it \texttt{Parliamentary\_Research\_2026}, and click \textbf{Select Folder}.
+    \item When prompted with \textit{"Do you trust the authors of the files in this folder?"}, select \textbf{Yes, I trust the authors}.
+    \item In the VS Code File Explorer (left pane), click the \textbf{New Folder} icon and create:
+    \begin{itemize}[label=-]
+        \item \texttt{documents}
+        \item \texttt{briefs\_and\_reports}
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Action Item 2: Installing Essential Non-Programmer Extensions}
+Click the Extensions icon on the left Activity Bar (\texttt{Ctrl + Shift + X}) and install:
+\begin{enumerate}
+    \item \textbf{Markdown All in One:} For text formatting, lists, and heading shortcuts.
+    \item \textbf{Markdown PDF:} For one-click export of Markdown documents to executive PDF.
+    \item \textbf{AI Assistant (Continue / GitHub Copilot):} For querying native workspace files directly.
+\end{enumerate}
+
+\section{The Direct File Drop: Native Word and PDF Ingestion}
+Trainees will now ingest their documents without opening Word or Adobe Acrobat:
+\begin{enumerate}[label=\textbf{Step \arabic*:}]
+    \item Open your computer's regular File Explorer (Windows Explorer or macOS Finder).
+    \item Locate your native Word file (e.g., \texttt{ministerial\_memo.docx}) and your native PDF file (e.g., \texttt{sector\_report.pdf}).
+    \item Drag and drop both files directly into the \texttt{documents} folder inside the VS Code File Explorer.
+    \item Both files are now situated in your workspace, fully indexed and ready for AI interrogation. No copying. No pasting. No re-typing.
+\end{enumerate}
+
+\section{Training the AI to Ingest Native Files Directly}
+Open the AI Assistant sidebar in VS Code. We will now execute our first direct file interrogation prompts:
+
+\subsection{Querying a Native Word Document (\texttt{.docx})}
+Type the following prompt directly into the AI sidebar:
+\begin{quote}
+\small
+\textit{"Examine @documents/ministerial\_memo.docx directly. Do not require me to paste any text. \\
+1. Extract the core policy objective stated by the executive. \\
+2. Extract all stated budgetary allocations, target figures, and project deadlines into a clean Markdown table. \\
+3. Highlight any operational risks or ambiguities mentioned in the text. \\
+Rely strictly on this file. Present your response in clean Markdown."}
+\end{quote}
+
+\subsection{Querying a Native PDF Document (\texttt{.pdf})}
+Now query your native PDF report:
+\begin{quote}
+\small
+\textit{"Read @documents/sector\_report.pdf directly. Scan the document for all quantitative tables regarding regional performance. \\
+Extract the regional targets, reported achievements, and calculate the delivery variance. Format the output as a 4-column Markdown table. Do not summarize in prose; provide the exact figures."}
+\end{quote}
+
+Notice the efficiency: In less than ten seconds, the AI reads through multi-page native files, parses tables, calculates variances, and outputs structured Markdown text ready for your parliamentary brief.
+
+\vspace{1.5em}
+\noindent\fbox{%
+    \parbox{0.96\textwidth}{%
+        \centering\textbf{\textcolor{suagreen}{EXECUTIVE LUNCH BREAK: 14:00 PM -- 15:00 PM}}\\
+        \textit{Lunch is served in the main dining pavilion. Please return promptly at 15:00 for the afternoon practical lab where you will direct the AI to compile your first executive PDF brief.}
+    }%
+}
+\vspace{1.5em}
+
+\newpage
+
+% --- CHAPTER 4: AFTERNOON PRACTICAL LAB ---
+\chapter{Afternoon Practical Lab: Compiling Your First Ingested PDF Brief}
+
+\section{Practical Exercise 1.1: Automated Brief Synthesis}
+\textbf{Session Objective:} Working inside your \texttt{Parliamentary\_Research\_2026} workspace, command the AI assistant to read your native Word or PDF document, generate a complete analytical brief in Markdown, save it into \texttt{briefs\_and\_reports/Day1\_Ingestion\_Brief.md}, and compile it into an executive PDF before 16:00.
+
+\subsection{Step-by-Step Instructions}
+\begin{enumerate}[label=\textbf{Step \arabic*:}]
+    \item In the VS Code AI Assistant sidebar, submit the **Comprehensive Brief Generation Prompt** provided below.
+    \item Inspect the generated Markdown response in the AI sidebar.
+    \item Click the \textbf{Insert into New File} button (or copy the AI code block) and save the file as:
+    \begin{center}
+        \texttt{briefs\_and\_reports/Day1\_Ingestion\_Brief.md}
+    \end{center}
+    \item Save your file (\texttt{Ctrl + S}).
+    \item Open the Command Palette (\texttt{Ctrl + Shift + P}), type \texttt{Markdown PDF: Export (pdf)}, and press \textbf{Enter}.
+    \item Open your newly generated PDF file and visually inspect its typography, table layout, and visual presentation.
+\end{enumerate}
+
+\subsection{The Automated Brief Generation Prompt}
+Submit the following prompt in the AI sidebar, replacing the bracketed items with your details:
+\begin{quote}
+\small
+\textit{"You are a Parliamentary Research Analyst. Examine @documents/[your\_native\_file.pdf] directly. \\
+Generate a complete, publication-ready parliamentary brief in Markdown following this exact structure: \\
+- Title: \# PARLIAMENTARY RESEARCH WORKBENCH: INGESTION BRIEF \\
+- Header: Document Series AB-COEBS-D1-2026, Date: 9 November 2026, Lead Researcher: [Your Name], Committee: [Your Committee] \\
+- Section 1: Researcher Portfolio and Institutional Mandate \\
+- Section 2: Ingested Document Profile (A 2-column table detailing File Name, Origin, Policy Focus, and Target Legislative Body) \\
+- Section 3: AI-Extracted Key Policy Findings (Bulleted summary of primary objective, fiscal commitment, and operational risks) \\
+- Section 4: Extracted Quantitative Baseline Table (A 4-column Markdown table with Program Parameter, Stated Target, Actual Status, and Variance) \\
+- Section 5: Methodological and Institutional AI Disclosure (Standard AB Consult disclosure notice) \\
+Generate the complete Markdown text without placeholders."}
+\end{quote}
+
+\subsection{Template Preview of Deliverable 1}
+The generated brief will render with the clean structure illustrated below:
+
+\begin{tcolorbox}[colback=lightgrey, colframe=bordergrey, title=\textbf{Deliverable 1 Preview: \texttt{Day1\_Ingestion\_Brief.md}}]
+\small
+\textbf{\# PARLIAMENTARY RESEARCH WORKBENCH: INGESTION BRIEF}\\
+\textbf{**Document Series:** AB-COEBS-D1-2026 \quad \textbar{} \quad **Date:** 9 November 2026}\\
+\textbf{**Lead Researcher:** [Participant Name] \quad \textbar{} \quad **Committee:** Standing Committee on Budget}\\[0.2cm]
+\rule{\textwidth}{0.4pt}\\[0.2cm]
+\textbf{\#\# 1. Researcher Portfolio and Institutional Mandate}\\
+This document establishes the initial analytical baseline for parliamentary oversight under the 2026 legislative calendar. Analysis was executed via direct AI ingestion of native government publications.\\[0.2cm]
+\textbf{\#\# 2. Ingested Document Profile}\\
+\begin{tabular}{ll}
+\toprule
+\textbf{Attribute} & \textbf{Document Metadata} \\
+\midrule
+File Ingested & \texttt{sector\_annual\_report\_2025.pdf} \\
+Originating Institution & Ministry of Transport and Works \\
+Policy Scope & Rural Feeder Road Rehabilitation Network \\
+Legislative Client & Standing Committee on Infrastructure and Energy \\
+\bottomrule
+\end{tabular}\\[0.2cm]
+\textbf{\#\# 3. AI-Extracted Policy Findings}\\
+- \textbf{Strategic Goal:} Rehabilitate 1,800 km of unpaved rural trunk routes before the onset of the seasonal rains.\\
+- \textbf{Fiscal Allocation:} TZS 64.2 Billion appropriated under Vote 48, with 72\% disbursed by Q3.\\
+- \textbf{Identified Fiduciary Risk:} Contract settlement backlog of TZS 9.1 Billion owed to regional civil contractors.\\[0.2cm]
+\textbf{\#\# 4. Quantitative Performance Baseline Matrix}\\
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Program Parameter} & \textbf{Stated Target} & \textbf{Reported Status} & \textbf{Variance (\%)} \\
+\midrule
+Routine Road Maintenance (km) & 1,200 & 940 & -21.7\% \\
+Bridge Deck Reconstruction & 45 & 28 & -37.8\% \\
+Emergency Flood Culverts & 180 & 165 & -8.3\% \\
+\bottomrule
+\end{tabular}\\[0.2cm]
+\textbf{\#\# 5. Institutional AI Disclosure Notice}\\
+\textit{"This document was produced using AI-assisted file indexing within Visual Studio Code under the AB Consult / COEBS SUA Research Integrity Guidelines. All figures were verified against primary government files."}
+\end{tcolorbox}
+
+\section{Day 1 Verification Checklist}
+Before leaving the training hall at 16:00, confirm completion of each milestone:
+
+\begin{table}[htbp]
+\centering
+\caption{End-of-Day 1 Competency Verification Checklist}
+\vspace{0.2cm}
+\begin{tabular}{@{}>{\bfseries}p{1.2cm}p{10cm}c@{}}
+\toprule
+No. & Verification Milestone & Status \\
+\midrule
+V-1 & Visual Studio Code installed and workspace folder configured & [ \ ] \\
+V-2 & Required extensions installed: Markdown All in One, Markdown PDF, AI Assistant & [ \ ] \\
+V-3 & Native Word or PDF file dropped directly into \texttt{documents/} without copying & [ \ ] \\
+V-4 & Successfully executed a direct file query using \texttt{@documents/filename} & [ \ ] \\
+V-5 & Commanded AI to extract quantitative data into a structured Markdown table & [ \ ] \\
+V-6 & Created \texttt{Day1\_Ingestion\_Brief.md} containing the complete brief & [ \ ] \\
+V-7 & Compiled document into an executive PDF and inspected the layout & [ \ ] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\newpage
+
+% --- CHAPTER 5: WRAP-UP & PREVIEW ---
+\chapter{Daily Wrap-up and Preview of Day 2}
+
+\section{Summary of Day 1 Accomplishments}
+Today, participants completed the foundational step of our modern research workflow. You have demonstrated that:
+\begin{itemize}[label=-]
+    \item \textbf{Manual Copy-Pasting Is Unnecessary:} By dropping native files into VS Code and using \texttt{@filename} commands, you can interrogate entire documents in seconds.
+    \item \textbf{Data Integrity Is Preserved:} Direct AI extraction preserves numerical accuracy, tabular structures, and statutory qualifiers without human transcription errors.
+    \item \textbf{Executive Reporting Is Automated:} Markdown tables, callouts, and headings compile into executive-ready PDFs with a single shortcut.
+\end{itemize}
+
+\section{Preview of Day 2: Topic 1 -- AI in Parliamentary Research Writing}
+Tomorrow, Tuesday, 10\textsuperscript{th} November 2026, we advance into \textbf{Topic 1 of the national curriculum: Application of Artificial Intelligence in Parliamentary Research Writing}:
+\begin{itemize}[label=-]
+    \item \textbf{Drop Your Legislation:} Bring a native Parent Act (\texttt{.pdf}) and a native draft Amendment Bill (\texttt{.docx} or \texttt{.pdf}) directly into \texttt{documents/}.
+    \item \textbf{Automated Clause Comparison:} Commanding the AI to compare statutory sections across two native files simultaneously without manual highlighting.
+    \item \textbf{Mining CAG Audit Reports:} Directing the AI to search through 300-page Auditor General reports to identify procurement anomalies and unexecuted works.
+    \item \textbf{Drafting Parliamentary Questions (PQs):} Translating extracted audit queries into sharp, defensible questions for committee oversight hearings.
+\end{itemize}
+
+\vspace{1.5cm}
+\begin{center}
+    \rule{0.65\textwidth}{0.4pt}\\[0.3cm]
+    \textbf{\Large Eng. Dr. Kadeghe Fue, PhD}\\
+    Lead Technical Facilitator \& Senior AI Consultant\\
+    AB Consult \textbullet{} College of Economics and Business Studies (COEBS)\\
+    Sokoine University of Agriculture (SUA), Morogoro, Tanzania\\[0.3cm]
+    \small\textit{"Empowering Parliaments Through Disciplined, Reproducible, and Ethical AI Systems."}\\[0.5cm]
+    \textbf{Morogoro \textbullet{} Dodoma \textbullet{} Dar es Salaam \textbullet{} November 2026}
+\end{center}
+
+\end{document}
