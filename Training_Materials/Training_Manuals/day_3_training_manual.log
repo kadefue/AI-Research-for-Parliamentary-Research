@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 11:51
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:07
  restricted system commands enabled.
 **day_3_training_manual.tex
 (./day_3_training_manual.tex
@@ -255,7 +255,7 @@ Package babel Info: Importing data for english
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.t
 ex)
 Package babel Info: Importing data for english
-(babel)             from babel-en.ini. Reported on input line 11.
+(babel)             from babel-en.ini. Reported on input line 23.
 Inserting `Babel.hyphenate' in `hyphenate'.
 luaotfload | cache : Lookup cache loaded from /Users/kadefue/Library/texlive/202
 5/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
@@ -953,26 +953,26 @@ Package babel Info: The following font families will use the default
 )
 \openout1 = day_3_training_manual.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -981,20 +981,20 @@ LaTeX Font Info:    ... okay on input line 123.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(62.59596pt, 472.31595pt, 62.59596pt)
-* v-part:(T,H,B)=(79.6678pt, 694.24716pt, 71.13188pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(28.45274pt, 782.45088pt, 34.14322pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=472.31595pt
-* \textheight=694.24716pt
-* \oddsidemargin=-9.67403pt
-* \evensidemargin=-9.67403pt
-* \topmargin=-44.60219pt
-* \headheight=38.0pt
-* \headsep=14.0pt
+* \textwidth=483.69687pt
+* \textheight=690.45088pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-43.81725pt
+* \headheight=48.0pt
+* \headsep=18.0pt
 * \topskip=11.0pt
-* \footskip=30.0pt
+* \footskip=26.0pt
 * \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
@@ -1015,61 +1015,61 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 123.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 123.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 123.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 123.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 123.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 123.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 123.
-LaTeX Font Info:    Redeclaring math accent \check on input line 123.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 123.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 123.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 123.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 123.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 133.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 133.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 133.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 133.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 133.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 133.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 133.
+LaTeX Font Info:    Redeclaring math accent \check on input line 133.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 133.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 133.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 133.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 133.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 123.
+(Font)              `operators' in the math version `normal' on input line 133.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/NotoSans(0)/m/n on input line 123.
+(Font)                  OT1/cmr/m/n --> TU/NotoSans(0)/m/n on input line 133.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 123.
+(Font)              `operators' in the math version `bold' on input line 133.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/m/n on input line 123.
+(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/m/n on input line 133.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/NotoSans(0)/m/n --> TU/NotoSans(0)/m/n on input line
- 123.
+ 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/NotoSans(0)/m/it on input line 123.
+(Font)                  OT1/cmr/m/it --> TU/NotoSans(0)/m/it on input line 133.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/b/n on input line 123.
+(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/b/n on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 123.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 123.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 133.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/NotoSans(0)/m/n --> TU/NotoSans(0)/b/n on input line
- 123.
+ 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/NotoSans(0)/b/it on input line 123
+(Font)                  OT1/cmr/bx/it --> TU/NotoSans(0)/b/it on input line 133
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 123.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 123.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 133.
 Removing  `Babel.pre_otfload_h' from `hpack_filter'.
 Removing  `luaotfload.node_processor' from `hpack_filter'.
 Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
@@ -1101,7 +1101,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 123.
+Package hyperref Info: Link coloring ON on input line 133.
 
 (./day_3_training_manual.out) (./day_3_training_manual.out)
 \@outlinefile=\write4
@@ -1110,17 +1110,17 @@ Package hyperref Info: Link coloring ON on input line 123.
 <Logo/SUA.png, id=115, 190.7125pt x 190.7125pt>
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 131.
+Package luatex.def Info: Logo/SUA.png  used on input line 141.
 (luatex.def)             Requested size: 68.28395pt x 68.28644pt.
-<Logo/Coat_of_arms_of_Tanzania.png, id=116, 251.9814pt x 291.9708pt>
+<Logo/Coat_of_arms_of_Tanzania.png, id=116, 1284.8pt x 1489.565pt>
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-144.
-(luatex.def)             Requested size: 58.9311pt x 68.28644pt.
+154.
+(luatex.def)             Requested size: 58.89174pt x 68.28644pt.
 
 ! Extra }, or forgotten \endgroup.
-l.154 ...vidence Dossiers in Visual Studio Code}}}
+l.164 ...vidence Dossiers in Visual Studio Code}}}
                                                   \\[0.6cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1129,37 +1129,37 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 160--160
+Underfull \hbox (badness 2134) in paragraph at lines 170--170
 []|\TU/NotoSans(0)/b/n/10 Doc-u-ment Clas-si-fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 []|\TU/NotoSans(0)/m/n/10 SUA/CO-EBS/AB-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 \TU/NotoSans(0)/m/n/10 CONSULT/PARL-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 []|\TU/NotoSans(0)/b/n/10 Part-ner In-sti-tu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--163
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []|\TU/NotoSans(0)/m/n/10 Wednes-day, 11th Novem-ber
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 164--164
+Underfull \hbox (badness 7273) in paragraph at lines 174--174
 []|\TU/NotoSans(0)/b/n/10 Strict Core Man-
  []
 
 
-Overfull \hbox (68.26985pt too wide) in paragraph at lines 159--166
+Overfull \hbox (57.34409pt too wide) in paragraph at lines 169--176
 [][] 
  []
 
@@ -1176,12 +1176,12 @@ A.png><./Logo/Coat_of_arms_of_Tanzania.png>] (./day_3_training_manual.toc)
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 190.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 200.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.190 \newpage
+                                          Fact-Checking \textbar \ AB CONSULT
+l.200 \newpage
               
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1193,14 +1193,19 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-190.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+200.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
@@ -1209,21 +1214,21 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 ]
 \bbl@ensure@english {Chapter} 1.
 
-Overfull \hbox (39.67805pt too wide) in paragraph at lines 202--203
-\TU/NotoSans(0)/m/n/10.95 pre-sented with com-pet-ing as-ser-tions. Sec-tor min-
-istries reg-u-larly an-nounce dra-matic achievements---
+Overfull \hbox (11.08372pt too wide) in paragraph at lines 212--213
+\TU/NotoSans(0)/m/n/10.95 sented with com-pet-ing as-ser-tions. Sec-tor min-istr
+ies reg-u-larly an-nounce dra-matic achievements---
  []
 
 
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 218.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 228.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.218     \item \textbf
+                                          Fact-Checking \textbar \ AB CONSULT
+l.228     \item \textbf
                        {Enforce the Parliamentary Evidentiary Hierarchy:} Sy...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1235,19 +1240,24 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-218.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+228.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [2
 
 ]
-Overfull \hbox (98.55116pt too wide) in paragraph at lines 221--222
+Overfull \hbox (87.17024pt too wide) in paragraph at lines 231--232
 []\TU/NotoSans(0)/b/n/10.95 Com-pile a 3-Page Ex-ec-u-tive Ev-i-dence Dossier: 
 \TU/NotoSans(0)/m/n/10.95 For-mat, ver-ify, and ex-port \TU/lmtt/m/n/10.95 Day3_
 Sector_Evidence_Dossier.md
@@ -1257,12 +1267,12 @@ Sector_Evidence_Dossier.md
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 251.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 261.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.251 \newpage
+                                          Fact-Checking \textbar \ AB CONSULT
+l.261 \newpage
               
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1274,33 +1284,38 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-251.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+261.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [3]
 \bbl@ensure@english {Chapter} 2.
-<figures/fig_day3_evidence_hierarchy.png, id=174, 602.4909pt x 292.6935pt>
+<figures/fig_day3_evidence_hierarchy.png, id=175, 686.565pt x 325.9377pt>
 File: figures/fig_day3_evidence_hierarchy.png Graphic file (type png)
 <use figures/fig_day3_evidence_hierarchy.png>
 Package luatex.def Info: figures/fig_day3_evidence_hierarchy.png  used on input
- line 263.
-(luatex.def)             Requested size: 443.97813pt x 215.6921pt.
+ line 273.
+(luatex.def)             Requested size: 445.00023pt x 211.2552pt.
 
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 273.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 283.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.273 
+                                          Fact-Checking \textbar \ AB CONSULT
+l.283 
       
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1312,34 +1327,39 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-273.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+283.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [4
 
 <./figures/fig_day3_evidence_hierarchy.png>]
-<figures/fig_day3_policy_architecture.png, id=181, 602.4909pt x 281.3712pt>
+<figures/fig_day3_policy_architecture.png, id=182, 705.1143pt x 320.397pt>
 File: figures/fig_day3_policy_architecture.png Graphic file (type png)
 <use figures/fig_day3_policy_architecture.png>
 Package luatex.def Info: figures/fig_day3_policy_architecture.png  used on inpu
-t line 276.
-(luatex.def)             Requested size: 443.97813pt x 207.34845pt.
+t line 286.
+(luatex.def)             Requested size: 445.00023pt x 202.20805pt.
 
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 298.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 308.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.298 \newpage
+                                          Fact-Checking \textbar \ AB CONSULT
+l.308 \newpage
               
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1351,25 +1371,30 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-298.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+308.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [5<./figures/fig_day3_policy_architecture.png>]
 \bbl@ensure@english {Chapter} 3.
-<figures/fig_day3_workspace.png, id=192, 602.4909pt x 281.3712pt>
+<figures/fig_day3_workspace.png, id=193, 706.8006pt x 320.397pt>
 File: figures/fig_day3_workspace.png Graphic file (type png)
 <use figures/fig_day3_workspace.png>
-Package luatex.def Info: figures/fig_day3_workspace.png  used on input line 308
+Package luatex.def Info: figures/fig_day3_workspace.png  used on input line 318
 .
-(luatex.def)             Requested size: 443.97813pt x 207.34845pt.
+(luatex.def)             Requested size: 445.00023pt x 201.72406pt.
 
-Overfull \hbox (14.92178pt too wide) in paragraph at lines 329--330
+Overfull \hbox (3.54086pt too wide) in paragraph at lines 339--340
 []\TU/NotoSans(0)/m/it/10 ”You are a Par-lia-men-tary Re-search Statis-ti-cian
 . Ex-am-ine @doc-u-ments/sta-tis-ti-cal_ab-stract_2025.pdf
  []
@@ -1378,12 +1403,12 @@ Overfull \hbox (14.92178pt too wide) in paragraph at lines 329--330
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 330.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 340.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.330 \end{quote}
+                                          Fact-Checking \textbar \ AB CONSULT
+l.340 \end{quote}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1395,19 +1420,24 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-330.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+340.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [6
 
 <./figures/fig_day3_workspace.png>]
-Overfull \hbox (59.4868pt too wide) in paragraph at lines 339--351
+Overfull \hbox (48.10588pt too wide) in paragraph at lines 349--361
  [][] 
  []
 
@@ -1415,12 +1445,12 @@ Overfull \hbox (59.4868pt too wide) in paragraph at lines 339--351
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 353.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 363.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.353 \newpage
+                                          Fact-Checking \textbar \ AB CONSULT
+l.363 \newpage
               
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1432,37 +1462,42 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-353.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+363.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [7]
-<figures/fig_day3_fact_checking_panes.png, id=204, 602.4909pt x 281.3712pt>
+<figures/fig_day3_fact_checking_panes.png, id=205, 686.565pt x 320.397pt>
 File: figures/fig_day3_fact_checking_panes.png Graphic file (type png)
 <use figures/fig_day3_fact_checking_panes.png>
 Package luatex.def Info: figures/fig_day3_fact_checking_panes.png  used on inpu
-t line 363.
-(luatex.def)             Requested size: 443.97813pt x 207.34845pt.
+t line 373.
+(luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
-Overfull \hbox (39.47856pt too wide) in paragraph at lines 371--372
+Overfull \hbox (28.09764pt too wide) in paragraph at lines 381--382
 []\TU/NotoSans(0)/m/n/10.95 Split the ed-i-tor to the right (\TU/lmtt/m/n/10.95
  Ctrl + \\TU/NotoSans(0)/m/n/10.95 ) and open the na-tive PDF file \TU/lmtt/m/n
 /10.95 statistical_abstract_2025.pdf
  []
 
 
-Overfull \hbox (23.64825pt too wide) in paragraph at lines 379--380
+Overfull \hbox (12.26733pt too wide) in paragraph at lines 389--390
 []\TU/NotoSans(0)/m/it/10 ”You are an Ad-ver-sar-ial Fact-Checking Au-di-tor 
 for Par-lia-ment. Au-dit @briefs_and_re-ports/Day3_Sec-
  []
 
 
-Overfull \hbox (12.81389pt too wide) in paragraph at lines 379--380
+Overfull \hbox (1.43297pt too wide) in paragraph at lines 389--390
 \TU/NotoSans(0)/m/it/10 tor_Ev-i-dence_Dossier.md against the na-tive source fil
 e @doc-u-ments/sta-tis-ti-cal_ab-stract_2025.pdf
  []
@@ -1471,12 +1506,12 @@ e @doc-u-ments/sta-tis-ti-cal_ab-stract_2025.pdf
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 388.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 398.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.388     \item \textbf
+                                          Fact-Checking \textbar \ AB CONSULT
+l.398     \item \textbf
                        {Tanzania Development Vision 2025 / Vision 2050:} Set...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1488,25 +1523,30 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-388.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+398.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [8<./figures/fig_day3_fact_checking_panes.png>]
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 407.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 417.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.407 \newpage
+                                          Fact-Checking \textbar \ AB CONSULT
+l.417 \newpage
               
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1518,53 +1558,45 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-407.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+417.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [9]
 \bbl@ensure@english {Chapter} 4.
 
-Overfull \hbox (0.95033pt too wide) in paragraph at lines 413--414
-\TU/NotoSans(0)/b/n/10.95 Ses-sion Ob-jec-tive: \TU/NotoSans(0)/m/n/10.95 Work-i
-ng in-side your \TU/lmtt/m/n/10.95 Parliamentary_Research_2026 \TU/NotoSans(0)/
-m/n/10.95 workspace, com-mand
+Overfull \hbox (94.54329pt too wide) in paragraph at lines 423--424
+\TU/NotoSans(0)/m/n/10.95 com-plete 3-page ev-i-dence brief in Mark-down, save 
+it into \TU/lmtt/m/n/10.95 briefs_and_reports/Day3_Sector_Evidence_Dossier.md\T
+U/NotoSans(0)/m/n/10.95 ,
  []
 
 
-Overfull \hbox (113.96515pt too wide) in paragraph at lines 413--414
-\TU/NotoSans(0)/m/n/10.95 a com-plete 3-page ev-i-dence brief in Mark-down, save
- it into \TU/lmtt/m/n/10.95 briefs_and_reports/Day3_Sector_Evidence_Dossier.md\
-TU/NotoSans(0)/m/n/10.95 ,
- []
-
-
-Overfull \hbox (20.49178pt too wide) in paragraph at lines 439--440
+Overfull \hbox (9.11086pt too wide) in paragraph at lines 449--450
 []\TU/NotoSans(0)/m/it/10 ”You are Se-nior Par-lia-men-tary Re-search An-a-lys
 t. Ex-am-ine @doc-u-ments/sta-tis-ti-cal_ab-stract_2025.pdf
- []
-
-
-Overfull \hbox (3.45735pt too wide) in paragraph at lines 439--440
-\TU/NotoSans(0)/m/it/10 - Sec-tion 4: Bot-tle-neck Tri-an-gu-la-tion (An-a-lyz-i
-ng e-voucher telecom-mu-ni-ca-tions gaps, agro-dealer
  []
 
 
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 440.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 450.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.440 \end{quote}
+                                          Fact-Checking \textbar \ AB CONSULT
+l.450 \end{quote}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1576,27 +1608,32 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-440.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+450.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [10
 
 ]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 445.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 455.
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--489
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
 []|\TU/NotoSans(0)/m/n/10.95 In-gested na-tive sta-tis-ti-cal PDF di-rectly via
  []
 
 
-Overfull \hbox (45.21336pt too wide) in paragraph at lines 494--494
+Overfull \hbox (45.21336pt too wide) in paragraph at lines 504--504
 []|\TU/NotoSans(0)/m/n/10.95 Cre-ated \TU/lmtt/m/n/10.95 briefs_and_reports/Day3
 _Sector_Evidence_Dossier.md| 
  []
@@ -1605,12 +1642,12 @@ _Sector_Evidence_Dossier.md|
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 498.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 508.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.498 \end{table}
+                                          Fact-Checking \textbar \ AB CONSULT
+l.508 \end{table}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1622,25 +1659,30 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-498.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+508.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [11]
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 500.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 510.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.500 \newpage
+                                          Fact-Checking \textbar \ AB CONSULT
+l.510 \newpage
               
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1652,33 +1694,32 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-500.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+510.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [12]
 \bbl@ensure@english {Chapter} 5.
 
-Overfull \hbox (5.3266pt too wide) in paragraph at lines 520--521
-[]\TU/NotoSans(0)/b/n/10.95 Com-pil-ing the 3-Page Strate-gic Pol-icy Op-tions 
-Brief: \TU/NotoSans(0)/m/n/10.95 For-mu-lat-ing bal-anced, non-partisan
- []
-
-
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 532.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 542.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.532 \end{center}
+                                          Fact-Checking \textbar \ AB CONSULT
+l.542 \end{center}
                   
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1690,14 +1731,19 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-532.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+542.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [13
 
@@ -1705,12 +1751,12 @@ Package fancyhdr Warning: \headheight is too small (38.0pt):
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 534.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 544.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
-                                          Fact-Checking
-l.534 \end{document}
+                                          Fact-Checking \textbar \ AB CONSULT
+l.544 \end{document}
                     
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1722,14 +1768,19 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-534.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+544.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [14] (./day_3_training_manual.aux)
  ***********
@@ -1741,25 +1792,25 @@ Package rerunfilecheck Info: File `day_3_training_manual.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28978 strings out of 475506
+ 28977 strings out of 475506
  156457,1373583 words of node,token memory allocated
- 2474 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 743 attribute, 57 glue_spe
-c, 250 attribute_list, 2 write nodes
-   avail lists: 1:4,2:21646,3:416,4:244,5:409,6:141,7:8973,8:2,9:765,10:18,11:81
-5
- 51172 multiletter control sequences out of 65536+600000
- 77 fonts using 22224647 bytes
- 98i,15n,98p,681b,740s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 2778 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 857 attribute, 57 glue_spe
+c, 288 attribute_list, 2 write nodes
+   avail lists: 1:4,2:20993,3:404,4:240,5:405,6:129,7:8679,8:2,9:723,10:20,11:77
+1
+ 51171 multiletter control sequences out of 65536+600000
+ 78 fonts using 22823535 bytes
+ 98i,18n,98p,681b,811s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf
 ></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.o
 tf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Regul
 ar.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-I
 talic.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSan
 s-Bold.ttf>
-Output written on day_3_training_manual.pdf (15 pages, 1265759 bytes).
+Output written on day_3_training_manual.pdf (15 pages, 1535990 bytes).
 
-PDF statistics: 291 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 292 PDF objects out of 1000 (max. 8388607)
  245 compressed objects within 3 object streams
  72 named destinations out of 1000 (max. 131072)
  232 words of extra memory for PDF output out of 10000 (max. 100000000)

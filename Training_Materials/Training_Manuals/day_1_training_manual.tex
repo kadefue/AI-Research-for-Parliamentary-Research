@@ -1,7 +1,19 @@
 \documentclass[11pt, a4paper]{report}
 
 % --- OFFICIAL GOVERNMENT PREAMBLE BLOCK ---
-\usepackage[a4paper, top=2.8cm, bottom=2.5cm, left=2.2cm, right=2.2cm, headheight=38pt, headsep=14pt]{geometry}
+% includehead and includefoot guarantee the body text never overwrites the header or footer
+\usepackage[
+  a4paper,
+  top=1.0cm,
+  bottom=1.2cm,
+  left=2.0cm,
+  right=2.0cm,
+  headheight=48pt,
+  headsep=18pt,
+  footskip=26pt,
+  includehead,
+  includefoot
+]{geometry}
 \usepackage{iftex}
 
 % Universal typography configuration
@@ -47,44 +59,41 @@
 % Compact list formatting
 \setlist{nosep, leftmargin=1.4em, topsep=2pt, partopsep=0pt}
 
-% Official Tanzania Color Strips Macros
-\newcommand{\tzstrip}[1][\textwidth]{%
+% Official Tanzania Color Strips Macro: Spacing between lines is touching close (0pt gap)
+\newcommand{\tzstrip}[1][\headwidth]{%
   \par\noindent%
-  {\color{tanzaniablue}\rule{#1}{2.5pt}}\\[-4.0pt]%
-  {\color{tanzaniayellow}\rule{#1}{1.8pt}}\\[-4.0pt]%
-  {\color{suagreen}\rule{#1}{2.5pt}}\par\vspace{4pt}%
-}
-
-\newcommand{\tzstripthin}[1][\textwidth]{%
-  \par\noindent%
-  {\color{tanzaniablue}\rule{#1}{1.5pt}}\\[-3.0pt]%
-  {\color{tanzaniayellow}\rule{#1}{1.0pt}}\\[-3.0pt]%
-  {\color{suagreen}\rule{#1}{1.5pt}}\par\vspace{2pt}%
+  \begingroup\setlength{\parskip}{0pt}\setlength{\lineskip}{0pt}\setlength{\baselineskip}{0pt}%
+  {\color{tanzaniablue}\hrule height 2.2pt width #1\relax}%
+  {\color{tanzaniayellow}\hrule height 1.6pt width #1\relax}%
+  {\color{suagreen}\hrule height 2.2pt width #1\relax}%
+  \endgroup\par%
 }
 
 % Official Running Header / Footer Configuration
+% Everything including the logos and the touching strips is inside the header
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{%
-  \includegraphics[height=1.0cm,keepaspectratio]{Logo/SUA.png}\ %
-  \parbox[b]{7.2cm}{%
-    \scriptsize\textbf{\textcolor{darkcharcoal}{PARLIAMENTARY AI RESEARCH TRAINING}}\\%
-    \tiny\textcolor{suagreen}{AB Consult \textbullet\ COEBS, Sokoine University of Agriculture}%
-  }%
+\fancyhead[C]{%
+  \begin{minipage}[b]{\headwidth}%
+    \begin{minipage}[c]{0.14\headwidth}%
+      \includegraphics[height=1.05cm,keepaspectratio]{Logo/SUA.png}%
+    \end{minipage}%
+    \hfill%
+    \begin{minipage}[c]{0.70\headwidth}%
+      \centering%
+      {\footnotesize\textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA}}}\\[1.5pt]%
+      {\scriptsize\textbf{\textcolor{suagreen}{SOKOINE UNIVERSITY OF AGRICULTURE \textbullet\ COEBS}}}\\[1.5pt]%
+      {\tiny\textbf{\textcolor{tanzaniablue}{Day 1: Direct File Ingestion in VS Code \textbar\ AB CONSULT}}}%
+    \end{minipage}%
+    \hfill%
+    \begin{minipage}[c]{0.14\headwidth}%
+      \raggedleft%
+      \includegraphics[height=1.05cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}%
+    \end{minipage}\\[3pt]%
+    \tzstrip[\headwidth]%
+  \end{minipage}%
 }
-\fancyhead[R]{%
-  \parbox[b]{7.2cm}{\raggedleft%
-    \scriptsize\textbf{\textcolor{darkcharcoal}{Day 1: Direct File Ingestion in VS Code}}\\%
-    \tiny\textcolor{tanzaniablue}{THE UNITED REPUBLIC OF TANZANIA}%
-  }\ %
-  \includegraphics[height=1.0cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}%
-}
-\renewcommand{\headrule}{%
-  \vspace{2pt}%
-  {\color{tanzaniablue}\rule{\headwidth}{1.8pt}}\\[-3.5pt]%
-  {\color{tanzaniayellow}\rule{\headwidth}{1.2pt}}\\[-3.5pt]%
-  {\color{suagreen}\rule{\headwidth}{1.8pt}}%
-}
+\renewcommand{\headrulewidth}{0pt}
 \fancyfoot[L]{\footnotesize\textcolor{darkcharcoal}{\textbf{Lead Facilitator:} Eng. Dr. Kadeghe Fue (SUA) \textbar\ Monday, 9th November 2026}}
 \fancyfoot[R]{\footnotesize\textcolor{darkcharcoal}{\textbf{Page \thepage}}}
 \renewcommand{\footrulewidth}{0.4pt}
@@ -92,26 +101,27 @@
 % Apply identical official header & footer to plain pages (e.g. Chapter openings)
 \fancypagestyle{plain}{%
   \fancyhf{}%
-  \fancyhead[L]{%
-    \includegraphics[height=1.0cm,keepaspectratio]{Logo/SUA.png}\ %
-    \parbox[b]{7.2cm}{%
-      \scriptsize\textbf{\textcolor{darkcharcoal}{PARLIAMENTARY AI RESEARCH TRAINING}}\\%
-      \tiny\textcolor{suagreen}{AB Consult \textbullet\ COEBS, Sokoine University of Agriculture}%
-    }%
+  \fancyhead[C]{%
+    \begin{minipage}[b]{\headwidth}%
+      \begin{minipage}[c]{0.14\headwidth}%
+        \includegraphics[height=1.05cm,keepaspectratio]{Logo/SUA.png}%
+      \end{minipage}%
+      \hfill%
+      \begin{minipage}[c]{0.70\headwidth}%
+        \centering%
+        {\footnotesize\textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA}}}\\[1.5pt]%
+        {\scriptsize\textbf{\textcolor{suagreen}{SOKOINE UNIVERSITY OF AGRICULTURE \textbullet\ COEBS}}}\\[1.5pt]%
+        {\tiny\textbf{\textcolor{tanzaniablue}{Day 1: Direct File Ingestion in VS Code \textbar\ AB CONSULT}}}%
+      \end{minipage}%
+      \hfill%
+      \begin{minipage}[c]{0.14\headwidth}%
+        \raggedleft%
+        \includegraphics[height=1.05cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}%
+      \end{minipage}\\[3pt]%
+      \tzstrip[\headwidth]%
+    \end{minipage}%
   }%
-  \fancyhead[R]{%
-    \parbox[b]{7.2cm}{\raggedleft%
-      \scriptsize\textbf{\textcolor{darkcharcoal}{Day 1: Direct File Ingestion in VS Code}}\\%
-      \tiny\textcolor{tanzaniablue}{THE UNITED REPUBLIC OF TANZANIA}%
-    }\ %
-    \includegraphics[height=1.0cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}%
-  }%
-  \renewcommand{\headrule}{%
-    \vspace{2pt}%
-    {\color{tanzaniablue}\rule{\headwidth}{1.8pt}}\\[-3.5pt]%
-    {\color{tanzaniayellow}\rule{\headwidth}{1.2pt}}\\[-3.5pt]%
-    {\color{suagreen}\rule{\headwidth}{1.8pt}}%
-  }%
+  \renewcommand{\headrulewidth}{0pt}%
   \fancyfoot[L]{\footnotesize\textcolor{darkcharcoal}{\textbf{Lead Facilitator:} Eng. Dr. Kadeghe Fue (SUA) \textbar\ Monday, 9th November 2026}}%
   \fancyfoot[R]{\footnotesize\textcolor{darkcharcoal}{\textbf{Page \thepage}}}%
   \renewcommand{\footrulewidth}{0.4pt}%
@@ -145,7 +155,7 @@
     \end{minipage}
     
     \vspace{4pt}
-    \tzstrip
+    \tzstrip[\textwidth]
     \vspace{0.4cm}
     
     {\LARGE \textbf{\textcolor{suagreen}{APPLICATION OF ARTIFICIAL INTELLIGENCE IN PARLIAMENTARY RESEARCH}}}\\[0.35cm]
@@ -177,7 +187,7 @@
     \end{minipage}
     
     \vfill
-    \tzstrip
+    \tzstrip[\textwidth]
     \vspace{2pt}
     {\footnotesize \textbf{AB Consult \textbullet\ College of Economics and Business Studies (COEBS), Sokoine University of Agriculture}\\
     Morogoro, Tanzania \textbullet\ Strategic Research and Legislative Capacity Building}
@@ -258,7 +268,7 @@ Parliamentary researchers and clerks regularly handle files with thousands of pa
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.94\textwidth]{figures/fig_day1_auto_ingestion_arch.png}
+  \includegraphics[width=0.92\textwidth]{figures/fig_day1_auto_ingestion_arch.png}
   \caption{Direct File Tagging and Automated Extraction Architecture.}
   \label{fig:auto_ingestion_arch}
 \end{figure}
@@ -290,7 +300,7 @@ Follow these exact steps to configure your digital scrutiny desk:
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.94\textwidth]{figures/fig_day1_workspace_tree.png}
+  \includegraphics[width=0.92\textwidth]{figures/fig_day1_workspace_tree.png}
   \caption{Hierarchical Structure of the Automated Research Desk.}
   \label{fig:workspace_tree}
 \end{figure}

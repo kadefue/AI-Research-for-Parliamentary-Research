@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 11:52
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:07
  restricted system commands enabled.
 **master_parliamentary_ai_training_manual.tex
 (./master_parliamentary_ai_training_manual.tex
@@ -255,7 +255,7 @@ Package babel Info: Importing data for english
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.t
 ex)
 Package babel Info: Importing data for english
-(babel)             from babel-en.ini. Reported on input line 11.
+(babel)             from babel-en.ini. Reported on input line 23.
 Inserting `Babel.hyphenate' in `hyphenate'.
 luaotfload | cache : Lookup cache loaded from /Users/kadefue/Library/texlive/202
 5/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
@@ -953,26 +953,26 @@ Package babel Info: The following font families will use the default
 )
 \openout1 = master_parliamentary_ai_training_manual.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -981,20 +981,20 @@ LaTeX Font Info:    ... okay on input line 123.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(62.59596pt, 472.31595pt, 62.59596pt)
-* v-part:(T,H,B)=(79.6678pt, 694.24716pt, 71.13188pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(28.45274pt, 782.45088pt, 34.14322pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=472.31595pt
-* \textheight=694.24716pt
-* \oddsidemargin=-9.67403pt
-* \evensidemargin=-9.67403pt
-* \topmargin=-44.60219pt
-* \headheight=38.0pt
-* \headsep=14.0pt
+* \textwidth=483.69687pt
+* \textheight=690.45088pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-43.81725pt
+* \headheight=48.0pt
+* \headsep=18.0pt
 * \topskip=11.0pt
-* \footskip=30.0pt
+* \footskip=26.0pt
 * \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
@@ -1015,61 +1015,61 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 123.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 123.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 123.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 123.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 123.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 123.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 123.
-LaTeX Font Info:    Redeclaring math accent \check on input line 123.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 123.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 123.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 123.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 123.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 133.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 133.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 133.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 133.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 133.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 133.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 133.
+LaTeX Font Info:    Redeclaring math accent \check on input line 133.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 133.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 133.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 133.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 133.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 123.
+(Font)              `operators' in the math version `normal' on input line 133.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/NotoSans(0)/m/n on input line 123.
+(Font)                  OT1/cmr/m/n --> TU/NotoSans(0)/m/n on input line 133.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 123.
+(Font)              `operators' in the math version `bold' on input line 133.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/m/n on input line 123.
+(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/m/n on input line 133.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/NotoSans(0)/m/n --> TU/NotoSans(0)/m/n on input line
- 123.
+ 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/NotoSans(0)/m/it on input line 123.
+(Font)                  OT1/cmr/m/it --> TU/NotoSans(0)/m/it on input line 133.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/b/n on input line 123.
+(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/b/n on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 123.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 123.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 133.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/NotoSans(0)/m/n --> TU/NotoSans(0)/b/n on input line
- 123.
+ 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/NotoSans(0)/b/it on input line 123
+(Font)                  OT1/cmr/bx/it --> TU/NotoSans(0)/b/it on input line 133
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 123.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 133.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 123.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 133.
 Removing  `Babel.pre_otfload_h' from `hpack_filter'.
 Removing  `luaotfload.node_processor' from `hpack_filter'.
 Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
@@ -1101,7 +1101,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 123.
+Package hyperref Info: Link coloring ON on input line 133.
 
 (./master_parliamentary_ai_training_manual.out)
 (./master_parliamentary_ai_training_manual.out)
@@ -1111,17 +1111,17 @@ Package hyperref Info: Link coloring ON on input line 123.
 <Logo/SUA.png, id=87, 190.7125pt x 190.7125pt>
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 131.
+Package luatex.def Info: Logo/SUA.png  used on input line 141.
 (luatex.def)             Requested size: 68.28395pt x 68.28644pt.
-<Logo/Coat_of_arms_of_Tanzania.png, id=88, 251.9814pt x 291.9708pt>
+<Logo/Coat_of_arms_of_Tanzania.png, id=88, 1284.8pt x 1489.565pt>
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-144.
-(luatex.def)             Requested size: 58.9311pt x 68.28644pt.
+154.
+(luatex.def)             Requested size: 58.89174pt x 68.28644pt.
 
 ! Extra }, or forgotten \endgroup.
-l.154 ...eproducible Parliamentary Deliverables}}}
+l.164 ...eproducible Parliamentary Deliverables}}}
                                                   \\[0.6cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1130,32 +1130,32 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 160--160
+Underfull \hbox (badness 2134) in paragraph at lines 170--170
 []|\TU/NotoSans(0)/b/n/10 Doc-u-ment Clas-si-fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 []|\TU/NotoSans(0)/m/n/10 SUA/CO-EBS/AB-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 \TU/NotoSans(0)/m/n/10 CONSULT/PARL-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 []|\TU/NotoSans(0)/b/n/10 Part-ner In-sti-tu-
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 164--164
+Underfull \hbox (badness 7273) in paragraph at lines 174--174
 []|\TU/NotoSans(0)/b/n/10 Strict Core Man-
  []
 
 
-Overfull \hbox (68.26985pt too wide) in paragraph at lines 159--166
+Overfull \hbox (57.34409pt too wide) in paragraph at lines 169--176
 [][] 
  []
 
@@ -1173,19 +1173,24 @@ A.png><./Logo/Coat_of_arms_of_Tanzania.png>]
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 190.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 200.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-190.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+200.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
@@ -1193,89 +1198,89 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
 ]
 \bbl@ensure@english {Chapter} 1.
-<figures/fig_day1_auto_ingestion_arch.png, id=125, 607.068pt x 281.3712pt>
+<figures/fig_day1_auto_ingestion_arch.png, id=126, 717.882pt x 320.397pt>
 File: figures/fig_day1_auto_ingestion_arch.png Graphic file (type png)
 <use figures/fig_day1_auto_ingestion_arch.png>
 Package luatex.def Info: figures/fig_day1_auto_ingestion_arch.png  used on inpu
-t line 213.
-(luatex.def)             Requested size: 443.97813pt x 205.78137pt.
+t line 223.
+(luatex.def)             Requested size: 445.00023pt x 198.60497pt.
 
-Underfull \hbox (badness 2512) in paragraph at lines 228--228
+Underfull \hbox (badness 2512) in paragraph at lines 238--238
 []|\TU/NotoSans(0)/m/n/10.95 Na-tive Files Dropped into
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 []|\TU/NotoSans(0)/m/n/10.95 AI-Driven Au-to-mated
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 230--230
+Underfull \hbox (badness 2486) in paragraph at lines 240--240
 \TU/NotoSans(0)/m/n/10.95 & Di-rect File In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 []|\TU/NotoSans(0)/m/n/10.95 AI-Generated In-ges-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--232
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
 \TU/NotoSans(0)/m/n/10.95 Native Amend-ment Bill
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 []|\TU/NotoSans(0)/m/n/10.95 AI-Synthesized Clause
  []
 
 
-Underfull \hbox (badness 6641) in paragraph at lines 232--233
+Underfull \hbox (badness 6641) in paragraph at lines 242--243
 \TU/NotoSans(0)/m/n/10.95 Ma-trix & Par-lia-men-tary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
 []|\TU/NotoSans(0)/m/n/10.95 Topic 2: Pol-icy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
 \TU/NotoSans(0)/m/n/10.95 Anal-y-sis (Ev-i-
  []
 
 
-Underfull \hbox (badness 7595) in paragraph at lines 234--234
+Underfull \hbox (badness 7595) in paragraph at lines 244--244
 \TU/NotoSans(0)/m/n/10.95 Native Min-is-te-rial Bud-get
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 []|\TU/NotoSans(0)/m/n/10.95 AI-Cleaned Mark-down
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\TU/NotoSans(0)/m/n/10.95 Topic 3: Pol-icy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \TU/NotoSans(0)/m/n/10.95 Anal-y-sis (Meth-
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 236--236
+Underfull \hbox (badness 1655) in paragraph at lines 246--246
 []|\TU/NotoSans(0)/m/n/10.95 Na-tive Pol-icy White Pa-per
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 238--239
+Underfull \hbox (badness 1490) in paragraph at lines 248--249
 \TU/NotoSans(0)/m/n/10.95 De-liv-er-ables (3 Sep-a-rate
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 255--256
+Underfull \hbox (badness 1152) in paragraph at lines 265--266
 \TU/NotoSans(0)/m/n/10.95 day’s sub-ject mat-ter, statu-tory scrutiny stan-dar
 ds, an-a-lyt-i-cal
  []
@@ -1284,19 +1289,24 @@ ds, an-a-lyt-i-cal
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 268.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 278.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-268.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+278.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [2
 
@@ -1304,55 +1314,58 @@ Package fancyhdr Warning: \headheight is too small (38.0pt):
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 268.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 278.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-268.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+278.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [3<./figures/fig_day1_auto_ingestion_arch.png>]
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 270.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 280.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-270.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+280.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [4]
 \bbl@ensure@english {Chapter} 2.
 
-Overfull \hbox (17.37793pt too wide) in paragraph at lines 284--285
+Overfull \hbox (5.99701pt too wide) in paragraph at lines 294--295
 []\TU/NotoSans(0)/b/n/10.95 Zero-Leakage Lo-cal Work-sta-tions: \TU/NotoSans(0)
 /m/n/10.95 Con-fig-ur-ing VS Code to run in a se-cure, privacy-compliant
  []
 
 
-Overfull \hbox (8.03119pt too wide) in paragraph at lines 289--290
-\TU/NotoSans(0)/m/n/10.95 with two di-rec-to-ries: \TU/lmtt/m/n/10.95 documents/
- \TU/NotoSans(0)/m/n/10.95 (for na-tive files) and \TU/lmtt/m/n/10.95 briefs_and
-_reports/ \TU/NotoSans(0)/m/n/10.95 (for AI-generated
- []
-
-
-Overfull \hbox (172.9664pt too wide) in paragraph at lines 295--296
+Overfull \hbox (161.58548pt too wide) in paragraph at lines 305--306
 []\TU/NotoSans(0)/b/n/10.95 Au-to-mated File Gen-er-a-tion: \TU/NotoSans(0)/m/n
 /10.95 Di-rect the AI to write the out-put di-rectly into \TU/lmtt/m/n/10.95 bri
 efs_and_reports/Day1_Ingestion_Dossier.md\TU/NotoSans(0)/m/n/10.95 . 
@@ -1362,19 +1375,24 @@ efs_and_reports/Day1_Ingestion_Dossier.md\TU/NotoSans(0)/m/n/10.95 .
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 297.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 307.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-297.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+307.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [5
 
@@ -1382,42 +1400,46 @@ Package fancyhdr Warning: \headheight is too small (38.0pt):
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 299.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 309.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-299.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+309.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [6]
 \bbl@ensure@english {Chapter} 3.
 
-Overfull \hbox (3.61015pt too wide) in paragraph at lines 312--313
-[]\TU/NotoSans(0)/b/n/10.95 Au-to-mated Side-by-Side Clause Anal-y-sis: \TU/Not
-oSans(0)/m/n/10.95 Ask-ing the AI to com-pare spe-cific clauses across
- []
-
-
-Overfull \hbox (19.20718pt too wide) in paragraph at lines 314--315
+Overfull \hbox (7.82626pt too wide) in paragraph at lines 324--325
 []\TU/NotoSans(0)/m/it/10 ”Com-pare Sec-tion 18 of @doc-u-ments/par-ent_act.pd
 f di-rectly with Clause 4 of @doc-u-ments/amend-
  []
 
 
-Overfull \hbox (10.36824pt too wide) in paragraph at lines 325--326
-[]\TU/NotoSans(0)/m/it/10 ”An-a-lyze @doc-u-ments/par-ent_act.pdf and @doc-u-m
-ents/amend-ment_bill.docx. Build a 4-column
+Overfull \hbox (83.36964pt too wide) in paragraph at lines 332--333
+[]\TU/NotoSans(0)/b/n/10.95 Na-tive File Drop: \TU/NotoSans(0)/m/n/10.95 Drop yo
+ur statu-tory PDF (\TU/lmtt/m/n/10.95 parent_act.pdf\TU/NotoSans(0)/m/n/10.95 ) and draft amend-ment file (\TU/lmtt/m/n/10.95 amendment_bill.docx\TU/NotoSans(0)/m/n/10.95 )
  []
 
 
-Overfull \hbox (60.00258pt too wide) in paragraph at lines 331--332
+Overfull \hbox (8.23286pt too wide) in paragraph at lines 339--340
+[]\TU/NotoSans(0)/m/it/10 ”Search @doc-u-ments/cag_re-port.pdf for all au-dit queries con-cern-ing re-gional in-fras-truc-ture funds.
+ []
+
+
+Overfull \hbox (48.62166pt too wide) in paragraph at lines 341--342
 []\TU/NotoSans(0)/b/n/10.95 Draft-ing & Com-pi-la-tion: \TU/NotoSans(0)/m/n/10.
 95 Com-mand the AI to as-sem-ble \TU/lmtt/m/n/10.95 briefs_and_reports/Day2_Scru
 tiny_Brief.md
@@ -1427,19 +1449,24 @@ tiny_Brief.md
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 332.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 342.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-332.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+342.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [7
 
@@ -1447,46 +1474,62 @@ Package fancyhdr Warning: \headheight is too small (38.0pt):
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 334.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 344.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-334.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+344.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [8]
 \bbl@ensure@english {Chapter} 4.
 
-Overfull \hbox (12.92223pt too wide) in paragraph at lines 347--348
+Overfull \hbox (1.5413pt too wide) in paragraph at lines 357--358
 []\TU/NotoSans(0)/b/n/10.95 The 4-Tier Pol-icy Brief-ing Ar-chi-tec-ture: \TU/N
 otoSans(0)/m/n/10.95 Struc-tur-ing de-liv-er-ables for par-lia-men-tary decision
 -
  []
 
 
+Overfull \hbox (9.59625pt too wide) in paragraph at lines 371--372
+[]\TU/NotoSans(0)/m/it/10 ”Au-dit the fig-ures in @briefs_and_re-ports/draft_b
+rief.md against the raw ta-bles in @doc-u-ments/sta-
+ []
+
+
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 362.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 372.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-362.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+372.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [9
 
@@ -1494,32 +1537,35 @@ Package fancyhdr Warning: \headheight is too small (38.0pt):
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 366.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 376.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-366.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+376.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [10]
 \bbl@ensure@english {Chapter} 5.
 
-Overfull \hbox (7.73915pt too wide) in paragraph at lines 386--387
-[]\TU/NotoSans(0)/b/n/10.95 Na-tive File Drop: \TU/NotoSans(0)/m/n/10.95 Place 
-\TU/lmtt/m/n/10.95 policy_whitepaper.pdf \TU/NotoSans(0)/m/n/10.95 and \TU/lmtt
-/m/n/10.95 sector_strategy.docx \TU/NotoSans(0)/m/n/10.95 into \TU/lmtt/m/n/10.
-95 documents/\TU/NotoSans(0)/m/n/10.95 . 
+Overfull \hbox (1.49294pt too wide) in paragraph at lines 389--390
+[]\TU/NotoSans(0)/b/n/10.95 Au-to-mated Multi-Stakeholder Stress-Testing: \TU/N
+otoSans(0)/m/n/10.95 Com-mand-ing the AI to sim-u-late in-sti-tu-tional
  []
 
 
-Overfull \hbox (74.77411pt too wide) in paragraph at lines 392--393
+Overfull \hbox (63.39319pt too wide) in paragraph at lines 402--403
 []\TU/NotoSans(0)/b/n/10.95 Com-pil-ing De-liv-er-able 4: \TU/NotoSans(0)/m/n/1
 0.95 Com-mand the AI to write \TU/lmtt/m/n/10.95 briefs_and_reports/Day4_Policy_
 Options_Brief.md
@@ -1529,19 +1575,24 @@ Options_Brief.md
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 393.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 403.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-393.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+403.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [11
 
@@ -1549,24 +1600,29 @@ Package fancyhdr Warning: \headheight is too small (38.0pt):
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 395.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 405.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-395.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+405.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [12]
 \bbl@ensure@english {Chapter} 6.
 
-Overfull \hbox (32.05093pt too wide) in paragraph at lines 410--412
+Overfull \hbox (20.67001pt too wide) in paragraph at lines 420--422
 []\TU/NotoSans(0)/b/n/10.95 The Tri-par-tite Out-put Ar-chi-tec-ture: \TU/NotoS
 ans(0)/m/n/10.95 Com-mand-ing the AI to gen-er-ate three dis-tinct, publication-
 
@@ -1576,24 +1632,29 @@ ans(0)/m/n/10.95 Com-mand-ing the AI to gen-er-ate three dis-tinct, publication-
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 425.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 437.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-425.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+437.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [13
 
 ]
-Overfull \hbox (74.54784pt too wide) in paragraph at lines 430--431
+Overfull \hbox (63.16692pt too wide) in paragraph at lines 440--441
 []\TU/NotoSans(0)/b/n/10.95 Au-to-mated Tri-par-tite Gen-er-a-tion: \TU/NotoSan
 s(0)/m/n/10.95 Di-rect the AI to draft the three de-liv-er-ables into \TU/lmtt/
 m/n/10.95 briefs_and_reports/
@@ -1603,19 +1664,24 @@ m/n/10.95 briefs_and_reports/
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 450.
-(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 460.
+(luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-450.
-(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+460.
+(luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
-Package fancyhdr Warning: \headheight is too small (38.0pt): 
-(fancyhdr)                Make it at least 64.25276pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (48.0pt): 
+(fancyhdr)                Make it at least 52.24504pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.24504pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+(fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [14] (./master_parliamentary_ai_training_manual.aux)
  ***********
@@ -1628,26 +1694,26 @@ Package rerunfilecheck Info: File `master_parliamentary_ai_training_manual.out'
 )
 
 Here is how much of LuaTeX's memory you used:
- 28932 strings out of 475506
+ 28931 strings out of 475506
  125160,1373583 words of node,token memory allocated
- 2490 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 749 attribute, 57 glue_spe
-c, 252 attribute_list, 2 write nodes
-   avail lists: 1:5,2:22324,3:416,4:184,5:352,6:141,7:7865,8:2,9:765,10:17,11:66
+ 2794 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 863 attribute, 57 glue_spe
+c, 290 attribute_list, 2 write nodes
+   avail lists: 1:4,2:22039,3:404,4:180,5:356,6:129,7:7814,8:2,9:723,10:17,11:65
 5
- 51141 multiletter control sequences out of 65536+600000
- 76 fonts using 22098239 bytes
- 98i,15n,98p,699b,859s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 51140 multiletter control sequences out of 65536+600000
+ 77 fonts using 22697127 bytes
+ 98i,18n,98p,699b,926s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.ot
 f></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Regula
 r.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-It
 alic.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans
 -Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb>
-Output written on master_parliamentary_ai_training_manual.pdf (15 pages, 595454
+Output written on master_parliamentary_ai_training_manual.pdf (15 pages, 721083
  bytes).
 
-PDF statistics: 253 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 254 PDF objects out of 1000 (max. 8388607)
  215 compressed objects within 3 object streams
  66 named destinations out of 1000 (max. 131072)
  176 words of extra memory for PDF output out of 10000 (max. 100000000)
