@@ -1,0 +1,298 @@
+\documentclass[10pt, a4paper]{article}
+
+% --- OFFICIAL GOVERNMENT PREAMBLE BLOCK ---
+\usepackage[a4paper, top=2.8cm, bottom=2.5cm, left=2.2cm, right=2.2cm, headheight=38pt, headsep=14pt]{geometry}
+\usepackage{iftex}
+
+% Universal typography configuration
+\ifLuaTeX
+  \usepackage{fontspec}
+  \usepackage[english, bidi=basic, provide=*]{babel}
+  \babelprovide[import, onchar=ids fonts]{english}
+  \babelfont{rm}{Noto Sans}
+\else\ifXeTeX
+  \usepackage{fontspec}
+  \setmainfont{Noto Sans}[
+    Path = /usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/,
+    UprightFont = *-Regular.ttf,
+    BoldFont = *-Bold.ttf,
+    ItalicFont = *-Italic.ttf
+  ]
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage[default]{sourcesanspro}
+\fi\fi
+
+% Essential Packages
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% Official Colors of Tanzania and SUA
+\definecolor{tanzaniablue}{RGB}{0, 102, 178}
+\definecolor{tanzaniayellow}{RGB}{252, 209, 22}
+\definecolor{suagreen}{RGB}{0, 112, 60}
+\definecolor{darkcharcoal}{RGB}{35, 35, 35}
+\definecolor{lightgrey}{RGB}{246, 248, 250}
+\definecolor{calloutbg}{RGB}{240, 244, 248}
+\definecolor{bordergrey}{RGB}{210, 215, 220}
+
+% Compact list formatting
+\setlist{nosep, leftmargin=1.4em, topsep=2pt, partopsep=0pt}
+
+% Official Tanzania Color Strips Macros
+\newcommand{\tzstrip}[1][\textwidth]{%
+  \par\noindent%
+  {\color{tanzaniablue}\rule{#1}{2.5pt}}\\[-4.0pt]%
+  {\color{tanzaniayellow}\rule{#1}{1.8pt}}\\[-4.0pt]%
+  {\color{suagreen}\rule{#1}{2.5pt}}\par\vspace{4pt}%
+}
+
+\newcommand{\tzstripthin}[1][\textwidth]{%
+  \par\noindent%
+  {\color{tanzaniablue}\rule{#1}{1.5pt}}\\[-3.0pt]%
+  {\color{tanzaniayellow}\rule{#1}{1.0pt}}\\[-3.0pt]%
+  {\color{suagreen}\rule{#1}{1.5pt}}\par\vspace{2pt}%
+}
+
+% Official Running Header / Footer Configuration
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{%
+  \includegraphics[height=1.0cm,keepaspectratio]{Logo/SUA.png}\ %
+  \parbox[b]{7.2cm}{%
+    \scriptsize\textbf{\textcolor{darkcharcoal}{PARLIAMENTARY AI RESEARCH TRAINING}}\\%
+    \tiny\textcolor{suagreen}{AB Consult \textbullet\ COEBS, Sokoine University of Agriculture}%
+  }%
+}
+\fancyhead[R]{%
+  \parbox[b]{7.2cm}{\raggedleft%
+    \scriptsize\textbf{\textcolor{darkcharcoal}{Executive Curriculum Outline}}\\%
+    \tiny\textcolor{tanzaniablue}{THE UNITED REPUBLIC OF TANZANIA}%
+  }\ %
+  \includegraphics[height=1.0cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}%
+}
+\renewcommand{\headrule}{%
+  \vspace{2pt}%
+  {\color{tanzaniablue}\rule{\headwidth}{1.8pt}}\\[-3.5pt]%
+  {\color{tanzaniayellow}\rule{\headwidth}{1.2pt}}\\[-3.5pt]%
+  {\color{suagreen}\rule{\headwidth}{1.8pt}}%
+}
+\fancyfoot[L]{\footnotesize\textcolor{darkcharcoal}{\textbf{Lead Facilitator:} Eng. Dr. Kadeghe Fue (SUA) \textbar\ 9--13 November 2026}}
+\fancyfoot[R]{\footnotesize\textcolor{darkcharcoal}{\textbf{Page \thepage}}}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% Apply identical official header & footer to plain pages (e.g. Chapter openings)
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyhead[L]{%
+    \includegraphics[height=1.0cm,keepaspectratio]{Logo/SUA.png}\ %
+    \parbox[b]{7.2cm}{%
+      \scriptsize\textbf{\textcolor{darkcharcoal}{PARLIAMENTARY AI RESEARCH TRAINING}}\\%
+      \tiny\textcolor{suagreen}{AB Consult \textbullet\ COEBS, Sokoine University of Agriculture}%
+    }%
+  }%
+  \fancyhead[R]{%
+    \parbox[b]{7.2cm}{\raggedleft%
+      \scriptsize\textbf{\textcolor{darkcharcoal}{Executive Curriculum Outline}}\\%
+      \tiny\textcolor{tanzaniablue}{THE UNITED REPUBLIC OF TANZANIA}%
+    }\ %
+    \includegraphics[height=1.0cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}%
+  }%
+  \renewcommand{\headrule}{%
+    \vspace{2pt}%
+    {\color{tanzaniablue}\rule{\headwidth}{1.8pt}}\\[-3.5pt]%
+    {\color{tanzaniayellow}\rule{\headwidth}{1.2pt}}\\[-3.5pt]%
+    {\color{suagreen}\rule{\headwidth}{1.8pt}}%
+  }%
+  \fancyfoot[L]{\footnotesize\textcolor{darkcharcoal}{\textbf{Lead Facilitator:} Eng. Dr. Kadeghe Fue (SUA) \textbar\ 9--13 November 2026}}%
+  \fancyfoot[R]{\footnotesize\textcolor{darkcharcoal}{\textbf{Page \thepage}}}%
+  \renewcommand{\footrulewidth}{0.4pt}%
+}
+
+% Hyperref (loaded last)
+\usepackage[colorlinks=true, linkcolor=tanzaniablue, urlcolor=tanzaniablue, citecolor=suagreen]{hyperref}
+
+\begin{document}
+
+% --- OFFICIAL GOVERNMENT HEADER BANNER ---
+\noindent
+\begin{minipage}[c]{0.18\textwidth}
+    \includegraphics[height=2.3cm,keepaspectratio]{Logo/SUA.png}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{0.62\textwidth}
+    \centering
+    {\large \textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA}}}\\[0.12cm]
+    {\normalsize \textbf{\textcolor{suagreen}{SOKOINE UNIVERSITY OF AGRICULTURE}}}\\[0.08cm]
+    {\small \textbf{\textcolor{tanzaniablue}{COLLEGE OF ECONOMICS AND BUSINESS STUDIES (COEBS)}}}\\[0.06cm]
+    {\footnotesize \textbf{AB CONSULT \textbullet\ PARLIAMENTARY CAPACITY BUILDING INITIATIVE}}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{0.18\textwidth}
+    \raggedleft
+    \includegraphics[height=2.3cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}
+\end{minipage}
+
+\vspace{2pt}
+\tzstrip
+
+% Official Document Classification & Metadata Card
+\begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, top=4pt, bottom=4pt, left=6pt, right=6pt]
+\footnotesize
+\begin{tabular}{@{}>{\bfseries}p{3.2cm}p{5.0cm}>{\bfseries}p{3.2cm}p{4.0cm}@{}}
+Document Type: & OFFICIAL EXECUTIVE CURRICULUM OUTLINE & Ref Number: & SUA/COEBS/AB-CONSULT/PARL-AI/2026/EXEC-00 \\
+Lead Facilitator: & Eng. Dr. Kadeghe Fue, PhD & Institutional Venue: & COEBS, SUA, Morogoro \\
+Target Cohort: & Parliamentary Researchers \& Clerks & Program Dates: & 9--13 November 2026 \\
+Classification: & \textcolor{suagreen}{OFFICIAL LEGISLATIVE TRAINING} & Ingestion Mandate: & \textcolor{tanzaniablue}{Zero-Manual-Copy (Direct AI)} \\
+\end{tabular}
+\end{tcolorbox}
+\vspace{0.2cm}
+
+\begin{center}
+    {\LARGE \textbf{\textcolor{suagreen}{APPLICATION OF ARTIFICIAL INTELLIGENCE IN PARLIAMENTARY RESEARCH}}}\\[0.20cm]
+    {\large \textbf{5-Day Executive Hands-On Training Program Outline (Zero-Copy Desktop Ingestion)}}\\[0.15cm]
+\end{center}
+\vspace{-0.1cm}
+\noindent\textbf{\textcolor{tanzaniablue}{\large 1. Executive Program Summary \& Pedagogical Philosophy}}
+\vspace{0.1cm}
+
+\noindent This executive training program equips non-programming parliamentary researchers and governance practitioners with modern, automated skills to ingest, interrogate, and synthesize authentic public documents using \textbf{Visual Studio Code} and role-grounded Artificial Intelligence assistants.
+
+\vspace{0.15cm}
+\noindent\fbox{%
+    \parbox{0.98\textwidth}{%
+        \small\textbf{The Zero-Manual-Copy Mandate ("Drop the File, Ask the AI"):}\\
+        Manual highlighting, copying, and pasting from scanned PDFs or Word files into editors is strictly prohibited. Trainees drop native Microsoft Word (\texttt{.docx}) and Adobe PDF (\texttt{.pdf}) files directly into workspace folders and direct the AI via file-grounded commands (\texttt{@filename}) to extract tables, compare statutory clauses, reconcile audit queries, and compile executive-ready PDF briefs.
+    }%
+}
+
+\vspace{0.25cm}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.95\textwidth]{figures/fig_master_auto_ingestion_arch.png}
+  \caption{Overview of the 5-Day Executive Direct Ingestion Curriculum in VS Code.}
+  \label{fig:curriculum_overview}
+\end{figure}
+
+\noindent\textbf{\textcolor{tanzaniablue}{\large 2. Prerequisites \& Participant Profile}}
+\vspace{0.1cm}
+\begin{itemize}
+    \item \textbf{Target Trainees:} Parliamentary researchers, standing committee clerks, elected legislators, social and political scientists, and policy analysts. \textbf{No prior programming, scripting, or computer science knowledge is required or assumed.}
+    \item \textbf{Required General Competencies:} Basic computer literacy (file navigation, creating folders, opening applications) and professional familiarity with parliamentary proceedings, government bills, audit reports, and national policy documents.
+\end{itemize}
+
+\vspace{0.25cm}
+\noindent\textbf{\textcolor{tanzaniablue}{\large 3. Hardware, Operating System, and Software Requirements}}
+\vspace{0.1cm}
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{@{}>{\bfseries}p{3.2cm}p{13.2cm}@{}}
+\toprule
+Component & Specifications \& Minimum Technical Thresholds \\
+\midrule
+Operating System & Windows 10/11 (64-bit), macOS (v12.0 Monterey or later), or Ubuntu Linux 20.04+. \\
+Hardware / Machine & Laptop with Core i5/i7 (or Apple M-series), 8 GB RAM (16 GB recommended), 10 GB free disk space. \\
+Core Software & \textbf{Visual Studio Code} (Latest stable release; free download from \url{https://code.visualstudio.com}). \\
+Mandatory Extensions & \textbf{(1) Markdown All in One}, \textbf{(2) Markdown PDF} (for 1-click PDF builds), \textbf{(3) AI Assistant} (GitHub Copilot / Continue.dev). \\
+Browser \& Utilities & Google Chrome, Microsoft Edge, or Mozilla Firefox; integrated PDF viewer. \\
+Connectivity & Stable institutional or venue Wi-Fi access for extension initialization and AI indexing queries. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vspace{-0.15cm}
+\noindent\textbf{\textcolor{tanzaniablue}{\large 4. Required Participant Document Portfolio (Bring on USB / Local Disk)}}
+\vspace{0.1cm}
+
+\noindent Every participant \textbf{must arrive on Day 1} with their own live institutional dossier in digital format:
+\begin{enumerate}
+    \item \textbf{1 Native Word Memo / Strategic Document (\texttt{.docx}):} Ministerial implementation plan, executive circular, or white paper.
+    \item \textbf{1 Principal / Parent Act (\texttt{.pdf}):} A gazetted Act of Parliament (e.g., Roads Act, Water Supply Act, Land Act).
+    \item \textbf{1 Draft Amendment Bill (\texttt{.docx} or \texttt{.pdf}):} A proposed amending bill containing revised clauses and statutory mandates.
+    \item \textbf{1 Controller and Auditor General (CAG) Audit Report (\texttt{.pdf}):} Annual or special audit report on public authorities/LGAs.
+    \item \textbf{1 Official Statistical Report (\texttt{.pdf}):} National Bureau of Statistics (NBS) census, agricultural survey, or economic abstract.
+    \item \textbf{1 Sector Strategic Plan or Policy White Paper (\texttt{.pdf}):} Strategic framework aligned with FYDP III or Vision 2025/2050.
+\end{enumerate}
+
+\newpage
+
+% --- PAGE 2 ---
+\noindent\textbf{\textcolor{tanzaniablue}{\large 5. Mandatory Preparatory Checklist (Before Day 1 Arrival)}}
+\vspace{0.1cm}
+\begin{itemize}
+    \item[\textbf{[ \ ]}] \textbf{Administrative Rights:} Ensure your laptop account has administrative privileges to install VS Code and extensions.
+    \item[\textbf{[ \ ]}] \textbf{Software Pre-Installation:} Download and install the latest stable version of Visual Studio Code.
+    \item[\textbf{[ \ ]}] \textbf{Document Staging:} Collect your 6 native files and place them in a folder on your Desktop named \texttt{Raw\_Source\_Docs}.
+    \item[\textbf{[ \ ]}] \textbf{Power \& Ergonomics:} Bring your laptop power adapter, an external mouse for split-pane ease, and a high-speed flash drive.
+    \item[\textbf{[ \ ]}] \textbf{Institutional Clearance:} Ensure files brought for class exercises are public or declassified for training use.
+\end{itemize}
+
+\vspace{0.25cm}
+\noindent\textbf{\textcolor{tanzaniablue}{\large 6. Daily Program Schedule \& Timetable Protocol}}
+\vspace{0.1cm}
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{@{}>{\bfseries}p{2.8cm}p{13.6cm}@{}}
+\toprule
+Time Window & Daily Session Description \\
+\midrule
+08:30 -- 10:00 & \textbf{Morning Theory \& Curricular Framing:} Analytical frameworks, statutory rules, and legislative oversight standards. \\
+\textbf{10:00 -- 11:00} & \textbf{HEALTH BREAK / REFRESHMENTS \& NETWORKING TEA TIME} \\
+11:00 -- 14:00 & \textbf{Mid-Day Ingestion \& Guided AI Interrogation:} Querying native files directly in VS Code without copying text. \\
+\textbf{14:00 -- 15:00} & \textbf{EXECUTIVE LUNCH BREAK} \\
+15:00 -- 15:45 & \textbf{Afternoon Practical Lab:} Assembling reports, fact-checking tables, and 1-click compiling to PDF before 16:00. \\
+15:45 -- 16:00 & \textbf{Verification \& Wrap-up:} Checklist sign-off with Eng. Dr. Fue, daily peer review, and preview of next day. \\
+\textbf{16:00} & \textbf{Daily Adjournment} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vspace{-0.15cm}
+\noindent\textbf{\textcolor{tanzaniablue}{\large 7. 5-Day Curricular Matrix: Ingestion, Topics \& Deliverables}}
+\vspace{0.1cm}
+\begin{table}[htbp]
+\centering
+\footnotesize
+\begin{tabular}{@{}>{\bfseries}p{1.1cm}p{3.5cm}p{4.8cm}p{6.8cm}@{}}
+\toprule
+Day & Curricular Topic & Ingested Document(s) & Practical Output (Compiled to PDF by 16:00) \\
+\midrule
+\textbf{Day 1} & \textbf{Workspace Setup \& Direct Native Ingestion} & Native Word Memo (\texttt{.docx}) \newline Native Sector Report (\texttt{.pdf}) & \textbf{Deliverable 1: Ingestion Dossier \& Baseline Brief} \newline Configured VS Code desk, parsed text, and 1-click PDF export. \\
+\addlinespace[3pt]
+\textbf{Day 2} & \textbf{Topic 1: AI in Parliamentary Research Writing} & Native Parent Act (\texttt{.pdf}) \newline Native Amendment Bill (\texttt{.docx}) \newline Native CAG Audit Report (\texttt{.pdf}) & \textbf{Deliverable 2: Legislative Bill Scrutiny Brief} \newline 4-column statutory matrix, CAG audit query mining, and 3 evidence-backed Parliamentary Questions (PQs). \\
+\addlinespace[3pt]
+\textbf{Day 3} & \textbf{Topic 2: Policy Analysis: Evidence Synthesis} & Native Statistical Bulletin (\texttt{.pdf}) \newline Native Budget Performance (\texttt{.pdf}) & \textbf{Deliverable 3: 3-Page Sector Evidence Dossier} \newline Tabular parsing, Dual-Pane fact-checking, and linking delivery metrics to FYDP III targets. \\
+\addlinespace[3pt]
+\textbf{Day 4} & \textbf{Topic 3: Policy Analysis: Methods and Options} & Native Policy White Paper (\texttt{.pdf}) \newline Native Sector Strategy Plan (\texttt{.docx}) & \textbf{Deliverable 4: Strategic Policy Options Brief} \newline 4-Pillar MCPA, 4-way institutional stakeholder simulation (Treasury, LGAs, Private, AMCOS), and Options Matrix. \\
+\addlinespace[3pt]
+\textbf{Day 5} & \textbf{Topic 4: Ethics, Integrity \& Multi-PDF Synthesis} & Native 3-Document Corpus (\texttt{.pdf}): \newline Budget + CAG Audit + NBS Survey & \textbf{Deliverables 5A, 5B, 5C: Tripartite Reports} \newline (1) Executive Report (Speaker), (2) Policy Brief (MPs), (3) Scientific Report (Clerks/Archives) + Certificate. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vspace{-0.15cm}
+\noindent\textbf{\textcolor{tanzaniablue}{\large 8. Key Institutional Guidelines \& Support Contacts}}
+\vspace{0.1cm}
+\begin{itemize}
+    \item \textbf{Data Privacy \& Parliamentary Privilege:} Privileged committee evidence must be processed exclusively through certified offline or institutional models. All AI-assisted briefs must carry the standard AB Consult AI Methodology Disclosure.
+    \item \textbf{Lead Technical Consultant:} \textbf{Eng. Dr. Kadeghe Fue, PhD} \textbullet\ Senior AI \& Systems Consultant, AB Consult, College of Economics and Business Studies (COEBS), Sokoine University of Agriculture (SUA), Morogoro, Tanzania.
+\end{itemize}
+
+\vspace{0.2cm}
+\begin{center}
+    \footnotesize\textbf{AB Consult \textbullet\ College of Economics and Business Studies (COEBS), Sokoine University of Agriculture (SUA)}\\
+    \textit{"Empowering Parliaments Through Disciplined, Reproducible, and Ethical AI Systems"} \textbullet\ \textbf{November 2026}
+\end{center}
+
+\end{document}

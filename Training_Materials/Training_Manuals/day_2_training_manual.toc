@@ -1,0 +1,28 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Day 2 Overview: Automated Legislative Scrutiny}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Orientation from Eng. Dr. Kadeghe Fue}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Specific Learning Outcomes for Day 2}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Detailed Day 2 Master Schedule}{3}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Morning Session: The CLEAR Prompting Framework}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Why Conversational Chatting Fails Parliamentary Scrutiny}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}The Five Pillars of CLEAR Prompting}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Deconstructing the CLEAR Prompt Components}{4}{subsection.2.2.1}%
+\contentsline {chapter}{\numberline {3}Mid-Day Session: Direct Ingestion and Automated Scrutiny}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Workspace Setup for Dual-Document Scrutiny}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Automated Dual-File Clause Comparison}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}The CLEAR Dual-File Comparison Prompt}{6}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Extracted Clause Scrutiny Matrix}{7}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Automated Mining of CAG Audit Reports}{8}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}The CLEAR CAG Mining Prompt}{8}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Extracted Audit Evidence Table}{8}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Drafting High-Impact Parliamentary Questions (PQs)}{8}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}The CLEAR PQ Formulation Prompt}{9}{subsection.3.4.1}%
+\contentsline {chapter}{\numberline {4}Afternoon Practical Lab: Compiling the Scrutiny Brief}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Practical Exercise 2.1: The 2-Page Committee Scrutiny Brief}{10}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Step-by-Step Instructions}{10}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}The Comprehensive Legislative Brief Prompt}{10}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Template Preview of Deliverable 2}{11}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Day 2 Competency Verification Checklist}{12}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Daily Wrap-up and Preview of Day 3}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Day 2 Accomplishments}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Preview of Day 3: Topic 2 -- Policy Analysis: Evidence Synthesis}{13}{section.5.2}%

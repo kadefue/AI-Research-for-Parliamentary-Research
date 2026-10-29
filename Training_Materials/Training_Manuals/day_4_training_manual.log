@@ -1,0 +1,2253 @@
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 11:51
+ restricted system commands enabled.
+**day_4_training_manual.tex
+(./day_4_training_manual.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "/Users/kadefue/Library/texlive/2025
+/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "/usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/fontloader-
+2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/Users/kadefue/Library/texlive/2025
+/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/local/texlive/202
+5/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /Users/kadefue/Library/texlive
+/2025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen140
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count269
+\Gm@cntv=\count270
+\c@Gm@tempcnt=\count271
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count272
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box52
+))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count273
+\l__fontspec_language_int=\count274
+\l__fontspec_strnum_int=\count275
+\l__fontspec_tmp_int=\count276
+\l__fontspec_tmpa_int=\count277
+\l__fontspec_tmpb_int=\count278
+\l__fontspec_tmpc_int=\count279
+\l__fontspec_em_int=\count280
+\l__fontspec_emdef_int=\count281
+\l__fontspec_strong_int=\count282
+\l__fontspec_strongdef_int=\count283
+\l__fontspec_tmpa_dim=\dimen149
+\l__fontspec_tmpb_dim=\dimen150
+\l__fontspec_tmpc_dim=\dimen151
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@nohyphenation=\language3
+\l@german-x-2024-02-28=\language4
+\l@ngerman-x-2024-02-28=\language5
+\l@afrikaans=\language6
+\l@albanian=\language7
+\l@ancientgreek=\language8
+\l@ibycus=\language9
+\l@arabic=\language10
+\l@armenian=\language11
+\l@basque=\language12
+\l@belarusian=\language13
+\l@bulgarian=\language14
+\l@catalan=\language15
+\l@pinyin=\language16
+\l@churchslavonic=\language17
+\l@coptic=\language18
+\l@croatian=\language19
+\l@czech=\language20
+\l@danish=\language21
+\l@dutch=\language22
+\l@ukenglish=\language23
+\l@usenglishmax=\language24
+\l@esperanto=\language25
+\l@estonian=\language26
+\l@ethiopic=\language27
+\l@farsi=\language28
+\l@finnish=\language29
+\l@schoolfinnish=\language30
+\l@french=\language31
+\l@friulan=\language32
+\l@galician=\language33
+\l@georgian=\language34
+\l@german=\language35
+\l@ngerman=\language36
+\l@swissgerman=\language37
+\l@greek=\language38
+\l@monogreek=\language39
+\l@hebrew=\language40
+\l@hungarian=\language41
+\l@icelandic=\language42
+\l@assamese=\language43
+\l@bengali=\language44
+\l@gujarati=\language45
+\l@hindi=\language46
+\l@kannada=\language47
+\l@malayalam=\language48
+\l@marathi=\language49
+\l@oriya=\language50
+\l@pali=\language51
+\l@panjabi=\language52
+\l@tamil=\language53
+\l@telugu=\language54
+\l@indonesian=\language55
+\l@interlingua=\language56
+\l@irish=\language57
+\l@italian=\language58
+\l@kurmanji=\language59
+\l@classiclatin=\language60
+\l@latin=\language61
+\l@liturgicallatin=\language62
+\l@latvian=\language63
+\l@lithuanian=\language64
+\l@macedonian=\language65
+\l@mongolian=\language66
+\l@mongolianlmc=\language67
+\l@bokmal=\language68
+\l@nynorsk=\language69
+\l@occitan=\language70
+\l@piedmontese=\language71
+\l@polish=\language72
+\l@portuguese=\language73
+\l@romanian=\language74
+\l@romansh=\language75
+\l@russian=\language76
+\l@sanskrit=\language77
+\l@serbian=\language78
+\l@serbianc=\language79
+\l@slovak=\language80
+\l@slovenian=\language81
+\l@spanish=\language82
+\l@swedish=\language83
+\l@thai=\language84
+\l@turkish=\language85
+\l@turkmen=\language86
+\l@ukrainian=\language87
+\l@uppersorbian=\language88
+\l@vietnamese=\language89
+\l@welsh=\language90
+\babelcatcodetablenum=\catcodetable14
+\bbl@pattcodes=\catcodetable15
+)
+\babel@savecnt=\count284
+\U@D=\dimen152
+\l@unhyphenated=\language91
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute4
+
+(/usr/local/texlive/2025/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/usr/local/texlive/2025/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count285
+)
+\CatcodeTableOther=\catcodetable16
+\CatcodeTableExpl=\catcodetable17
+)
+Removing  `luaotfload.node_processor' from `pre_linebreak_filter'.
+Inserting `Babel.pre_otfload_v' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Removing  `luaotfload.node_processor' from `hpack_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
+Inserting `Babel.pre_otfload_h' in `hpack_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+\bbl@attr@dir=\attribute5
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.t
+ex)
+Package babel Info: Importing data for english
+(babel)             from babel-en.ini. Reported on input line 4167.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.t
+ex)
+Package babel Info: Importing data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+Inserting `Babel.hyphenate' in `hyphenate'.
+luaotfload | cache : Lookup cache loaded from /Users/kadefue/Library/texlive/202
+5/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: 
+(fontspec)             Language 'English' not explicitly supported within font
+(fontspec)             'Noto Sans' with script 'Latin'. Check the typeset
+(fontspec)             output, and if it is okay then ignore this warning.
+(fontspec)             Otherwise a different font should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'NotoSans(0)' created for font 'Noto Sans'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,Script=Latin,Language=English,RawFeature=
+{family=rm}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Noto
+(fontspec)             Sans:mode=node;script=latn;language=ENG;+tlig;family=rm;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"name:Noto
+(fontspec)             Sans:mode=node;script=latn;language=ENG;+tlig;family=rm;
++smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Noto
+(fontspec)             Sans/B:mode=node;script=latn;language=ENG;+tlig;family=r
+m;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:Noto
+(fontspec)             Sans/B:mode=node;script=latn;language=ENG;+tlig;family=r
+m;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Noto
+(fontspec)             Sans/I:mode=node;script=latn;language=ENG;+tlig;family=r
+m;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"name:Noto
+(fontspec)             Sans/I:mode=node;script=latn;language=ENG;+tlig;family=r
+m;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:Noto
+(fontspec)             Sans/BI:mode=node;script=latn;language=ENG;+tlig;family=
+rm;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"name:Noto
+(fontspec)             Sans/BI:mode=node;script=latn;language=ENG;+tlig;family=
+rm;+smcp;"
+
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen153
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen154
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count286
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count287
+\leftroot@=\count288
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count289
+\DOTSCASE@=\count290
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen155
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count291
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count292
+\dotsspace@=\muskip17
+\c@parentequation=\count293
+\dspbrk@lvl=\count294
+\tag@help=\toks20
+\row@=\count295
+\column@=\count296
+\maxfields@=\count297
+\andhelp@=\toks21
+\eqnshift@=\dimen156
+\alignsep@=\dimen157
+\tagshift@=\dimen158
+\tagwidth@=\dimen159
+\totwidth@=\dimen160
+\lineht@=\dimen161
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen162
+\lightrulewidth=\dimen163
+\cmidrulewidth=\dimen164
+\belowrulesep=\dimen165
+\belowbottomsep=\dimen166
+\aboverulesep=\dimen167
+\abovetopsep=\dimen168
+\cmidrulesep=\dimen169
+\cmidrulekern=\dimen170
+\defaultaddspace=\dimen171
+\@cmidla=\count298
+\@cmidlb=\count299
+\@aboverulesep=\dimen172
+\@belowrulesep=\dimen173
+\@thisruleclass=\count300
+\@lastruleclass=\count301
+\@thisrulewidth=\dimen174
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen175
+\ar@mcellbox=\box55
+\extrarowheight=\dimen176
+\NC@list=\toks24
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box56
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen177
+\enit@toks=\toks25
+\enit@inbox=\box57
+\enit@count@id=\count302
+\enitdp@description=\count303
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip57
+\f@nch@offset@elh=\skip58
+\f@nch@offset@erh=\skip59
+\f@nch@offset@olh=\skip60
+\f@nch@offset@orh=\skip61
+\f@nch@offset@elf=\skip62
+\f@nch@offset@erf=\skip63
+\f@nch@offset@olf=\skip64
+\f@nch@offset@orf=\skip65
+\f@nch@height=\skip66
+\f@nch@footalignment=\skip67
+\f@nch@widthL=\skip68
+\f@nch@widthC=\skip69
+\f@nch@widthR=\skip70
+\@temptokenb=\toks26
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+)
+\Gin@req@height=\dimen178
+\Gin@req@width=\dimen179
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen180
+\pgfutil@tempdimb=\dimen181
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box58
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen182
+\pgf@y=\dimen183
+\pgf@xa=\dimen184
+\pgf@ya=\dimen185
+\pgf@xb=\dimen186
+\pgf@yb=\dimen187
+\pgf@xc=\dimen188
+\pgf@yc=\dimen189
+\pgf@xd=\dimen190
+\pgf@yd=\dimen191
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count304
+\c@pgf@countb=\count305
+\c@pgf@countc=\count306
+\c@pgf@countd=\count307
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count308
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.d
+ef
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count309
+\pgfsyssoftpath@bigbuffer@items=\count310
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen192
+\pgfmath@count=\count311
+\pgfmath@box=\box59
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count312
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen193
+\pgf@picmaxx=\dimen194
+\pgf@picminy=\dimen195
+\pgf@picmaxy=\dimen196
+\pgf@pathminx=\dimen197
+\pgf@pathmaxx=\dimen198
+\pgf@pathminy=\dimen199
+\pgf@pathmaxy=\dimen256
+\pgf@xx=\dimen257
+\pgf@xy=\dimen258
+\pgf@yx=\dimen259
+\pgf@yy=\dimen260
+\pgf@zx=\dimen261
+\pgf@zy=\dimen262
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen263
+\pgf@path@lasty=\dimen264
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen265
+\pgf@shorten@start@additional=\dimen266
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count313
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen267
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen268
+\pgf@pt@y=\dimen269
+\pgf@pt@temp=\dimen270
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen271
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen272
+\pgf@sys@shading@range@num=\count314
+\pgf@shadingcount=\count315
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box63
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box64
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen273
+\pgf@nodesepend=\dimen274
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen275
+\pgffor@skip=\dimen276
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count316
+\pgfplotmarksize=\dimen277
+)
+\tikz@lastx=\dimen278
+\tikz@lasty=\dimen279
+\tikz@lastxsaved=\dimen280
+\tikz@lastysaved=\dimen281
+\tikz@lastmovetox=\dimen282
+\tikz@lastmovetoy=\dimen283
+\tikzleveldistance=\dimen284
+\tikzsiblingdistance=\dimen285
+\tikz@figbox=\box65
+\tikz@figbox@bg=\box66
+\tikz@tempbox=\box67
+\tikz@tempbox@bg=\box68
+\tikztreelevel=\count317
+\tikznumberofchildren=\count318
+\tikznumberofcurrentchild=\count319
+\tikz@fig@count=\count320
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count321
+\pgfmatrixcurrentcolumn=\count322
+\pgf@matrix@numberofcolumns=\count323
+)
+\tikz@expandcount=\count324
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks39
+\verbatim@line=\toks40
+\verbatim@in@stream=\read4
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count325
+)
+\tcb@titlebox=\box69
+\tcb@upperbox=\box70
+\tcb@lowerbox=\box71
+\tcb@phantombox=\box72
+\c@tcbbreakpart=\count326
+\c@tcblayer=\count327
+\c@tcolorbox@number=\count328
+\l__tcobox_tmpa_box=\box73
+\l__tcobox_tmpa_dim=\dimen286
+\tcb@temp=\box74
+\tcb@temp=\box75
+\tcb@temp=\box76
+\tcb@temp=\box77
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.4.1'
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.co
+de.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box78
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+))
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box79
+\tcb@totalupperbox=\box80
+\tcb@totallowerbox=\box81
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks41
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count329
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen287
+\Hy@linkcounter=\count330
+\Hy@pagecounter=\count331
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count332
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count333
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen288
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count334
+\Field@Width=\dimen289
+\Fld@charsize=\dimen290
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring ON on input line 6060.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count335
+\c@Item=\count336
+\c@Hfootnote=\count337
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2024-11-05 v7.01l Hyperref driver for luaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count338
+\c@bookmark@seq@number=\count339
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip71
+) (./day_4_training_manual.aux
+
+Package babel Info: The following font families will use the default
+(babel)             settings for all or some languages:
+(babel)             * \sffamily = lmss
+(babel)               [lmsans10-regular]:+tlig; at 10.95pt
+(babel)             * \ttfamily = lmtt
+(babel)               [lmmono10-regular]: at 10.95pt
+(babel)             There is nothing intrinsically wrong with it, but
+(babel)             'babel' will no set Script and Language, which could
+(babel)             be relevant in some languages. If your document uses
+(babel)             these families, consider redefining them with \babelfont.
+(babel)             Reported on input line 3.
+
+)
+\openout1 = day_4_training_manual.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(62.59596pt, 472.31595pt, 62.59596pt)
+* v-part:(T,H,B)=(79.6678pt, 694.24716pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=472.31595pt
+* \textheight=694.24716pt
+* \oddsidemargin=-9.67403pt
+* \evensidemargin=-9.67403pt
+* \topmargin=-44.60219pt
+* \headheight=38.0pt
+* \headsep=14.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 123.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 123.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 123.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 123.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 123.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 123.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 123.
+LaTeX Font Info:    Redeclaring math accent \check on input line 123.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 123.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 123.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 123.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 123.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 123.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/NotoSans(0)/m/n on input line 123.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 123.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/m/n on input line 123.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/NotoSans(0)/m/n --> TU/NotoSans(0)/m/n on input line
+ 123.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/NotoSans(0)/m/it on input line 123.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/b/n on input line 123.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 123.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 123.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/NotoSans(0)/m/n --> TU/NotoSans(0)/b/n on input line
+ 123.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/NotoSans(0)/b/it on input line 123
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 123.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 123.
+Removing  `Babel.pre_otfload_h' from `hpack_filter'.
+Removing  `luaotfload.node_processor' from `hpack_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
+Inserting `Babel.math_box_dir' in `hpack_filter'.
+Inserting `Babel.pre_otfload_h' in `hpack_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `Babel.unset_atdir' in `pre_linebreak_filter'.
+Inserting `Babel.unset_atdir' in `hpack_filter'. (/usr/local/texlive/2025/texmf
+-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count340
+\scratchdimen=\dimen291
+\scratchbox=\box82
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen292
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks43
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring ON on input line 123.
+
+(./day_4_training_manual.out) (./day_4_training_manual.out)
+\@outlinefile=\write4
+
+\openout4 = day_4_training_manual.out
+<Logo/SUA.png, id=115, 190.7125pt x 190.7125pt>
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 131.
+(luatex.def)             Requested size: 68.28395pt x 68.28644pt.
+<Logo/Coat_of_arms_of_Tanzania.png, id=116, 251.9814pt x 291.9708pt>
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+144.
+(luatex.def)             Requested size: 58.9311pt x 68.28644pt.
+
+! Extra }, or forgotten \endgroup.
+l.154 ...c Options Briefs in Visual Studio Code}}}
+                                                  \\[0.6cm]
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 160--160
+[]|\TU/NotoSans(0)/b/n/10 Doc-u-ment Clas-si-fi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+[]|\TU/NotoSans(0)/m/n/10 SUA/CO-EBS/AB-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+\TU/NotoSans(0)/m/n/10 CONSULT/PARL-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]|\TU/NotoSans(0)/b/n/10 Part-ner In-sti-tu-
+ []
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 164--164
+[]|\TU/NotoSans(0)/b/n/10 Strict Core Man-
+ []
+
+
+Overfull \hbox (68.26985pt too wide) in paragraph at lines 159--166
+[][] 
+ []
+
+
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./Logo/SU
+A.png><./Logo/Coat_of_arms_of_Tanzania.png>] (./day_4_training_manual.toc)
+\tf@toc=\write5
+
+\openout5 = day_4_training_manual.toc
+
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 190.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.190 \newpage
+              
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+190.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+]
+\bbl@ensure@english {Chapter} 1.
+
+Overfull \hbox (9.06425pt too wide) in paragraph at lines 202--203
+\TU/NotoSans(0)/m/n/10.95 elected Mem-bers of Par-lia-ment fre-quently ex-press frus-tra-tion with re-search re-ports that merely
+ []
+
+
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 215.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.215     \item \textbf
+                       {Execute Direct Ingestion of Strategic Policy Files:}...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+215.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[2
+
+]
+Overfull \hbox (9.00943pt too wide) in paragraph at lines 216--217
+\TU/NotoSans(0)/m/n/10.95 pos-als into four stan-dard-ized cri-te-ria: Fis-cal 
+Vi-a-bil-ity, Ad-min-is-tra-tive Im-ple-mentabil-ity, Socio-
+ []
+
+
+Overfull \hbox (2.00146pt too wide) in paragraph at lines 219--220
+[]\TU/NotoSans(0)/b/n/10.95 For-mu-late De-fen-si-ble, Non-Partisan Rec-om-men-d
+a-tions: \TU/NotoSans(0)/m/n/10.95 Struc-ture tiered leg-isla-tive rec-
+ []
+
+
+Overfull \hbox (110.4356pt too wide) in paragraph at lines 220--221
+[]\TU/NotoSans(0)/b/n/10.95 Com-pile a 3-Page Strate-gic Pol-icy Op-tions Brief:
+ \TU/NotoSans(0)/m/n/10.95 Draft, au-dit, and com-pile \TU/lmtt/m/n/10.95 Day4_S
+trategic_Policy_Options.md
+ []
+
+
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 250.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.250 \newpage
+              
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+250.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[3]
+\bbl@ensure@english {Chapter} 2.
+<figures/fig_day4_analytical_transition.png, id=175, 638.6259pt x 281.3712pt>
+File: figures/fig_day4_analytical_transition.png Graphic file (type png)
+<use figures/fig_day4_analytical_transition.png>
+Package luatex.def Info: figures/fig_day4_analytical_transition.png  used on in
+put line 270.
+(luatex.def)             Requested size: 443.97813pt x 195.61896pt.
+<figures/fig_day4_mcpa_pillars.png, id=176, 628.749pt x 281.3712pt>
+File: figures/fig_day4_mcpa_pillars.png Graphic file (type png)
+<use figures/fig_day4_mcpa_pillars.png>
+Package luatex.def Info: figures/fig_day4_mcpa_pillars.png  used on input line 
+280.
+(luatex.def)             Requested size: 443.97813pt x 198.69302pt.
+
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 283.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.283 \end{figure}
+                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+283.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[4
+
+<./figures/fig_day4_analytical_transition.png>]
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 302.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.302 \newpage
+              
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+302.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[5<./figures/fig_day4_mcpa_pillars.png>]
+\bbl@ensure@english {Chapter} 3.
+<figures/fig_day4_workspace.png, id=193, 602.4909pt x 281.3712pt>
+File: figures/fig_day4_workspace.png Graphic file (type png)
+<use figures/fig_day4_workspace.png>
+Package luatex.def Info: figures/fig_day4_workspace.png  used on input line 312
+.
+(luatex.def)             Requested size: 443.97813pt x 207.34845pt.
+
+Overfull \hbox (11.02507pt too wide) in paragraph at lines 329--330
+[]\TU/NotoSans(0)/m/it/10 ”You are a Se-nior Par-lia-men-tary Pol-icy An-a-lys
+t. Ex-am-ine @doc-u-ments/pol-icy_whitepa-per_2025.pdf
+ []
+
+
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 330.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.330 \end{quote}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+330.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[6
+
+<./figures/fig_day4_workspace.png>]
+<figures/fig_day4_stakeholder_simulation.png, id=200, 620.3175pt x 281.3712pt>
+File: figures/fig_day4_stakeholder_simulation.png Graphic file (type png)
+<use figures/fig_day4_stakeholder_simulation.png>
+Package luatex.def Info: figures/fig_day4_stakeholder_simulation.png  used on i
+nput line 337.
+(luatex.def)             Requested size: 443.97813pt x 201.38496pt.
+
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 362.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.362         \item \textit
+                           {Primary Objection:} High capital expenditure for...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+362.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[7<./figures/fig_day4_stakeholder_simulation.png>]
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 385.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.385 \newpage
+              
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+385.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]|\TU/NotoSans(0)/m/n/10.95 Sta-tus Quo
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 400--400
+[]|\TU/NotoSans(0)/m/n/10.95 Op-tion 2: Pri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+[]|\TU/NotoSans(0)/m/n/10.95 Op-tion 3:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+\TU/NotoSans(0)/m/n/10.95 House-hold
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+[]|\TU/NotoSans(0)/b/n/10.95 Strate-gic De-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+[]|\TU/NotoSans(0)/m/n/10.95 Ad-hoc open
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+\TU/NotoSans(0)/m/n/10.95 stor-age and
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 402--402
+\TU/NotoSans(0)/m/n/10.95 tem-po-rary min-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+\TU/NotoSans(0)/m/n/10.95 is-te-rial buy-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+[]|\TU/NotoSans(0)/m/n/10.95 Di-rect cap-i-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+\TU/NotoSans(0)/m/n/10.95 fund-ing for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+\TU/NotoSans(0)/m/n/10.95 NFRA to build
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+[]|\TU/NotoSans(0)/m/n/10.95 Reg-u-la-tory re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+\TU/NotoSans(0)/m/n/10.95 lief and credit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+\TU/NotoSans(0)/m/n/10.95 guar-an-tees for
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 402--402
+\TU/NotoSans(0)/m/n/10.95 li-censed pri-vate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+\TU/NotoSans(0)/m/n/10.95 ware-house op-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+[]|\TU/NotoSans(0)/m/n/10.95 Tar-geted 50%
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 402--403
+\TU/NotoSans(0)/m/n/10.95 match-ing grant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+\TU/NotoSans(0)/m/n/10.95 for small-holder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+\TU/NotoSans(0)/m/n/10.95 farm-level her-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+\TU/NotoSans(0)/m/n/10.95 metic metal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+[]|\TU/NotoSans(0)/b/n/10.95 Fis-cal Cost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+\TU/NotoSans(0)/m/n/10.95 high in-di-rect
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+\TU/NotoSans(0)/m/n/10.95 loss in spoiled
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 404--404
+[]|\TU/NotoSans(0)/m/n/10.95 Very High (TZS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+\TU/NotoSans(0)/m/n/10.95 ex-pen-di-ture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+[]|\TU/NotoSans(0)/m/n/10.95 Mod-er-ate (TZS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+\TU/NotoSans(0)/m/n/10.95 12 Bil-lion con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+\TU/NotoSans(0)/m/n/10.95 tin-gent credit
+ []
+
+
+Underfull \hbox (badness 4341) in paragraph at lines 404--404
+\TU/NotoSans(0)/m/n/10.95 guar-an-tee fa-cil-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
+[]|\TU/NotoSans(0)/m/n/10.95 Low-to-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
+\TU/NotoSans(0)/m/n/10.95 Moderate (TZS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
+\TU/NotoSans(0)/m/n/10.95 6.5 Bil-lion an-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
+\TU/NotoSans(0)/m/n/10.95 nual sub-sidy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+[]|\TU/NotoSans(0)/b/n/10.95 Ad-min-is-tra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\TU/NotoSans(0)/b/n/10.95 tive Im-ple-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+[]|\TU/NotoSans(0)/m/n/10.95 Low bur-den;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\TU/NotoSans(0)/m/n/10.95 high sys-temic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\TU/NotoSans(0)/m/n/10.95 leak-age and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+[]|\TU/NotoSans(0)/m/n/10.95 High com-plex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\TU/NotoSans(0)/m/n/10.95 ity (re-quires
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\TU/NotoSans(0)/m/n/10.95 ma-jor pub-lic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\TU/NotoSans(0)/m/n/10.95 pro-cure-ment,
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 406--406
+\TU/NotoSans(0)/m/n/10.95 civil works, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+[]|\TU/NotoSans(0)/m/n/10.95 Mod-er-ate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\TU/NotoSans(0)/m/n/10.95 (re-quires
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\TU/NotoSans(0)/m/n/10.95 TFRA/WRRB
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\TU/NotoSans(0)/m/n/10.95 reg-u-la-tory ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\TU/NotoSans(0)/m/n/10.95 cred-i-ta-tion and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\TU/NotoSans(0)/m/n/10.95 ru-ral en-force-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+[]|\TU/NotoSans(0)/m/n/10.95 High ini-tial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+\TU/NotoSans(0)/m/n/10.95 dis-tri-bu-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+\TU/NotoSans(0)/m/n/10.95 lo-gis-tics; sim-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+\TU/NotoSans(0)/m/n/10.95 ple long-term
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+\TU/NotoSans(0)/m/n/10.95 farmer op-er-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+[]|\TU/NotoSans(0)/b/n/10.95 Socio-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\TU/NotoSans(0)/b/n/10.95 Economic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+[]|\TU/NotoSans(0)/m/n/10.95 Se-vere post-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\TU/NotoSans(0)/m/n/10.95 harvest losses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\TU/NotoSans(0)/m/n/10.95 (18% av-er-age);
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\TU/NotoSans(0)/m/n/10.95 farm-ers forced
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+[]|\TU/NotoSans(0)/m/n/10.95 High strate-gic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\TU/NotoSans(0)/m/n/10.95 food buffer;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\TU/NotoSans(0)/m/n/10.95 on-farm stor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\TU/NotoSans(0)/m/n/10.95 age losses for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\TU/NotoSans(0)/m/n/10.95 re-mote small-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+[]|\TU/NotoSans(0)/m/n/10.95 High liq-uid-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\TU/NotoSans(0)/m/n/10.95 for com-mer-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+\TU/NotoSans(0)/m/n/10.95 small-holder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+\TU/NotoSans(0)/m/n/10.95 ben-e-fit; im-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+\TU/NotoSans(0)/m/n/10.95 me-di-ate 80%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+\TU/NotoSans(0)/m/n/10.95 re-duc-tion in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+[]|\TU/NotoSans(0)/m/n/10.95 Ex-ist-ing Crop
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\TU/NotoSans(0)/m/n/10.95 and Grain Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+[]|\TU/NotoSans(0)/m/n/10.95 Sup-ple-men-tary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\TU/NotoSans(0)/m/n/10.95 Ap-pro-pri-a-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\TU/NotoSans(0)/m/n/10.95 Bill for cap-i-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\TU/NotoSans(0)/m/n/10.95 de-vel-op-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+[]|\TU/NotoSans(0)/m/n/10.95 Amend-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\TU/NotoSans(0)/m/n/10.95 to Ware-house
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\TU/NotoSans(0)/m/n/10.95 Re-ceipts Act
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 410--410
+\TU/NotoSans(0)/m/n/10.95 reg-u-la-tions and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\TU/NotoSans(0)/m/n/10.95 col-lat-eral reg-
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 410--411
+\TU/NotoSans(0)/m/n/10.95 tri-bu-tion guide-
+ []
+
+
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 415.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.415 \section
+              {Formulating Defensible, Non-Partisan Recommendations}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+415.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[9]
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 433.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.433 \newpage
+              
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+433.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[10]
+\bbl@ensure@english {Chapter} 4.
+
+Overfull \hbox (3.15276pt too wide) in paragraph at lines 438--438
+[]\TU/NotoSans(0)/b/n/14.4 Prac-ti-cal Ex-er-cise 4.1: The 3-Page Strate-gic Pol
+-icy Op-tions Brief 
+ []
+
+
+Overfull \hbox (0.95033pt too wide) in paragraph at lines 439--440
+\TU/NotoSans(0)/b/n/10.95 Ses-sion Ob-jec-tive: \TU/NotoSans(0)/m/n/10.95 Work-i
+ng in-side your \TU/lmtt/m/n/10.95 Parliamentary_Research_2026 \TU/NotoSans(0)/
+m/n/10.95 workspace, com-mand
+ []
+
+
+Overfull \hbox (3.61174pt too wide) in paragraph at lines 465--466
+[]\TU/NotoSans(0)/m/it/10 ”You are Se-nior Par-lia-men-tary Pol-icy An-a-lyst.
+ Ex-am-ine @doc-u-ments/pol-icy_whitepa-per_2025.pdf
+ []
+
+
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 466.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.466 \end{quote}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+466.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[11
+
+]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 471.
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+[]|\TU/NotoSans(0)/m/n/10 Low on-farm reach;
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 487--487
+[]|\TU/NotoSans(0)/m/n/10 Opt 2: Pri-
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 487--487
+[]|\TU/NotoSans(0)/m/n/10 TZS 12B Guar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
+[]|\TU/NotoSans(0)/m/n/10 High for com-mer-cial
+ []
+
+
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 502.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.502 
+      
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+502.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 514--514
+[]|\TU/NotoSans(0)/m/n/10.95 In-gested na-tive pol-icy white pa-per di-rectly vi
+a
+ []
+
+
+Overfull \hbox (50.96211pt too wide) in paragraph at lines 519--519
+[]|\TU/NotoSans(0)/m/n/10.95 Cre-ated \TU/lmtt/m/n/10.95 briefs_and_reports/Day4
+_Strategic_Policy_Options.md| 
+ []
+
+
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 525.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.525 \newpage
+              
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+525.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[13]
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 528.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.528 \chapter
+              {Daily Wrap-up and Preview of Day 5}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+528.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[14]
+\bbl@ensure@english {Chapter} 5.
+
+Overfull \hbox (32.05093pt too wide) in paragraph at lines 544--546
+[]\TU/NotoSans(0)/b/n/10.95 The Tri-par-tite Out-put Ar-chi-tec-ture: \TU/NotoS
+ans(0)/m/n/10.95 Com-mand-ing the AI to gen-er-ate three dis-tinct, publication-
+
+ []
+
+
+Overfull \hbox (5.89137pt too wide) in paragraph at lines 550--551
+\TU/NotoSans(0)/m/n/10.95 cre-den-tials un-der **AB Con-sult, Col-lege of Eco-no
+mics and Busi-ness Stud-ies (CO-EBS), SUA**. 
+ []
+
+
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 557.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.557     L
+           ead Technical Facilitator \& Senior AI Consultant\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+557.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[15
+
+]
+
+File: Logo/SUA.png Graphic file (type png)
+<use Logo/SUA.png>
+Package luatex.def Info: Logo/SUA.png  used on input line 564.
+(luatex.def)             Requested size: 28.4514pt x 28.45274pt.
+! Misplaced alignment tab character &.
+<argument> Day 4: Policy Options &
+                                   Stakeholder Simulation
+l.564 \end{document}
+                    
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
+<use Logo/Coat_of_arms_of_Tanzania.png>
+Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
+564.
+(luatex.def)             Requested size: 24.55367pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (38.0pt): 
+(fancyhdr)                Make it at least 64.25276pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.25276pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-26.25276pt}.
+
+[16] (./day_4_training_manual.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package rerunfilecheck Info: File `day_4_training_manual.out' has not changed.
+(rerunfilecheck)             Checksum: F5B8F4A75D409D242D230B00788D3357;8136.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 28997 strings out of 475506
+ 125160,1373583 words of node,token memory allocated
+ 2714 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 833 attribute, 57 glue_spe
+c, 280 attribute_list, 2 write nodes
+   avail lists: 1:4,2:20421,3:416,4:244,5:370,6:141,7:8411,8:2,9:802,10:18,11:76
+2
+ 51172 multiletter control sequences out of 65536+600000
+ 77 fonts using 22224647 bytes
+ 98i,16n,98p,809b,775s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf
+></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.o
+tf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Regul
+ar.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-I
+talic.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSan
+s-Bold.ttf>
+Output written on day_4_training_manual.pdf (17 pages, 1240231 bytes).
+
+PDF statistics: 304 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 79 named destinations out of 1000 (max. 131072)
+ 232 words of extra memory for PDF output out of 10000 (max. 100000000)
+
