@@ -40,6 +40,7 @@
 \usepackage{amsmath}
 \usepackage{booktabs}
 \usepackage{array}
+\usepackage{tabularx}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
 \usepackage{xcolor}
@@ -137,61 +138,54 @@
     \centering
     \vspace*{-0.5cm}
     
-    \begin{minipage}[c]{0.18\textwidth}
-        \includegraphics[height=2.4cm,keepaspectratio]{Logo/SUA.png}
+    \begin{minipage}[c]{0.16\textwidth}
+        \includegraphics[height=2.0cm,keepaspectratio]{Logo/SUA.png}
     \end{minipage}%
     \hfill
-    \begin{minipage}[c]{0.62\textwidth}
+    \begin{minipage}[c]{0.66\textwidth}
         \centering
-        {\Large \textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA}}}\\[0.15cm]
-        {\large \textbf{\textcolor{suagreen}{SOKOINE UNIVERSITY OF AGRICULTURE}}}\\[0.10cm]
-        {\normalsize \textbf{\textcolor{tanzaniablue}{COLLEGE OF ECONOMICS AND BUSINESS STUDIES (COEBS)}}}\\[0.08cm]
-        {\footnotesize \textbf{AB CONSULT \textbullet\ PARLIAMENTARY CAPACITY BUILDING INITIATIVE}}
+        {\large \textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA}}}\\[0.10cm]
+        {\normalsize \textbf{\textcolor{suagreen}{SOKOINE UNIVERSITY OF AGRICULTURE}}}\\[0.06cm]
+        {\small \textbf{\textcolor{tanzaniablue}{COLLEGE OF ECONOMICS AND BUSINESS STUDIES (COEBS)}}}\\[0.04cm]
+        {\scriptsize \textbf{AB CONSULT \textbullet\ PARLIAMENTARY CAPACITY BUILDING INITIATIVE}}
     \end{minipage}%
     \hfill
-    \begin{minipage}[c]{0.18\textwidth}
+    \begin{minipage}[c]{0.16\textwidth}
         \raggedleft
-        \includegraphics[height=2.4cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}
+        \includegraphics[height=2.0cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}
     \end{minipage}
     
-    \vspace{4pt}
+    \vspace{3pt}
     \tzstrip[\textwidth]
-    \vspace{0.4cm}
+    \vspace{0.20cm}
     
-    {\LARGE \textbf{\textcolor{suagreen}{APPLICATION OF ARTIFICIAL INTELLIGENCE IN PARLIAMENTARY RESEARCH}}}\\[0.35cm]
-    {\Huge \textbf{MASTER 5-DAY HANDS-ON TRAINING MANUAL}}\\[0.35cm]
-    {\Large \textbf{Direct Ingestion and AI-Driven Analysis for Non-Programmers Using Visual Studio Code}}\\[0.25cm]
-    {\normalsize \textit{An Automated, Zero-Manual-Copy Workflow: Querying Native PDF and Microsoft Word Files Directly via Role-Grounded AI to Produce Reproducible Parliamentary Deliverables}}}\\[0.6cm]
+    {\Large \textbf{\textcolor{suagreen}{APPLICATION OF ARTIFICIAL INTELLIGENCE IN PARLIAMENTARY RESEARCH}}}\\[0.15cm]
+    {\huge \textbf{MASTER 5-DAY HANDS-ON TRAINING MANUAL}}\\[0.12cm]
+    {\normalsize \textbf{Direct Ingestion and AI-Driven Analysis for Non-Programmers Using Visual Studio Code}}\\[0.20cm]
     
-    % Official Metadata Card
-    \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=2mm, boxrule=1.0pt, width=0.96\textwidth]
-    \small
-    \begin{tabular}{@{}>{\bfseries}p{3.4cm}p{5.2cm}>{\bfseries}p{3.2cm}p{4.2cm}@{}}
-    Document Classification: & \textcolor{suagreen}{OFFICIAL GOV BRIEF} & Reference Code: & SUA/COEBS/AB-CONSULT/PARL-AI/2026/MASTER-01 \\
+    % Master Ingestion Architecture Overview Figure
+    \begin{center}
+        \includegraphics[width=0.96\textwidth,height=6.2cm,keepaspectratio]{figures/fig_master_auto_ingestion_arch.png}
+    \end{center}
+    \vspace{0.10cm}
+    
+    % Official Metadata Card with Tabularx (Guaranteed zero overflow)
+    \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, width=\textwidth, top=3pt, bottom=3pt, left=5pt, right=5pt]
+    \footnotesize
+    \begin{tabularx}{\linewidth}{@{}>{\bfseries\textcolor{darkcharcoal}}p{3.2cm}X>{\bfseries\textcolor{darkcharcoal}}p{2.8cm}X@{}}
+    Document Type: & \textcolor{suagreen}{\textbf{MASTER PRACTICAL TRAINING MANUAL}} & Reference Code: & \textbf{SUA/COEBS/AB-CONSULT/PARL-AI/2026/MASTER-01} \\
     Lead Facilitator: & Eng. Dr. Kadeghe Fue, PhD & Institutional Unit: & AB Consult, COEBS, SUA \\
-    Designation: & Senior AI \& Systems Consultant & Partner Institutions: & National Assembly of Tanzania \\
-    Training Dates: & 9--13 November 2026 & Daily Timing: & 08:30 -- 16:00 (East Africa Time) \\
-    Delivery Method: & Applied Desktop Ingestion & Strict Core Mandate: & \textcolor{tanzaniablue}{Zero-Manual-Copy Workflow} \\
-    \end{tabular}
+    Target Cohort: & Parliamentary Researchers \& Clerks & Partner Body: & National Assembly of Tanzania \\
+    Training Dates: & 9--13 November 2026 & AI Mandate: & \textcolor{tanzaniablue}{\textbf{Zero-Manual-Copy Workflow}} \\
+    \end{tabularx}
     \end{tcolorbox}
-    
-    \vspace{0.4cm}
-    \begin{minipage}{0.94\textwidth}
-        \centering
-        \textbf{Target Trainee Cohort:}\\
-        Parliamentary Researchers, Standing Committee Clerks, Elected Legislators,\\
-        Social and Political Scientists, Policy Analysts, and Governance Practitioners\\[0.3cm]
-        
-        \textbf{Pedagogical Philosophy (Zero-Manual-Copy):}\\
-        \small Trainees drop native Microsoft Word (\texttt{.docx}) and Adobe PDF (\texttt{.pdf}) gazettes directly into workspace folders and interrogate them through role-grounded AI commands (\texttt{@filename}).
-    \end{minipage}
     
     \vfill
     \tzstrip[\textwidth]
     \vspace{2pt}
-    {\footnotesize \textbf{AB Consult \textbullet\ College of Economics and Business Studies (COEBS), Sokoine University of Agriculture}\\
+    {\scriptsize \textbf{AB Consult \textbullet\ College of Economics and Business Studies (COEBS), Sokoine University of Agriculture}\\
     Morogoro, Tanzania \textbullet\ Strategic Research and Legislative Capacity Building}
-    \vspace*{-0.2cm}
+    \vspace*{-0.3cm}
 \end{titlepage}
 
 

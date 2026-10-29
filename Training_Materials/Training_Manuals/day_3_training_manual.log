@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:43
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 13:11
  restricted system commands enabled.
 **day_3_training_manual.tex
 (./day_3_training_manual.tex
@@ -402,14 +402,24 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \backup@length=\skip55
 \ar@cellbox=\box56
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen177
+\TX@old@table=\dimen178
+\TX@old@col=\dimen179
+\TX@target=\dimen180
+\TX@delta=\dimen181
+\TX@cols=\count302
+\TX@ftn=\toks25
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip56
-\enit@outerparindent=\dimen177
-\enit@toks=\toks25
+\enit@outerparindent=\dimen182
+\enit@toks=\toks26
 \enit@inbox=\box57
-\enit@count@id=\count302
-\enitdp@description=\count303
+\enit@count@id=\count303
+\enitdp@description=\count304
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
@@ -428,7 +438,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip68
 \f@nch@widthC=\skip69
 \f@nch@widthR=\skip70
-\@temptokenb=\toks26
+\@temptokenb=\toks27
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -466,8 +476,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 106.
 )
-\Gin@req@height=\dimen178
-\Gin@req@width=\dimen179
+\Gin@req@height=\dimen183
+\Gin@req@width=\dimen184
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
@@ -477,9 +487,9 @@ Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
 (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen180
-\pgfutil@tempdimb=\dimen181
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen185
+\pgfutil@tempdimb=\dimen186
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box58
@@ -494,33 +504,33 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
 tered.code.tex
-\pgfkeys@tmptoks=\toks30
+\pgfkeys@tmptoks=\toks31
 ))
-\pgf@x=\dimen182
-\pgf@y=\dimen183
-\pgf@xa=\dimen184
-\pgf@ya=\dimen185
-\pgf@xb=\dimen186
-\pgf@yb=\dimen187
-\pgf@xc=\dimen188
-\pgf@yc=\dimen189
-\pgf@xd=\dimen190
-\pgf@yd=\dimen191
+\pgf@x=\dimen187
+\pgf@y=\dimen188
+\pgf@xa=\dimen189
+\pgf@ya=\dimen190
+\pgf@xb=\dimen191
+\pgf@yb=\dimen192
+\pgf@xc=\dimen193
+\pgf@yc=\dimen194
+\pgf@xd=\dimen195
+\pgf@yd=\dimen196
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count304
-\c@pgf@countb=\count305
-\c@pgf@countc=\count306
-\c@pgf@countd=\count307
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count308
+\c@pgf@counta=\count305
+\c@pgf@countb=\count306
+\c@pgf@countc=\count307
+\c@pgf@countd=\count308
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count309
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -538,8 +548,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count309
-\pgfsyssoftpath@bigbuffer@items=\count310
+\pgfsyssoftpath@smallbuffer@items=\count310
+\pgfsyssoftpath@bigbuffer@items=\count311
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -550,12 +560,12 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen192
-\pgfmath@count=\count311
+\pgfmath@dimen=\dimen197
+\pgfmath@count=\count312
 \pgfmath@box=\box59
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex)
@@ -577,37 +587,37 @@ code.tex)
 erarithmetics.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count312
+\c@pgfmathroundto@lastzeros=\count313
 )) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen193
-\pgf@picmaxx=\dimen194
-\pgf@picminy=\dimen195
-\pgf@picmaxy=\dimen196
-\pgf@pathminx=\dimen197
-\pgf@pathmaxx=\dimen198
-\pgf@pathminy=\dimen199
-\pgf@pathmaxy=\dimen256
-\pgf@xx=\dimen257
-\pgf@xy=\dimen258
-\pgf@yx=\dimen259
-\pgf@yy=\dimen260
-\pgf@zx=\dimen261
-\pgf@zy=\dimen262
+\pgf@picminx=\dimen198
+\pgf@picmaxx=\dimen199
+\pgf@picminy=\dimen256
+\pgf@picmaxy=\dimen257
+\pgf@pathminx=\dimen258
+\pgf@pathmaxx=\dimen259
+\pgf@pathminy=\dimen260
+\pgf@pathmaxy=\dimen261
+\pgf@xx=\dimen262
+\pgf@xy=\dimen263
+\pgf@yx=\dimen264
+\pgf@yy=\dimen265
+\pgf@zx=\dimen266
+\pgf@zy=\dimen267
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen263
-\pgf@path@lasty=\dimen264
+\pgf@path@lastx=\dimen268
+\pgf@path@lasty=\dimen269
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen265
-\pgf@shorten@start@additional=\dimen266
+\pgf@shorten@end@additional=\dimen270
+\pgf@shorten@start@additional=\dimen271
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
@@ -615,19 +625,19 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box60
 \pgf@hbox=\box61
 \pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count313
+\pgf@picture@serial@count=\count314
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen267
+\pgflinewidth=\dimen272
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen268
-\pgf@pt@y=\dimen269
-\pgf@pt@temp=\dimen270
+\pgf@pt@x=\dimen273
+\pgf@pt@y=\dimen274
+\pgf@pt@temp=\dimen275
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -644,14 +654,14 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen271
+\pgfarrowsep=\dimen276
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen272
-\pgf@sys@shading@range@num=\count314
-\pgf@shadingcount=\count315
+\pgf@max=\dimen277
+\pgf@sys@shading@range@num=\count315
+\pgf@shadingcount=\count316
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -690,8 +700,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen273
-\pgf@nodesepend=\dimen274
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -704,10 +714,10 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen275
-\pgffor@skip=\dimen276
-\pgffor@stack=\toks37
-\pgffor@toks=\toks38
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -716,34 +726,34 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count316
-\pgfplotmarksize=\dimen277
+\pgf@plot@mark@count=\count317
+\pgfplotmarksize=\dimen282
 )
-\tikz@lastx=\dimen278
-\tikz@lasty=\dimen279
-\tikz@lastxsaved=\dimen280
-\tikz@lastysaved=\dimen281
-\tikz@lastmovetox=\dimen282
-\tikz@lastmovetoy=\dimen283
-\tikzleveldistance=\dimen284
-\tikzsiblingdistance=\dimen285
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikz@lastmovetox=\dimen287
+\tikz@lastmovetoy=\dimen288
+\tikzleveldistance=\dimen289
+\tikzsiblingdistance=\dimen290
 \tikz@figbox=\box65
 \tikz@figbox@bg=\box66
 \tikz@tempbox=\box67
 \tikz@tempbox@bg=\box68
-\tikztreelevel=\count317
-\tikznumberofchildren=\count318
-\tikznumberofcurrentchild=\count319
-\tikz@fig@count=\count320
+\tikztreelevel=\count318
+\tikznumberofchildren=\count319
+\tikznumberofcurrentchild=\count320
+\tikz@fig@count=\count321
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count321
-\pgfmatrixcurrentcolumn=\count322
-\pgf@matrix@numberofcolumns=\count323
+\pgfmatrixcurrentrow=\count322
+\pgfmatrixcurrentcolumn=\count323
+\pgf@matrix@numberofcolumns=\count324
 )
-\tikz@expandcount=\count324
+\tikz@expandcount=\count325
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -751,8 +761,8 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks39
-\verbatim@line=\toks40
+\every@verbatim=\toks40
+\verbatim@line=\toks41
 \verbatim@in@stream=\read4
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
@@ -763,17 +773,17 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count325
+\etb@tempcnta=\count326
 )
 \tcb@titlebox=\box69
 \tcb@upperbox=\box70
 \tcb@lowerbox=\box71
 \tcb@phantombox=\box72
-\c@tcbbreakpart=\count326
-\c@tcblayer=\count327
-\c@tcolorbox@number=\count328
+\c@tcbbreakpart=\count327
+\c@tcblayer=\count328
+\c@tcolorbox@number=\count329
 \l__tcobox_tmpa_box=\box73
-\l__tcobox_tmpa_dim=\dimen286
+\l__tcobox_tmpa_dim=\dimen291
 \tcb@temp=\box74
 \tcb@temp=\box75
 \tcb@temp=\box76
@@ -832,7 +842,7 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks41
+\pdftexcmds@toks=\toks42
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
@@ -849,15 +859,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count329
+\c@section@level=\count330
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen287
-\Hy@linkcounter=\count330
-\Hy@pagecounter=\count331
+\@linkdim=\dimen292
+\Hy@linkcounter=\count331
+\Hy@pagecounter=\count332
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
@@ -865,7 +875,7 @@ File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count332
+\Hy@SavedSpaceFactor=\count333
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
@@ -878,14 +888,14 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count333
+\c@Hy@tempcnt=\count334
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen288
+\XeTeXLinkMargin=\dimen293
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -894,9 +904,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count334
-\Field@Width=\dimen289
-\Fld@charsize=\dimen290
+\Fld@menulength=\count335
+\Field@Width=\dimen294
+\Fld@charsize=\dimen295
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -909,9 +919,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count335
-\c@Item=\count336
-\c@Hfootnote=\count337
+\Hy@abspage=\count336
+\c@Item=\count337
+\c@Hfootnote=\count338
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
@@ -923,8 +933,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count338
-\c@bookmark@seq@number=\count339
+\Fld@listcount=\count339
+\c@bookmark@seq@number=\count340
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -953,26 +963,26 @@ Package babel Info: The following font families will use the default
 )
 \openout1 = day_3_training_manual.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1015,61 +1025,61 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 133.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 133.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 133.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 133.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 133.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 133.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 133.
-LaTeX Font Info:    Redeclaring math accent \check on input line 133.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 133.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 133.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 133.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 133.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 134.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 134.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 134.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 134.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 134.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 134.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 134.
+LaTeX Font Info:    Redeclaring math accent \check on input line 134.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 134.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 134.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 134.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 134.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 133.
+(Font)              `operators' in the math version `normal' on input line 134.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/NotoSans(0)/m/n on input line 133.
+(Font)                  OT1/cmr/m/n --> TU/NotoSans(0)/m/n on input line 134.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 133.
+(Font)              `operators' in the math version `bold' on input line 134.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/m/n on input line 133.
+(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/m/n on input line 134.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/NotoSans(0)/m/n --> TU/NotoSans(0)/m/n on input line
- 133.
+ 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/NotoSans(0)/m/it on input line 133.
+(Font)                  OT1/cmr/m/it --> TU/NotoSans(0)/m/it on input line 134.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/b/n on input line 133.
+(Font)                  OT1/cmr/bx/n --> TU/NotoSans(0)/b/n on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 133.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 133.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 134.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/NotoSans(0)/m/n --> TU/NotoSans(0)/b/n on input line
- 133.
+ 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/NotoSans(0)/b/it on input line 133
+(Font)                  OT1/cmr/bx/it --> TU/NotoSans(0)/b/it on input line 134
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 133.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 133.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 134.
 Removing  `Babel.pre_otfload_h' from `hpack_filter'.
 Removing  `luaotfload.node_processor' from `hpack_filter'.
 Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
@@ -1081,17 +1091,17 @@ Inserting `Babel.unset_atdir' in `pre_linebreak_filter'.
 Inserting `Babel.unset_atdir' in `hpack_filter'. (/usr/local/texlive/2025/texmf
 -dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count340
-\scratchdimen=\dimen291
+\scratchcounter=\count341
+\scratchdimen=\dimen296
 \scratchbox=\box82
-\nofMPsegments=\count341
-\nofMParguments=\count342
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count343
-\MPscratchDim=\dimen292
-\MPnumerator=\count344
-\makeMPintoPDFobject=\count345
-\everyMPtoPDFconversion=\toks43
+\nofMPsegments=\count342
+\nofMParguments=\count343
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen297
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
+\everyMPtoPDFconversion=\toks44
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1101,7 +1111,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 133.
+Package hyperref Info: Link coloring ON on input line 134.
 
 (./day_3_training_manual.out) (./day_3_training_manual.out)
 \@outlinefile=\write4
@@ -1110,57 +1120,43 @@ Package hyperref Info: Link coloring ON on input line 133.
 <Logo/SUA.png, id=115, 190.7125pt x 190.7125pt>
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 141.
-(luatex.def)             Requested size: 68.28395pt x 68.28644pt.
+Package luatex.def Info: Logo/SUA.png  used on input line 142.
+(luatex.def)             Requested size: 56.90572pt x 56.9055pt.
 <Logo/Coat_of_arms_of_Tanzania.png, id=116, 1284.8pt x 1489.565pt>
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-154.
-(luatex.def)             Requested size: 58.89174pt x 68.28644pt.
+155.
+(luatex.def)             Requested size: 49.06992pt x 56.9055pt.
+<figures/fig_master_auto_ingestion_arch.png, id=117, 686.565pt x 320.397pt>
+File: figures/fig_master_auto_ingestion_arch.png Graphic file (type png)
+<use figures/fig_master_auto_ingestion_arch.png>
+Package luatex.def Info: figures/fig_master_auto_ingestion_arch.png  used on in
+put line 168.
+(luatex.def)             Requested size: 378.02048pt x 176.40955pt.
 
-! Extra }, or forgotten \endgroup.
-l.164 ...vidence Dossiers in Visual Studio Code}}}
-                                                  \\[0.6cm]
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Underfull \hbox (badness 2134) in paragraph at lines 170--170
-[]|\TU/NotoSans(0)/b/n/10 Doc-u-ment Clas-si-fi-
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+[]|\TU/NotoSans(0)/b/n/9 SUA/CO-EBS/AB-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-[]|\TU/NotoSans(0)/m/n/10 SUA/CO-EBS/AB-
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+\TU/NotoSans(0)/b/n/9 CONSULT/PARL-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-\TU/NotoSans(0)/m/n/10 CONSULT/PARL-
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+[]|[][]\TU/NotoSans(0)/b/n/9 In-sti-tu-tional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[]|\TU/NotoSans(0)/b/n/10 Part-ner In-sti-tu-
+Underfull \hbox (badness 3128) in paragraph at lines 180--180
+[]|\TU/NotoSans(0)/m/n/9 Par-lia-men-tary Re-searchers &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[]|\TU/NotoSans(0)/m/n/10 Wednes-day, 11th Novem-ber
- []
-
-
-Underfull \hbox (badness 7273) in paragraph at lines 174--174
-[]|\TU/NotoSans(0)/b/n/10 Strict Core Man-
- []
-
-
-Overfull \hbox (57.34409pt too wide) in paragraph at lines 169--176
-[][] 
+Underfull \hbox (badness 6493) in paragraph at lines 180--180
+[]|\TU/NotoSans(0)/m/n/9 Wednes-day, 11th Novem-ber
  []
 
 
@@ -1168,7 +1164,8 @@ Overfull \hbox (57.34409pt too wide) in paragraph at lines 169--176
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./Logo/SU
-A.png><./Logo/Coat_of_arms_of_Tanzania.png>] (./day_3_training_manual.toc)
+A.png><./Logo/Coat_of_arms_of_Tanzania.png><./figures/fig_master_auto_ingestion_
+arch.png>] (./day_3_training_manual.toc)
 \tf@toc=\write5
 
 \openout5 = day_3_training_manual.toc
@@ -1176,12 +1173,12 @@ A.png><./Logo/Coat_of_arms_of_Tanzania.png>] (./day_3_training_manual.toc)
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 200.
+Package luatex.def Info: Logo/SUA.png  used on input line 194.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.200 \newpage
+l.194 \newpage
               
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1193,7 +1190,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-200.
+194.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1214,7 +1211,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 ]
 \bbl@ensure@english {Chapter} 1.
 
-Overfull \hbox (11.08372pt too wide) in paragraph at lines 212--213
+Overfull \hbox (11.08372pt too wide) in paragraph at lines 206--207
 \TU/NotoSans(0)/m/n/10.95 sented with com-pet-ing as-ser-tions. Sec-tor min-istr
 ies reg-u-larly an-nounce dra-matic achievements---
  []
@@ -1223,12 +1220,12 @@ ies reg-u-larly an-nounce dra-matic achievements---
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 228.
+Package luatex.def Info: Logo/SUA.png  used on input line 222.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.228     \item \textbf
+l.222     \item \textbf
                        {Enforce the Parliamentary Evidentiary Hierarchy:} Sy...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1240,7 +1237,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-228.
+222.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1257,7 +1254,7 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 [2
 
 ]
-Overfull \hbox (87.17024pt too wide) in paragraph at lines 231--232
+Overfull \hbox (87.17024pt too wide) in paragraph at lines 225--226
 []\TU/NotoSans(0)/b/n/10.95 Com-pile a 3-Page Ex-ec-u-tive Ev-i-dence Dossier: 
 \TU/NotoSans(0)/m/n/10.95 For-mat, ver-ify, and ex-port \TU/lmtt/m/n/10.95 Day3_
 Sector_Evidence_Dossier.md
@@ -1267,12 +1264,12 @@ Sector_Evidence_Dossier.md
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 261.
+Package luatex.def Info: Logo/SUA.png  used on input line 255.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.261 \newpage
+l.255 \newpage
               
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1284,7 +1281,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-261.
+255.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1300,22 +1297,22 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 [3]
 \bbl@ensure@english {Chapter} 2.
-<figures/fig_day3_evidence_hierarchy.png, id=175, 686.565pt x 325.9377pt>
+<figures/fig_day3_evidence_hierarchy.png, id=176, 686.565pt x 325.9377pt>
 File: figures/fig_day3_evidence_hierarchy.png Graphic file (type png)
 <use figures/fig_day3_evidence_hierarchy.png>
 Package luatex.def Info: figures/fig_day3_evidence_hierarchy.png  used on input
- line 273.
+ line 267.
 (luatex.def)             Requested size: 445.00023pt x 211.2552pt.
 
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 283.
+Package luatex.def Info: Logo/SUA.png  used on input line 277.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.283 
+l.277 
       
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1327,7 +1324,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-283.
+277.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1344,22 +1341,22 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 [4
 
 <./figures/fig_day3_evidence_hierarchy.png>]
-<figures/fig_day3_policy_architecture.png, id=182, 686.565pt x 320.397pt>
+<figures/fig_day3_policy_architecture.png, id=183, 686.565pt x 320.397pt>
 File: figures/fig_day3_policy_architecture.png Graphic file (type png)
 <use figures/fig_day3_policy_architecture.png>
 Package luatex.def Info: figures/fig_day3_policy_architecture.png  used on inpu
-t line 286.
+t line 280.
 (luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 308.
+Package luatex.def Info: Logo/SUA.png  used on input line 302.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.308 \newpage
+l.302 \newpage
               
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1371,7 +1368,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-308.
+302.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1387,14 +1384,14 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 [5<./figures/fig_day3_policy_architecture.png>]
 \bbl@ensure@english {Chapter} 3.
-<figures/fig_day3_workspace.png, id=193, 686.565pt x 320.397pt>
+<figures/fig_day3_workspace.png, id=195, 686.565pt x 320.397pt>
 File: figures/fig_day3_workspace.png Graphic file (type png)
 <use figures/fig_day3_workspace.png>
-Package luatex.def Info: figures/fig_day3_workspace.png  used on input line 318
+Package luatex.def Info: figures/fig_day3_workspace.png  used on input line 312
 .
 (luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
-Overfull \hbox (3.54086pt too wide) in paragraph at lines 339--340
+Overfull \hbox (3.54086pt too wide) in paragraph at lines 333--334
 []\TU/NotoSans(0)/m/it/10 ”You are a Par-lia-men-tary Re-search Statis-ti-cian
 . Ex-am-ine @doc-u-ments/sta-tis-ti-cal_ab-stract_2025.pdf
  []
@@ -1403,12 +1400,12 @@ Overfull \hbox (3.54086pt too wide) in paragraph at lines 339--340
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 340.
+Package luatex.def Info: Logo/SUA.png  used on input line 334.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.340 \end{quote}
+l.334 \end{quote}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1420,7 +1417,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-340.
+334.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1437,7 +1434,7 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 [6
 
 <./figures/fig_day3_workspace.png>]
-Overfull \hbox (48.10588pt too wide) in paragraph at lines 349--361
+Overfull \hbox (48.10588pt too wide) in paragraph at lines 343--355
  [][] 
  []
 
@@ -1445,12 +1442,12 @@ Overfull \hbox (48.10588pt too wide) in paragraph at lines 349--361
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 363.
+Package luatex.def Info: Logo/SUA.png  used on input line 357.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.363 \newpage
+l.357 \newpage
               
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1462,7 +1459,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-363.
+357.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1477,27 +1474,27 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [7]
-<figures/fig_day3_fact_checking_panes.png, id=205, 686.565pt x 320.397pt>
+<figures/fig_day3_fact_checking_panes.png, id=207, 686.565pt x 320.397pt>
 File: figures/fig_day3_fact_checking_panes.png Graphic file (type png)
 <use figures/fig_day3_fact_checking_panes.png>
 Package luatex.def Info: figures/fig_day3_fact_checking_panes.png  used on inpu
-t line 373.
+t line 367.
 (luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
-Overfull \hbox (28.09764pt too wide) in paragraph at lines 381--382
+Overfull \hbox (28.09764pt too wide) in paragraph at lines 375--376
 []\TU/NotoSans(0)/m/n/10.95 Split the ed-i-tor to the right (\TU/lmtt/m/n/10.95
  Ctrl + \\TU/NotoSans(0)/m/n/10.95 ) and open the na-tive PDF file \TU/lmtt/m/n
 /10.95 statistical_abstract_2025.pdf
  []
 
 
-Overfull \hbox (12.26733pt too wide) in paragraph at lines 389--390
+Overfull \hbox (12.26733pt too wide) in paragraph at lines 383--384
 []\TU/NotoSans(0)/m/it/10 ”You are an Ad-ver-sar-ial Fact-Checking Au-di-tor 
 for Par-lia-ment. Au-dit @briefs_and_re-ports/Day3_Sec-
  []
 
 
-Overfull \hbox (1.43297pt too wide) in paragraph at lines 389--390
+Overfull \hbox (1.43297pt too wide) in paragraph at lines 383--384
 \TU/NotoSans(0)/m/it/10 tor_Ev-i-dence_Dossier.md against the na-tive source fil
 e @doc-u-ments/sta-tis-ti-cal_ab-stract_2025.pdf
  []
@@ -1506,12 +1503,12 @@ e @doc-u-ments/sta-tis-ti-cal_ab-stract_2025.pdf
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 398.
+Package luatex.def Info: Logo/SUA.png  used on input line 392.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.398     \item \textbf
+l.392     \item \textbf
                        {Tanzania Development Vision 2025 / Vision 2050:} Set...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1523,7 +1520,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-398.
+392.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1541,12 +1538,12 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 417.
+Package luatex.def Info: Logo/SUA.png  used on input line 411.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.417 \newpage
+l.411 \newpage
               
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1558,7 +1555,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-417.
+411.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1575,14 +1572,14 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 [9]
 \bbl@ensure@english {Chapter} 4.
 
-Overfull \hbox (94.54329pt too wide) in paragraph at lines 423--424
+Overfull \hbox (94.54329pt too wide) in paragraph at lines 417--418
 \TU/NotoSans(0)/m/n/10.95 com-plete 3-page ev-i-dence brief in Mark-down, save 
 it into \TU/lmtt/m/n/10.95 briefs_and_reports/Day3_Sector_Evidence_Dossier.md\T
 U/NotoSans(0)/m/n/10.95 ,
  []
 
 
-Overfull \hbox (9.11086pt too wide) in paragraph at lines 449--450
+Overfull \hbox (9.11086pt too wide) in paragraph at lines 443--444
 []\TU/NotoSans(0)/m/it/10 ”You are Se-nior Par-lia-men-tary Re-search An-a-lys
 t. Ex-am-ine @doc-u-ments/sta-tis-ti-cal_ab-stract_2025.pdf
  []
@@ -1591,12 +1588,12 @@ t. Ex-am-ine @doc-u-ments/sta-tis-ti-cal_ab-stract_2025.pdf
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 450.
+Package luatex.def Info: Logo/SUA.png  used on input line 444.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.450 \end{quote}
+l.444 \end{quote}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1608,7 +1605,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-450.
+444.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1626,14 +1623,14 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 ]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 455.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 449.
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--499
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 []|\TU/NotoSans(0)/m/n/10.95 In-gested na-tive sta-tis-ti-cal PDF di-rectly via
  []
 
 
-Overfull \hbox (45.21336pt too wide) in paragraph at lines 504--504
+Overfull \hbox (45.21336pt too wide) in paragraph at lines 498--498
 []|\TU/NotoSans(0)/m/n/10.95 Cre-ated \TU/lmtt/m/n/10.95 briefs_and_reports/Day3
 _Sector_Evidence_Dossier.md| 
  []
@@ -1642,12 +1639,12 @@ _Sector_Evidence_Dossier.md|
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 508.
+Package luatex.def Info: Logo/SUA.png  used on input line 502.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.508 \end{table}
+l.502 \end{table}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1659,7 +1656,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-508.
+502.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1677,12 +1674,12 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 510.
+Package luatex.def Info: Logo/SUA.png  used on input line 504.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.510 \newpage
+l.504 \newpage
               
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1694,7 +1691,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-510.
+504.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1714,12 +1711,12 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 542.
+Package luatex.def Info: Logo/SUA.png  used on input line 536.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.542 \end{center}
+l.536 \end{center}
                   
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1731,7 +1728,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-542.
+536.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1751,12 +1748,12 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 544.
+Package luatex.def Info: Logo/SUA.png  used on input line 538.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 3: Statistical Ingestion &
                                           Fact-Checking \textbar \ AB CONSULT
-l.544 \end{document}
+l.538 \end{document}
                     
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1768,7 +1765,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-544.
+538.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1792,25 +1789,25 @@ Package rerunfilecheck Info: File `day_3_training_manual.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28977 strings out of 475506
- 156457,1373583 words of node,token memory allocated
- 2818 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 872 attribute, 57 glue_spe
-c, 293 attribute_list, 2 write nodes
-   avail lists: 1:4,2:20977,3:404,4:240,5:409,6:129,7:8617,8:2,9:723,10:20,11:77
+ 29050 strings out of 475506
+ 125160,1373583 words of node,token memory allocated
+ 2850 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 884 attribute, 57 glue_spe
+c, 297 attribute_list, 2 write nodes
+   avail lists: 1:5,2:20977,3:359,4:240,5:409,6:109,7:8617,8:2,9:609,10:20,11:77
 1
- 51171 multiletter control sequences out of 65536+600000
- 78 fonts using 22823535 bytes
+ 51236 multiletter control sequences out of 65536+600000
+ 79 fonts using 21748239 bytes
  98i,18n,98p,681b,811s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf
-></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.o
-tf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Regul
-ar.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-I
-talic.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSan
+></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Italic.
+ttf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regula
+r.otf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Re
+gular.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSan
 s-Bold.ttf>
-Output written on day_3_training_manual.pdf (15 pages, 1386636 bytes).
+Output written on day_3_training_manual.pdf (15 pages, 1658487 bytes).
 
-PDF statistics: 292 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 294 PDF objects out of 1000 (max. 8388607)
  245 compressed objects within 3 object streams
  72 named destinations out of 1000 (max. 131072)
  232 words of extra memory for PDF output out of 10000 (max. 100000000)

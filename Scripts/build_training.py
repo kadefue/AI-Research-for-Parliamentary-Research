@@ -211,6 +211,7 @@ def build_official_preamble(is_article: bool, meta: Dict[str, str]) -> str:
 \usepackage{amsmath}
 \usepackage{booktabs}
 \usepackage{array}
+\usepackage{tabularx}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
 \usepackage{xcolor}
@@ -312,14 +313,14 @@ def build_official_executive_body_header(meta: Dict[str, str], title_text: str, 
     template = r"""
 % Official Document Classification & Metadata Card
 \noindent
-\begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, top=4pt, bottom=4pt, left=6pt, right=6pt]
+\begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, width=\textwidth, top=3pt, bottom=3pt, left=5pt, right=5pt]
 \footnotesize
-\begin{tabular}{@{}>{\bfseries}p{3.2cm}p{5.0cm}>{\bfseries}p{3.2cm}p{4.0cm}@{}}
-Document Type: & __DOC_TYPE__ & Ref Number: & __DOC_ID__ \\
-Lead Facilitator: & Eng. Dr. Kadeghe Fue, PhD & Institutional Venue: & COEBS, SUA, Morogoro \\
-Target Cohort: & Parliamentary Researchers \& Clerks & Program Dates: & __DATES__ \\
-Classification: & \textcolor{suagreen}{OFFICIAL LEGISLATIVE TRAINING} & Ingestion Mandate: & \textcolor{tanzaniablue}{Zero-Manual-Copy (Direct AI)} \\
-\end{tabular}
+\begin{tabularx}{\linewidth}{@{}>{\bfseries\textcolor{darkcharcoal}}p{3.2cm}X>{\bfseries\textcolor{darkcharcoal}}p{2.8cm}X@{}}
+Document Type: & \textcolor{suagreen}{\textbf{__DOC_TYPE__}} & Reference Code: & \textbf{__DOC_ID__} \\
+Lead Facilitator: & Eng. Dr. Kadeghe Fue, PhD & Institutional Unit: & AB Consult, COEBS, SUA \\
+Target Cohort: & Parliamentary Researchers \& Clerks & Partner Body: & National Assembly of Tanzania \\
+Training Dates: & __DATES__ & AI Mandate: & \textcolor{tanzaniablue}{\textbf{Zero-Manual-Copy Workflow}} \\
+\end{tabularx}
 \end{tcolorbox}
 \vspace{0.15cm}
 
@@ -345,67 +346,61 @@ def build_official_title_page(meta: Dict[str, str], day_title: str, day_subtitle
     \centering
     \vspace*{-0.5cm}
     
-    \begin{minipage}[c]{0.18\textwidth}
-        \includegraphics[height=2.4cm,keepaspectratio]{Logo/SUA.png}
+    \begin{minipage}[c]{0.16\textwidth}
+        \includegraphics[height=2.0cm,keepaspectratio]{Logo/SUA.png}
     \end{minipage}%
     \hfill
-    \begin{minipage}[c]{0.62\textwidth}
+    \begin{minipage}[c]{0.66\textwidth}
         \centering
-        {\Large \textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA}}}\\[0.15cm]
-        {\large \textbf{\textcolor{suagreen}{SOKOINE UNIVERSITY OF AGRICULTURE}}}\\[0.10cm]
-        {\normalsize \textbf{\textcolor{tanzaniablue}{COLLEGE OF ECONOMICS AND BUSINESS STUDIES (COEBS)}}}\\[0.08cm]
-        {\footnotesize \textbf{AB CONSULT \textbullet\ PARLIAMENTARY CAPACITY BUILDING INITIATIVE}}
+        {\large \textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA}}}\\[0.10cm]
+        {\normalsize \textbf{\textcolor{suagreen}{SOKOINE UNIVERSITY OF AGRICULTURE}}}\\[0.06cm]
+        {\small \textbf{\textcolor{tanzaniablue}{COLLEGE OF ECONOMICS AND BUSINESS STUDIES (COEBS)}}}\\[0.04cm]
+        {\scriptsize \textbf{AB CONSULT \textbullet\ PARLIAMENTARY CAPACITY BUILDING INITIATIVE}}
     \end{minipage}%
     \hfill
-    \begin{minipage}[c]{0.18\textwidth}
+    \begin{minipage}[c]{0.16\textwidth}
         \raggedleft
-        \includegraphics[height=2.4cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}
+        \includegraphics[height=2.0cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}
     \end{minipage}
     
-    \vspace{4pt}
+    \vspace{3pt}
     \tzstrip[\textwidth]
-    \vspace{0.4cm}
+    \vspace{0.20cm}
     
-    {\LARGE \textbf{\textcolor{suagreen}{APPLICATION OF ARTIFICIAL INTELLIGENCE IN PARLIAMENTARY RESEARCH}}}\\[0.35cm]
-    {\Huge \textbf{__DAY_TITLE__}}\\[0.35cm]
-    {\Large \textbf{__DAY_SUBTITLE__}}\\[0.25cm]
-    {\normalsize \textit{__DAY_DESC__}}\\[0.6cm]
+    {\Large \textbf{\textcolor{suagreen}{APPLICATION OF ARTIFICIAL INTELLIGENCE IN PARLIAMENTARY RESEARCH}}}\\[0.15cm]
+    {\huge \textbf{__DAY_TITLE__}}\\[0.12cm]
+    {\normalsize \textbf{__DAY_SUBTITLE__}}\\[0.20cm]
     
-    % Official Metadata Card
-    \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=2mm, boxrule=1.0pt, width=0.96\textwidth]
-    \small
-    \begin{tabular}{@{}>{\bfseries}p{3.4cm}p{5.2cm}>{\bfseries}p{3.2cm}p{4.2cm}@{}}
-    Document Classification: & \textcolor{suagreen}{OFFICIAL GOV BRIEF} & Reference Code: & __DOC_ID__ \\
+    % Master Ingestion Architecture Overview Figure
+    \begin{center}
+        \includegraphics[width=0.96\textwidth,height=6.2cm,keepaspectratio]{figures/fig_master_auto_ingestion_arch.png}
+    \end{center}
+    \vspace{0.10cm}
+    
+    % Official Metadata Card with Tabularx (Guaranteed zero overflow)
+    \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, width=\textwidth, top=3pt, bottom=3pt, left=5pt, right=5pt]
+    \footnotesize
+    \begin{tabularx}{\linewidth}{@{}>{\bfseries\textcolor{darkcharcoal}}p{3.2cm}X>{\bfseries\textcolor{darkcharcoal}}p{2.8cm}X@{}}
+    Document Type: & \textcolor{suagreen}{\textbf{__DOC_TYPE__}} & Reference Code: & \textbf{__DOC_ID__} \\
     Lead Facilitator: & Eng. Dr. Kadeghe Fue, PhD & Institutional Unit: & AB Consult, COEBS, SUA \\
-    Designation: & Senior AI \& Systems Consultant & Partner Institutions: & National Assembly of Tanzania \\
-    Training Dates: & __DATES__ & Daily Timing: & 08:30 -- 16:00 (East Africa Time) \\
-    Delivery Method: & Applied Desktop Ingestion & Strict Core Mandate: & \textcolor{tanzaniablue}{Zero-Manual-Copy Workflow} \\
-    \end{tabular}
+    Target Cohort: & Parliamentary Researchers \& Clerks & Partner Body: & National Assembly of Tanzania \\
+    Training Dates: & __DATES__ & AI Mandate: & \textcolor{tanzaniablue}{\textbf{Zero-Manual-Copy Workflow}} \\
+    \end{tabularx}
     \end{tcolorbox}
-    
-    \vspace{0.4cm}
-    \begin{minipage}{0.94\textwidth}
-        \centering
-        \textbf{Target Trainee Cohort:}\\
-        Parliamentary Researchers, Standing Committee Clerks, Elected Legislators,\\
-        Social and Political Scientists, Policy Analysts, and Governance Practitioners\\[0.3cm]
-        
-        \textbf{Pedagogical Philosophy (Zero-Manual-Copy):}\\
-        \small Trainees drop native Microsoft Word (\texttt{.docx}) and Adobe PDF (\texttt{.pdf}) gazettes directly into workspace folders and interrogate them through role-grounded AI commands (\texttt{@filename}).
-    \end{minipage}
     
     \vfill
     \tzstrip[\textwidth]
     \vspace{2pt}
-    {\footnotesize \textbf{AB Consult \textbullet\ College of Economics and Business Studies (COEBS), Sokoine University of Agriculture}\\
+    {\scriptsize \textbf{AB Consult \textbullet\ College of Economics and Business Studies (COEBS), Sokoine University of Agriculture}\\
     Morogoro, Tanzania \textbullet\ Strategic Research and Legislative Capacity Building}
-    \vspace*{-0.2cm}
+    \vspace*{-0.3cm}
 \end{titlepage}
 """
     return (template
             .replace("__DAY_TITLE__", day_title)
             .replace("__DAY_SUBTITLE__", day_subtitle)
             .replace("__DAY_DESC__", day_desc)
+            .replace("__DOC_TYPE__", meta.get("doc_type", "OFFICIAL LEGISLATIVE MANUAL"))
             .replace("__DOC_ID__", meta["doc_id"])
             .replace("__DATES__", meta["dates"]))
 
