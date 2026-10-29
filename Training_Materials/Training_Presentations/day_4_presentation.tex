@@ -1,0 +1,207 @@
+\documentclass[aspectratio=169, 10pt]{beamer}
+\usepackage{fontspec}
+\usepackage[english]{babel}
+\babelfont{rm}{Noto Sans}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% Official Colors of Tanzania \& SUA
+\definecolor{tanzaniablue}{RGB}{0, 102, 178}
+\definecolor{tanzaniayellow}{RGB}{252, 209, 22}
+\definecolor{suagreen}{RGB}{0, 112, 60}
+\definecolor{darkcharcoal}{RGB}{30, 41, 59}
+\definecolor{lightgrey}{RGB}{248, 250, 252}
+\definecolor{cardborder}{RGB}{203, 213, 225}
+\definecolor{calloutbg}{RGB}{241, 245, 249}
+
+% Beamer Theme Settings
+\setbeamertemplate{navigation symbols}{}
+\setbeamersize{text margin left=0.6cm, text margin right=0.6cm}
+
+% Native Beamer Title Styling
+\setbeamercolor{frametitle}{fg=tanzaniablue}
+\setbeamercolor{framesubtitle}{fg=suagreen}
+\setbeamerfont{frametitle}{size=\Large,series=\bfseries}
+\setbeamerfont{framesubtitle}{size=\footnotesize,series=\bfseries}
+
+% Official Touching-Close Strips Macro
+\newcommand{\tzstrip}[1][\paperwidth]{%
+  \parbox[t]{#1}{%
+    \setlength{\parskip}{0pt}\setlength{\lineskip}{0pt}\setlength{\baselineskip}{0pt}%
+    {\color{tanzaniablue}\rule{#1}{2.0pt}}\par\vspace{-0.2pt}%
+    {\color{tanzaniayellow}\rule{#1}{1.4pt}}\par\vspace{-0.2pt}%
+    {\color{suagreen}\rule{#1}{2.0pt}}\par%
+  }%
+}
+
+% Official Running Header
+\setbeamertemplate{headline}{%
+  \leavevmode%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.98cm,dp=0.20cm]{white}%
+    \vskip2pt%
+    \hskip0.03\paperwidth%
+    \parbox[c]{0.10\paperwidth}{\includegraphics[height=0.62cm,keepaspectratio]{Logo/SUA.png}}%
+    \hfill%
+    \parbox[c]{0.72\paperwidth}{\centering%
+      {\fontsize{7pt}{8pt}\selectfont\textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA \textbullet\ SOKOINE UNIVERSITY OF AGRICULTURE}}}\par\vspace{2pt}%
+      {\fontsize{5.5pt}{6.5pt}\selectfont\textbf{\textcolor{suagreen}{Day 4 Presentation \textbar\ AB CONSULT}}}%
+    }%
+    \hfill%
+    \parbox[c]{0.10\paperwidth}{\raggedleft\includegraphics[height=0.62cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}}%
+    \hskip0.03\paperwidth%
+    \par\vspace{2pt}%
+    \tzstrip[\paperwidth]%
+  \end{beamercolorbox}%
+}
+
+% Official Running Footer
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \tzstrip[\paperwidth]%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.40cm,dp=0pt]{white}%
+    \vskip2pt%
+    \hskip0.03\paperwidth%
+    \parbox[c]{0.68\paperwidth}{%
+      {\fontsize{5.8pt}{6.8pt}\selectfont\textcolor{darkcharcoal}{\textbf{Lead Facilitator:} Eng. Dr. Kadeghe Fue, PhD (SUA) \textbar\ National Assembly of Tanzania}}%
+    }%
+    \hfill%
+    \parbox[c]{0.22\paperwidth}{\raggedleft%
+      {\fontsize{5.8pt}{6.8pt}\selectfont\textcolor{darkcharcoal}{\textbf{Slide \insertframenumber{} / \inserttotalframenumber}}}%
+    }%
+    \hskip0.03\paperwidth%
+    \vskip2pt%
+  \end{beamercolorbox}%
+}
+
+\begin{document}
+
+\begin{frame}[plain]
+  \centering
+  \vspace*{-0.3cm}
+  \hbox to \textwidth{%
+    \parbox[c]{0.15\textwidth}{\includegraphics[height=1.3cm,keepaspectratio]{Logo/SUA.png}}%
+    \hfill%
+    \parbox[c]{0.68\textwidth}{\centering%
+      {\fontsize{8pt}{9pt}\selectfont\textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA}}}\par\vspace{1.5pt}%
+      {\fontsize{7.2pt}{8.2pt}\selectfont\textbf{\textcolor{suagreen}{SOKOINE UNIVERSITY OF AGRICULTURE}}}\par\vspace{1.2pt}%
+      {\fontsize{6.2pt}{7.2pt}\selectfont\textbf{\textcolor{tanzaniablue}{COLLEGE OF ECONOMICS AND BUSINESS STUDIES (COEBS)}}}\par\vspace{1.0pt}%
+      {\fontsize{5.2pt}{6.2pt}\selectfont\textbf{AB CONSULT \textbullet\ PARLIAMENTARY CAPACITY BUILDING INITIATIVE}}%
+    }%
+    \hfill%
+    \parbox[c]{0.15\textwidth}{\raggedleft\includegraphics[height=1.3cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}}%
+  }
+  \par\vspace{4pt}
+  \tzstrip[\textwidth]
+  \par\vspace{6pt}
+  {\fontsize{11.5pt}{13.5pt}\selectfont\textbf{\textcolor{suagreen}{APPLICATION OF ARTIFICIAL INTELLIGENCE IN PARLIAMENTARY RESEARCH}}}\par\vspace{3pt}
+  {\fontsize{15pt}{17pt}\selectfont\textbf{\textcolor{tanzaniablue}{Day 4 Practical Presentation}}}\par\vspace{2pt}
+  {\fontsize{8.5pt}{10pt}\selectfont\textit{Multi-Criteria Policy Analysis (MCPA) \& Stakeholder Simulations}}\par\vspace{6pt}
+  
+  \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.7pt, width=0.96\textwidth, top=3pt, bottom=3pt, left=6pt, right=6pt]
+    \fontsize{6.8pt}{8.2pt}\selectfont
+    \begin{tabularx}{\linewidth}{@{}>{}p{2.6cm}X>{}p{2.0cm}X@{}}
+      \textbf{Lead Facilitator:} & Eng. Dr. Kadeghe Fue, PhD & \textbf{Document Ref:} & SUA/COEBS/PARL-AI/DOC-04 \\
+      \textbf{Target Cohort:} & Parliamentary Researchers \& Clerks & \textbf{Program Dates:} & Thursday, 12th November 2026 \\
+    \end{tabularx}
+  \end{tcolorbox}
+  
+  \vfill
+  \tzstrip[\textwidth]
+  \par\vspace{2pt}
+  {\fontsize{5.2pt}{6.2pt}\selectfont\textbf{AB Consult \textbullet\ COEBS, Sokoine University of Agriculture \textbullet\ Morogoro, Tanzania}}
+  \vspace*{-0.2cm}
+\end{frame}
+
+\begin{frame}{From Description to Decision}{Why Parliamentary Committees Require Multi-Criteria Policy Analysis}
+  \begin{columns}[c]
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, title=\textbf{The Descriptive Trap}]
+        \small
+        \begin{itemize}
+          \item Most research briefs merely \textcolor{tanzaniablue}{\textbf{summarize}} what the draft bill states.
+          \item Committees are left without clear comparative options or trade-off assessments.
+          \item Unintended economic and social consequences emerge after bill enactment.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=calloutbg, colframe=suagreen, arc=1.5mm, boxrule=0.8pt, title=\textbf{The MCPA Methodology}]
+        \small
+        \begin{itemize}
+          \item Systematically evaluate \textcolor{suagreen}{\textbf{competing policy alternatives}} against standard criteria.
+          \item Simulate reactions from \textcolor{tanzaniablue}{\textbf{key stakeholder groups}}.
+          \item Give committee leadership defensible amendments backed by empirical scoring.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{The 4 Pillars of Parliamentary MCPA}{Rigorous Assessment Framework for Legislative Proposals}
+  \begin{columns}[c]
+    \begin{column}{0.56\textwidth}
+      \includegraphics[width=\textwidth,height=5.2cm,keepaspectratio]{figures/fig_day4_mcpa_pillars.png}
+    \end{column}
+    \begin{column}{0.41\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.2mm, boxrule=0.7pt, title=\textbf{The 4 Evaluation Pillars}]
+        \scriptsize
+        \textbf{\textcolor{tanzaniablue}{1. Fiscal Sustainability:}} Revenue yield, debt impact, and administrative costs.\\
+        \vspace{2pt}
+        \textbf{\textcolor{suagreen}{2. Economic Equity:}} Distributional impact on vulnerable \& rural citizens.\\
+        \vspace{2pt}
+        \textbf{\textcolor{darkcharcoal}{3. Admin Feasibility:}} Institutional capacity of TRA / local councils.\\
+        \vspace{2pt}
+        \textbf{\textcolor{tanzaniablue}{4. Legal Alignment:}} Compliance with Constitution \& EAC treaties.
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Analytical Transition Architecture}{Transforming Raw Legislative Text into Strategic Option Sets}
+  \begin{center}
+    \includegraphics[width=0.96\textwidth,height=5.2cm,keepaspectratio]{figures/fig_day4_analytical_transition.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}{4-Way Stakeholder Perspective Simulation}{Simulating Competing Policy Pressures in Committee Rooms}
+  \begin{columns}[c]
+    \begin{column}{0.56\textwidth}
+      \includegraphics[width=\textwidth,height=5.2cm,keepaspectratio]{figures/fig_day4_stakeholder_simulation.png}
+    \end{column}
+    \begin{column}{0.41\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=suagreen, arc=1.2mm, boxrule=0.7pt, title=\textbf{Simulated Groups}]
+        \scriptsize
+        \textbf{\textcolor{tanzaniablue}{Treasury / TRA:}} Focus on revenue targets and compliance.\\
+        \vspace{2pt}
+        \textbf{\textcolor{suagreen}{Private Sector (TPSF):}} Competitiveness, capital flight, and investment security.\\
+        \vspace{2pt}
+        \textbf{\textcolor{darkcharcoal}{Civil Society / Citizens:}} Cost of living, basic social services, equity.\\
+        \vspace{2pt}
+        \textbf{\textcolor{tanzaniablue}{Local Government (TAMISEMI):}} Revenue sharing and grassroots service delivery.
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Constructing the Policy Trade-Off Matrix}{Evaluating 3 Concrete Policy Options for the Committee}
+  \begin{center}
+    \small
+    \begin{tabularx}{0.94\textwidth}{@{}>{}p{2.5cm}>{}p{3.5cm}>{}p{3.8cm}X@{}}
+      \toprule
+      \textbf{\textcolor{tanzaniablue}{Policy Option}} & \textbf{\textcolor{tanzaniablue}{Fiscal Yield}} & \textbf{\textcolor{tanzaniablue}{Social \& Equity Impact}} & \textbf{\textcolor{tanzaniablue}{Strategic Recommendation}} \\
+      \midrule
+      Option A: Status Quo (Zero reform) & Low revenue growth; persistent collection leaks & No immediate citizen backlash; high long-term deficit & \textcolor{darkcharcoal}{\textbf{Rejected:}} Deficit expands; unsustainable. \\
+      \addlinespace
+      Option B: Blanket Universal Levy & High immediate revenue (TZS 450B estimated) & Regressive; heavily hits rural smallholders & \textcolor{tanzaniablue}{\textbf{Modified:}} Introduce exempt basic consumer goods. \\
+      \addlinespace
+      Option C: Tiered Progressive Model & Moderate-High yield (TZS 380B) & Progressive; shields low-income households & \textcolor{suagreen}{\textbf{Recommended:}} Best multi-criteria balance. \\
+      \bottomrule
+    \end{tabularx}
+  \end{center}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,281 @@
+\documentclass[aspectratio=169, 10pt]{beamer}
+\usepackage{fontspec}
+\usepackage[english]{babel}
+\babelfont{rm}{Noto Sans}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% Official Colors of Tanzania \& SUA
+\definecolor{tanzaniablue}{RGB}{0, 102, 178}
+\definecolor{tanzaniayellow}{RGB}{252, 209, 22}
+\definecolor{suagreen}{RGB}{0, 112, 60}
+\definecolor{darkcharcoal}{RGB}{30, 41, 59}
+\definecolor{lightgrey}{RGB}{248, 250, 252}
+\definecolor{cardborder}{RGB}{203, 213, 225}
+\definecolor{calloutbg}{RGB}{241, 245, 249}
+
+% Beamer Theme Settings
+\setbeamertemplate{navigation symbols}{}
+\setbeamersize{text margin left=0.6cm, text margin right=0.6cm}
+
+% Native Beamer Title Styling
+\setbeamercolor{frametitle}{fg=tanzaniablue}
+\setbeamercolor{framesubtitle}{fg=suagreen}
+\setbeamerfont{frametitle}{size=\Large,series=\bfseries}
+\setbeamerfont{framesubtitle}{size=\footnotesize,series=\bfseries}
+
+% Official Touching-Close Strips Macro
+\newcommand{\tzstrip}[1][\paperwidth]{%
+  \parbox[t]{#1}{%
+    \setlength{\parskip}{0pt}\setlength{\lineskip}{0pt}\setlength{\baselineskip}{0pt}%
+    {\color{tanzaniablue}\rule{#1}{2.0pt}}\par\vspace{-0.2pt}%
+    {\color{tanzaniayellow}\rule{#1}{1.4pt}}\par\vspace{-0.2pt}%
+    {\color{suagreen}\rule{#1}{2.0pt}}\par%
+  }%
+}
+
+% Official Running Header
+\setbeamertemplate{headline}{%
+  \leavevmode%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.98cm,dp=0.20cm]{white}%
+    \vskip2pt%
+    \hskip0.03\paperwidth%
+    \parbox[c]{0.10\paperwidth}{\includegraphics[height=0.62cm,keepaspectratio]{Logo/SUA.png}}%
+    \hfill%
+    \parbox[c]{0.72\paperwidth}{\centering%
+      {\fontsize{7pt}{8pt}\selectfont\textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA \textbullet\ SOKOINE UNIVERSITY OF AGRICULTURE}}}\par\vspace{2pt}%
+      {\fontsize{5.5pt}{6.5pt}\selectfont\textbf{\textcolor{suagreen}{Executive Overview \textbar\ AB CONSULT}}}%
+    }%
+    \hfill%
+    \parbox[c]{0.10\paperwidth}{\raggedleft\includegraphics[height=0.62cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}}%
+    \hskip0.03\paperwidth%
+    \par\vspace{2pt}%
+    \tzstrip[\paperwidth]%
+  \end{beamercolorbox}%
+}
+
+% Official Running Footer
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \tzstrip[\paperwidth]%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.40cm,dp=0pt]{white}%
+    \vskip2pt%
+    \hskip0.03\paperwidth%
+    \parbox[c]{0.68\paperwidth}{%
+      {\fontsize{5.8pt}{6.8pt}\selectfont\textcolor{darkcharcoal}{\textbf{Lead Facilitator:} Eng. Dr. Kadeghe Fue, PhD (SUA) \textbar\ National Assembly of Tanzania}}%
+    }%
+    \hfill%
+    \parbox[c]{0.22\paperwidth}{\raggedleft%
+      {\fontsize{5.8pt}{6.8pt}\selectfont\textcolor{darkcharcoal}{\textbf{Slide \insertframenumber{} / \inserttotalframenumber}}}%
+    }%
+    \hskip0.03\paperwidth%
+    \vskip2pt%
+  \end{beamercolorbox}%
+}
+
+\begin{document}
+
+\begin{frame}[plain]
+  \centering
+  \vspace*{-0.3cm}
+  \hbox to \textwidth{%
+    \parbox[c]{0.15\textwidth}{\includegraphics[height=1.3cm,keepaspectratio]{Logo/SUA.png}}%
+    \hfill%
+    \parbox[c]{0.68\textwidth}{\centering%
+      {\fontsize{8pt}{9pt}\selectfont\textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA}}}\par\vspace{1.5pt}%
+      {\fontsize{7.2pt}{8.2pt}\selectfont\textbf{\textcolor{suagreen}{SOKOINE UNIVERSITY OF AGRICULTURE}}}\par\vspace{1.2pt}%
+      {\fontsize{6.2pt}{7.2pt}\selectfont\textbf{\textcolor{tanzaniablue}{COLLEGE OF ECONOMICS AND BUSINESS STUDIES (COEBS)}}}\par\vspace{1.0pt}%
+      {\fontsize{5.2pt}{6.2pt}\selectfont\textbf{AB CONSULT \textbullet\ PARLIAMENTARY CAPACITY BUILDING INITIATIVE}}%
+    }%
+    \hfill%
+    \parbox[c]{0.15\textwidth}{\raggedleft\includegraphics[height=1.3cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}}%
+  }
+  \par\vspace{4pt}
+  \tzstrip[\textwidth]
+  \par\vspace{6pt}
+  {\fontsize{11.5pt}{13.5pt}\selectfont\textbf{\textcolor{suagreen}{APPLICATION OF ARTIFICIAL INTELLIGENCE IN PARLIAMENTARY RESEARCH}}}\par\vspace{3pt}
+  {\fontsize{15pt}{17pt}\selectfont\textbf{\textcolor{tanzaniablue}{Executive Training Outline}}}\par\vspace{2pt}
+  {\fontsize{8.5pt}{10pt}\selectfont\textit{5-Day Executive Hands-On Program Outline (Zero-Copy Desktop Ingestion)}}\par\vspace{6pt}
+  
+  \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.7pt, width=0.96\textwidth, top=3pt, bottom=3pt, left=6pt, right=6pt]
+    \fontsize{6.8pt}{8.2pt}\selectfont
+    \begin{tabularx}{\linewidth}{@{}>{}p{2.6cm}X>{}p{2.0cm}X@{}}
+      \textbf{Lead Facilitator:} & Eng. Dr. Kadeghe Fue, PhD & \textbf{Document Ref:} & SUA/COEBS/PARL-AI/EXEC-00 \\
+      \textbf{Target Cohort:} & Parliamentary Researchers \& Clerks & \textbf{Program Dates:} & 9--13 November 2026 \\
+    \end{tabularx}
+  \end{tcolorbox}
+  
+  \vfill
+  \tzstrip[\textwidth]
+  \par\vspace{2pt}
+  {\fontsize{5.2pt}{6.2pt}\selectfont\textbf{AB Consult \textbullet\ COEBS, Sokoine University of Agriculture \textbullet\ Morogoro, Tanzania}}
+  \vspace*{-0.2cm}
+\end{frame}
+
+\begin{frame}{Executive Summary \& Pedagogical Philosophy}{The Zero-Manual-Copy Mandate ("Drop the File, Ask the AI")}
+  \begin{columns}[c]
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, title=\textbf{Core Executive Problem}]
+        \small
+        \begin{itemize}
+          \item Parliamentary clerks and researchers handle \textcolor{suagreen}{\textbf{hundreds of pages}} of bills, audit reports, and estimates weekly.
+          \item Traditional copy-pasting is \textcolor{tanzaniablue}{\textbf{error-prone}}, causes formatting chaos, and loses evidentiary context.
+          \item Legislative scrutiny requires \textcolor{suagreen}{\textbf{rapid cross-referencing}} without programming knowledge.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=calloutbg, colframe=suagreen, arc=1.5mm, boxrule=0.8pt, title=\textbf{The Applied Solution}]
+        \small
+        \begin{itemize}
+          \item \textcolor{tanzaniablue}{\textbf{Zero-Copy Ingestion:}} Trainees drop native \texttt{.docx} and \texttt{.pdf} gazettes directly into workspace folders.
+          \item \textcolor{suagreen}{\textbf{Role-Grounded AI:}} Specialized prompts query whole files (\texttt{@filename}) inside Visual Studio Code.
+          \item \textcolor{darkcharcoal}{\textbf{Split Dual-Pane Verification:}} Raw law is always open side-by-side with AI-synthesized outputs.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Master Ingestion Architecture}{5-Stage Unified Curriculum: Direct Ingestion, Verification, and Reporting}
+  \begin{center}
+    \includegraphics[width=0.96\textwidth,height=5.2cm,keepaspectratio]{figures/fig_master_auto_ingestion_arch.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}{5-Day Applied Training Roadmap}{Step-by-Step Transition from Document Drop to Legislative Brief}
+  \begin{columns}[t]
+    \begin{column}{0.32\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.2mm, boxrule=0.7pt, title=\textbf{Days 1 \& 2: Foundations}]
+        \scriptsize
+        \textbf{\textcolor{tanzaniablue}{Day 1: VS Code Desk}}
+        \begin{itemize}
+          \item Native docx \& pdf workspace drop
+          \item Extensions \& 1-click PDF build
+          \item File-grounded indexing
+        \end{itemize}
+        \vspace{2pt}
+        \textbf{\textcolor{suagreen}{Day 2: Bill Scrutiny}}
+        \begin{itemize}
+          \item CLEAR prompting framework
+          \item Parent Act vs Amendment bill
+          \item 3 Actionable PQs formulation
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+    \begin{column}{0.32\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=suagreen, arc=1.2mm, boxrule=0.7pt, title=\textbf{Days 3 \& 4: Empirical \& Policy}]
+        \scriptsize
+        \textbf{\textcolor{suagreen}{Day 3: Evidence Lab}}
+        \begin{itemize}
+          \item NBS \& statistical report ingestion
+          \item Budget variance reconciliation
+          \item Dual-pane empirical audit
+        \end{itemize}
+        \vspace{2pt}
+        \textbf{\textcolor{tanzaniablue}{Day 4: Policy Options}}
+        \begin{itemize}
+          \item MCPA 4-pillar evaluation
+          \item 4-way stakeholder simulation
+          \item Options trade-off matrices
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+    \begin{column}{0.32\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=darkcharcoal, arc=1.2mm, boxrule=0.7pt, title=\textbf{Day 5: Synthesis \& Ethics}]
+        \scriptsize
+        \textbf{\textcolor{darkcharcoal}{Day 5: Tripartite Deliverables}}
+        \begin{itemize}
+          \item Ethical AI guardrails \& NDA
+          \item 20--30 page committee report
+          \item 2-page MP executive brief
+          \item Complete archival audit dossier
+        \end{itemize}
+        \vspace{2pt}
+        \textbf{\textcolor{suagreen}{Institutionalization:}}
+        \begin{itemize}
+          \item Bunge research standard
+          \item Zero data leakage protocols
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Participant Profile \& Environment Stack}{Zero-Programming Threshold Designed for Parliamentary Practitioners}
+  \begin{columns}[c]
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, title=\textbf{Target Trainee Cohort}]
+        \small
+        \begin{itemize}
+          \item Parliamentary Researchers \& Analysts
+          \item Standing Committee Clerks (PAC, LAAC, Budget)
+          \item Elected Legislators \& Parliamentary Leaders
+          \item Social, Legal \& Governance Practitioners
+          \item \textcolor{suagreen}{\textbf{No prior coding or scripting required}}
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=suagreen, arc=1.5mm, boxrule=0.8pt, title=\textbf{Approved Technology Stack}]
+        \small
+        \begin{itemize}
+          \item \textbf{\textcolor{tanzaniablue}{Core IDE:}} Visual Studio Code (Free/Open)
+          \item \textbf{\textcolor{suagreen}{Extension 1:}} Markdown All in One
+          \item \textbf{\textcolor{suagreen}{Extension 2:}} Markdown PDF (1-Click builds)
+          \item \textbf{\textcolor{tanzaniablue}{AI Layer:}} GitHub Copilot / Continue.dev
+          \item \textbf{\textcolor{darkcharcoal}{OS Support:}} Windows 10/11, macOS, Linux
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Daily Operational Schedule}{Rigorous Hands-On Structure Balanced with Executive Peer Reviews}
+  \begin{center}
+    \small
+    \begin{tabularx}{0.94\textwidth}{@{}>{}p{2.8cm}X>{}p{3.5cm}@{}}
+      \toprule
+      \textbf{\textcolor{tanzaniablue}{Timeframe}} & \textbf{\textcolor{tanzaniablue}{Session Content \& Activity}} & \textbf{\textcolor{tanzaniablue}{Pedagogical Format}} \\
+      \midrule
+      08:30 -- 10:00 & Morning Masterclass: Conceptual Grounding & Interactive Lecture \& Demo \\
+      \textbf{\textcolor{suagreen}{10:00 -- 11:00}} & \textbf{\textcolor{suagreen}{Health Break \& Executive Networking Tea}} & \textit{Faculty Refreshment} \\
+      11:00 -- 13:00 & Practical Hands-On Lab: Ingestion \& Prompting & Individual Laptop Work \\
+      \textbf{\textcolor{suagreen}{13:00 -- 14:00}} & \textbf{\textcolor{suagreen}{Executive Networking Lunch}} & \textit{Executive Dining} \\
+      14:00 -- 15:30 & Applied Simulation: Drafting Committee Briefs & Paired Peer Collaboration \\
+      15:30 -- 16:00 & Debrief, Quality Audit \& Verification Checklist & Faculty Q\&A \& Adjournment \\
+      \bottomrule
+    \end{tabularx}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Institutional Governance \& Sustainability}{Strategic Integration in Bunge Research Operations}
+  \begin{columns}[c]
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, title=\textbf{Immediate Institutional Impact}]
+        \small
+        \begin{itemize}
+          \item \textbf{\textcolor{tanzaniablue}{10x Faster Analysis:}} 100-page bills scrutinized in 15 minutes instead of 3 days.
+          \item \textbf{\textcolor{suagreen}{Evidentiary Depth:}} CAG financial audit tables cross-referenced with zero copy errors.
+          \item \textbf{\textcolor{darkcharcoal}{Uniform Output:}} Publication-grade PDF dossiers ready for committee distribution.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=calloutbg, colframe=suagreen, arc=1.5mm, boxrule=0.8pt, title=\textbf{Long-Term Institutionalization}]
+        \small
+        \begin{itemize}
+          \item \textbf{\textcolor{suagreen}{Trained Cohort:}} Self-sufficient research clerks across all standing committees.
+          \item \textbf{\textcolor{tanzaniablue}{Security Architecture:}} Zero document leakage; all data remains in sovereign desks.
+          \item \textbf{\textcolor{darkcharcoal}{Academic Partnership:}} Continuous capacity building via COEBS, SUA \& AB Consult.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\end{document}

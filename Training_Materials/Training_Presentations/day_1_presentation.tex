@@ -1,0 +1,265 @@
+\documentclass[aspectratio=169, 10pt]{beamer}
+\usepackage{fontspec}
+\usepackage[english]{babel}
+\babelfont{rm}{Noto Sans}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% Official Colors of Tanzania \& SUA
+\definecolor{tanzaniablue}{RGB}{0, 102, 178}
+\definecolor{tanzaniayellow}{RGB}{252, 209, 22}
+\definecolor{suagreen}{RGB}{0, 112, 60}
+\definecolor{darkcharcoal}{RGB}{30, 41, 59}
+\definecolor{lightgrey}{RGB}{248, 250, 252}
+\definecolor{cardborder}{RGB}{203, 213, 225}
+\definecolor{calloutbg}{RGB}{241, 245, 249}
+
+% Beamer Theme Settings
+\setbeamertemplate{navigation symbols}{}
+\setbeamersize{text margin left=0.6cm, text margin right=0.6cm}
+
+% Native Beamer Title Styling
+\setbeamercolor{frametitle}{fg=tanzaniablue}
+\setbeamercolor{framesubtitle}{fg=suagreen}
+\setbeamerfont{frametitle}{size=\Large,series=\bfseries}
+\setbeamerfont{framesubtitle}{size=\footnotesize,series=\bfseries}
+
+% Official Touching-Close Strips Macro
+\newcommand{\tzstrip}[1][\paperwidth]{%
+  \parbox[t]{#1}{%
+    \setlength{\parskip}{0pt}\setlength{\lineskip}{0pt}\setlength{\baselineskip}{0pt}%
+    {\color{tanzaniablue}\rule{#1}{2.0pt}}\par\vspace{-0.2pt}%
+    {\color{tanzaniayellow}\rule{#1}{1.4pt}}\par\vspace{-0.2pt}%
+    {\color{suagreen}\rule{#1}{2.0pt}}\par%
+  }%
+}
+
+% Official Running Header
+\setbeamertemplate{headline}{%
+  \leavevmode%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.98cm,dp=0.20cm]{white}%
+    \vskip2pt%
+    \hskip0.03\paperwidth%
+    \parbox[c]{0.10\paperwidth}{\includegraphics[height=0.62cm,keepaspectratio]{Logo/SUA.png}}%
+    \hfill%
+    \parbox[c]{0.72\paperwidth}{\centering%
+      {\fontsize{7pt}{8pt}\selectfont\textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA \textbullet\ SOKOINE UNIVERSITY OF AGRICULTURE}}}\par\vspace{2pt}%
+      {\fontsize{5.5pt}{6.5pt}\selectfont\textbf{\textcolor{suagreen}{Day 1 Presentation \textbar\ AB CONSULT}}}%
+    }%
+    \hfill%
+    \parbox[c]{0.10\paperwidth}{\raggedleft\includegraphics[height=0.62cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}}%
+    \hskip0.03\paperwidth%
+    \par\vspace{2pt}%
+    \tzstrip[\paperwidth]%
+  \end{beamercolorbox}%
+}
+
+% Official Running Footer
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \tzstrip[\paperwidth]%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.40cm,dp=0pt]{white}%
+    \vskip2pt%
+    \hskip0.03\paperwidth%
+    \parbox[c]{0.68\paperwidth}{%
+      {\fontsize{5.8pt}{6.8pt}\selectfont\textcolor{darkcharcoal}{\textbf{Lead Facilitator:} Eng. Dr. Kadeghe Fue, PhD (SUA) \textbar\ National Assembly of Tanzania}}%
+    }%
+    \hfill%
+    \parbox[c]{0.22\paperwidth}{\raggedleft%
+      {\fontsize{5.8pt}{6.8pt}\selectfont\textcolor{darkcharcoal}{\textbf{Slide \insertframenumber{} / \inserttotalframenumber}}}%
+    }%
+    \hskip0.03\paperwidth%
+    \vskip2pt%
+  \end{beamercolorbox}%
+}
+
+\begin{document}
+
+\begin{frame}[plain]
+  \centering
+  \vspace*{-0.3cm}
+  \hbox to \textwidth{%
+    \parbox[c]{0.15\textwidth}{\includegraphics[height=1.3cm,keepaspectratio]{Logo/SUA.png}}%
+    \hfill%
+    \parbox[c]{0.68\textwidth}{\centering%
+      {\fontsize{8pt}{9pt}\selectfont\textbf{\textcolor{darkcharcoal}{THE UNITED REPUBLIC OF TANZANIA}}}\par\vspace{1.5pt}%
+      {\fontsize{7.2pt}{8.2pt}\selectfont\textbf{\textcolor{suagreen}{SOKOINE UNIVERSITY OF AGRICULTURE}}}\par\vspace{1.2pt}%
+      {\fontsize{6.2pt}{7.2pt}\selectfont\textbf{\textcolor{tanzaniablue}{COLLEGE OF ECONOMICS AND BUSINESS STUDIES (COEBS)}}}\par\vspace{1.0pt}%
+      {\fontsize{5.2pt}{6.2pt}\selectfont\textbf{AB CONSULT \textbullet\ PARLIAMENTARY CAPACITY BUILDING INITIATIVE}}%
+    }%
+    \hfill%
+    \parbox[c]{0.15\textwidth}{\raggedleft\includegraphics[height=1.3cm,keepaspectratio]{Logo/Coat_of_arms_of_Tanzania.png}}%
+  }
+  \par\vspace{4pt}
+  \tzstrip[\textwidth]
+  \par\vspace{6pt}
+  {\fontsize{11.5pt}{13.5pt}\selectfont\textbf{\textcolor{suagreen}{APPLICATION OF ARTIFICIAL INTELLIGENCE IN PARLIAMENTARY RESEARCH}}}\par\vspace{3pt}
+  {\fontsize{15pt}{17pt}\selectfont\textbf{\textcolor{tanzaniablue}{Day 1 Practical Presentation}}}\par\vspace{2pt}
+  {\fontsize{8.5pt}{10pt}\selectfont\textit{Automated Native File Ingestion \& Direct AI Querying in Visual Studio Code}}\par\vspace{6pt}
+  
+  \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.7pt, width=0.96\textwidth, top=3pt, bottom=3pt, left=6pt, right=6pt]
+    \fontsize{6.8pt}{8.2pt}\selectfont
+    \begin{tabularx}{\linewidth}{@{}>{}p{2.6cm}X>{}p{2.0cm}X@{}}
+      \textbf{Lead Facilitator:} & Eng. Dr. Kadeghe Fue, PhD & \textbf{Document Ref:} & SUA/COEBS/PARL-AI/DOC-01 \\
+      \textbf{Target Cohort:} & Parliamentary Researchers \& Clerks & \textbf{Program Dates:} & Monday, 9th November 2026 \\
+    \end{tabularx}
+  \end{tcolorbox}
+  
+  \vfill
+  \tzstrip[\textwidth]
+  \par\vspace{2pt}
+  {\fontsize{5.2pt}{6.2pt}\selectfont\textbf{AB Consult \textbullet\ COEBS, Sokoine University of Agriculture \textbullet\ Morogoro, Tanzania}}
+  \vspace*{-0.2cm}
+\end{frame}
+
+\begin{frame}{The Legislative Document Bottleneck}{Why Traditional Manual Copy-Pasting Fails Parliamentary Research}
+  \begin{columns}[c]
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, title=\textbf{The Manual Reality}]
+        \small
+        \begin{itemize}
+          \item Clerks spend \textcolor{tanzaniablue}{\textbf{80\% of their time}} copying, pasting, and reformatting statutory clauses.
+          \item Highlighting scanned PDFs creates broken line wraps, unreadable tables, and missed amendments.
+          \item Critical committee deadlines force superficial reading of major legislative bills.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=calloutbg, colframe=suagreen, arc=1.5mm, boxrule=0.8pt, title=\textbf{The Zero-Copy Paradigm}]
+        \small
+        \begin{itemize}
+          \item \textcolor{suagreen}{\textbf{Never copy-paste:}} Drop original \texttt{.docx} and \texttt{.pdf} files straight into VS Code folders.
+          \item Direct AI indexing reads documents \textcolor{tanzaniablue}{\textbf{natively in memory}}.
+          \item Researchers maintain full structural context, schedules, clauses, and tabular footnotes.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{VS Code Desktop Workspace Architecture}{Structured Folder Hierarchy for Legislative Documents}
+  \begin{columns}[c]
+    \begin{column}{0.56\textwidth}
+      \includegraphics[width=\textwidth,height=5.2cm,keepaspectratio]{figures/fig_day1_workspace_tree.png}
+    \end{column}
+    \begin{column}{0.41\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.2mm, boxrule=0.7pt, title=\textbf{Workspace Rules}]
+        \scriptsize
+        \begin{itemize}
+          \item \texttt{raw\_bills/}: Store native government gazettes and draft bills.
+          \item \texttt{parent\_acts/}: Principal Acts for comparative scrutiny.
+          \item \texttt{audit\_data/}: Official CAG reports and NBS statistical tables.
+          \item \texttt{briefs/}: Output Markdown files compiled into PDFs.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Automated Ingestion Pipeline}{End-to-End Workflow: Native Document to Verified Legislative Brief}
+  \begin{columns}[c]
+    \begin{column}{0.58\textwidth}
+      \includegraphics[width=\textwidth,height=5.2cm,keepaspectratio]{figures/fig_day1_auto_ingestion_arch.png}
+    \end{column}
+    \begin{column}{0.39\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=suagreen, arc=1.2mm, boxrule=0.7pt, title=\textbf{Pipeline Stages}]
+        \scriptsize
+        \textbf{\textcolor{tanzaniablue}{1. Document Drop:}} Native Word/PDF drop into workspace folder.\\
+        \vspace{2pt}
+        \textbf{\textcolor{suagreen}{2. AI Indexing:}} Reference directly via \texttt{@filename} token.\\
+        \vspace{2pt}
+        \textbf{\textcolor{darkcharcoal}{3. Dual-Pane Check:}} Side-by-side audit of AI claims against source text.\\
+        \vspace{2pt}
+        \textbf{\textcolor{tanzaniablue}{4. 1-Click Export:}} Export to publication PDF in 1 second.
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Role-Grounded Document Interrogation}{Direct Querying via @filename Indexing in VS Code}
+  \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, title=\textbf{Exemplary Parliamentary AI Command}]
+    \small
+    \texttt{@raw\_bills/Mining\_Amendment\_Bill\_2026.docx @parent\_acts/Mining\_Act\_Cap123.pdf}\\
+    \vspace{3pt}
+    \textcolor{suagreen}{\textbf{Role:}} Senior Parliamentary Research Fellow for the Energy \& Minerals Committee.\\
+    \textcolor{tanzaniablue}{\textbf{Task:}} Cross-examine Section 14 of the Bill against Section 42 of the Principal Act.\\
+    \textbf{Output:} Generate a 3-column comparative table detailing: (1) Existing Provision, (2) Proposed Amendment, and (3) Strategic Legal Impact on Artisanal Miners.
+  \end{tcolorbox}
+  \vspace{4pt}
+  \begin{center}
+    \scriptsize \textbf{\textcolor{suagreen}{Result:}} Instantaneous tabular breakdown with exact statutory citations and zero hallucination risk.
+  \end{center}
+\end{frame}
+
+\begin{frame}{Dual-Pane Verification Architecture}{Guaranteeing Evidentiary Truth in Committee Briefings}
+  \begin{columns}[c]
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, title=\textbf{Left Pane: Raw Statutory Source}]
+        \small
+        \begin{itemize}
+          \item Scanned National Gazette or PDF Act open in VS Code built-in viewer.
+          \item Exact line and clause numbers visible to researcher.
+          \item Unaltered official government authority.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=calloutbg, colframe=suagreen, arc=1.5mm, boxrule=0.8pt, title=\textbf{Right Pane: Synthesized Analysis}]
+        \small
+        \begin{itemize}
+          \item Active Markdown analysis brief with synthesized matrix.
+          \item Researcher verifies each quote and statistic against Left Pane.
+          \item Zero unverified assertions leave the research desk.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{1-Click Markdown PDF Publishing}{Publishing Committee Briefs to Official Standards}
+  \begin{columns}[c]
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=tanzaniablue, arc=1.5mm, boxrule=0.8pt, title=\textbf{Markdown Formatting Hygiene}]
+        \small
+        \begin{itemize}
+          \item \textbf{\textcolor{tanzaniablue}{Never use hashes or asterisks in titles:}} Use semantic styling and colors.
+          \item Structure tables with standard GitHub Markdown pipes (\texttt{|}).
+          \item Use callout blockquotes (\texttt{> [!IMPORTANT]}) for high-impact legislative alerts.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{tcolorbox}[colback=lightgrey, colframe=suagreen, arc=1.5mm, boxrule=0.8pt, title=\textbf{1-Click PDF Generation}]
+        \small
+        \begin{itemize}
+          \item Right-click active document $\rightarrow$ \textcolor{suagreen}{\textbf{Markdown PDF: Export (pdf)}}.
+          \item Automatically styles typography, tables, and page headers.
+          \item Produces distribution-ready PDF in $<2$ seconds.
+        \end{itemize}
+      \end{tcolorbox}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Day 1 Hands-On Lab \& Deliverables}{Practical Trainee Assessment Checklist}
+  \begin{tcolorbox}[colback=lightgrey, colframe=suagreen, arc=1.5mm, boxrule=0.8pt, title=\textbf{Individual Lab Exercise (90 Minutes)}]
+    \small
+    \begin{enumerate}
+      \item Initialize your assigned workspace folder on your laptop desk.
+      \item Ingest the \texttt{Finance\_Bill\_2026.docx} and \texttt{Income\_Tax\_Act\_Cap332.pdf}.
+      \item Execute a role-grounded query identifying all proposed tax threshold shifts.
+      \item Reconcile the proposed shifts in a dual-pane verification layout.
+      \item Export your completed analysis to \texttt{briefs/Tax\_Threshold\_Brief.pdf}.
+    \end{enumerate}
+  \end{tcolorbox}
+  \vspace{4pt}
+  \begin{center}
+    \textbf{\textcolor{tanzaniablue}{Day 1 Milestone:}} Every trainee exports their first zero-copy verified legislative brief!
+  \end{center}
+\end{frame}
+
+\end{document}
