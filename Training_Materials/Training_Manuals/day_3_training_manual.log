@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:07
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:31
  restricted system commands enabled.
 **day_3_training_manual.tex
 (./day_3_training_manual.tex
@@ -1344,12 +1344,12 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 [4
 
 <./figures/fig_day3_evidence_hierarchy.png>]
-<figures/fig_day3_policy_architecture.png, id=182, 705.1143pt x 320.397pt>
+<figures/fig_day3_policy_architecture.png, id=182, 686.565pt x 320.397pt>
 File: figures/fig_day3_policy_architecture.png Graphic file (type png)
 <use figures/fig_day3_policy_architecture.png>
 Package luatex.def Info: figures/fig_day3_policy_architecture.png  used on inpu
 t line 286.
-(luatex.def)             Requested size: 445.00023pt x 202.20805pt.
+(luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
 
 File: Logo/SUA.png Graphic file (type png)
@@ -1387,12 +1387,12 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 [5<./figures/fig_day3_policy_architecture.png>]
 \bbl@ensure@english {Chapter} 3.
-<figures/fig_day3_workspace.png, id=193, 706.8006pt x 320.397pt>
+<figures/fig_day3_workspace.png, id=193, 686.565pt x 320.397pt>
 File: figures/fig_day3_workspace.png Graphic file (type png)
 <use figures/fig_day3_workspace.png>
 Package luatex.def Info: figures/fig_day3_workspace.png  used on input line 318
 .
-(luatex.def)             Requested size: 445.00023pt x 201.72406pt.
+(luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
 Overfull \hbox (3.54086pt too wide) in paragraph at lines 339--340
 []\TU/NotoSans(0)/m/it/10 ”You are a Par-lia-men-tary Re-search Statis-ti-cian
@@ -1794,10 +1794,10 @@ Package rerunfilecheck Info: File `day_3_training_manual.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  28977 strings out of 475506
  156457,1373583 words of node,token memory allocated
- 2778 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 857 attribute, 57 glue_spe
-c, 288 attribute_list, 2 write nodes
-   avail lists: 1:4,2:20993,3:404,4:240,5:405,6:129,7:8679,8:2,9:723,10:20,11:77
+ 2818 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 872 attribute, 57 glue_spe
+c, 293 attribute_list, 2 write nodes
+   avail lists: 1:4,2:20977,3:404,4:240,5:409,6:129,7:8617,8:2,9:723,10:20,11:77
 1
  51171 multiletter control sequences out of 65536+600000
  78 fonts using 22823535 bytes
@@ -1808,7 +1808,7 @@ tf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Regul
 ar.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-I
 talic.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSan
 s-Bold.ttf>
-Output written on day_3_training_manual.pdf (15 pages, 1535990 bytes).
+Output written on day_3_training_manual.pdf (15 pages, 1463291 bytes).
 
 PDF statistics: 292 PDF objects out of 1000 (max. 8388607)
  245 compressed objects within 3 object streams

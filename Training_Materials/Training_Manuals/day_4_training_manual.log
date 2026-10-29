@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:07
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:31
  restricted system commands enabled.
 **day_4_training_manual.tex
 (./day_4_training_manual.tex
@@ -1295,18 +1295,18 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 [3]
 \bbl@ensure@english {Chapter} 2.
-<figures/fig_day4_analytical_transition.png, id=176, 720.291pt x 320.397pt>
+<figures/fig_day4_analytical_transition.png, id=176, 686.565pt x 320.397pt>
 File: figures/fig_day4_analytical_transition.png Graphic file (type png)
 <use figures/fig_day4_analytical_transition.png>
 Package luatex.def Info: figures/fig_day4_analytical_transition.png  used on in
 put line 280.
-(luatex.def)             Requested size: 445.00023pt x 197.94498pt.
-<figures/fig_day4_mcpa_pillars.png, id=177, 743.1765pt x 320.397pt>
+(luatex.def)             Requested size: 445.00023pt x 207.66402pt.
+<figures/fig_day4_mcpa_pillars.png, id=177, 686.565pt x 320.397pt>
 File: figures/fig_day4_mcpa_pillars.png Graphic file (type png)
 <use figures/fig_day4_mcpa_pillars.png>
 Package luatex.def Info: figures/fig_day4_mcpa_pillars.png  used on input line 
 290.
-(luatex.def)             Requested size: 445.00023pt x 191.84857pt.
+(luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
 
 File: Logo/SUA.png Graphic file (type png)
@@ -1431,23 +1431,23 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 [6
 
 <./figures/fig_day4_workspace.png>]
-<figures/fig_day4_stakeholder_simulation.png, id=201, 733.2996pt x 320.397pt>
+<figures/fig_day4_stakeholder_simulation.png, id=201, 686.565pt x 320.397pt>
 File: figures/fig_day4_stakeholder_simulation.png Graphic file (type png)
 <use figures/fig_day4_stakeholder_simulation.png>
 Package luatex.def Info: figures/fig_day4_stakeholder_simulation.png  used on i
 nput line 347.
-(luatex.def)             Requested size: 445.00023pt x 194.43477pt.
+(luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 373.
+Package luatex.def Info: Logo/SUA.png  used on input line 372.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 ! Misplaced alignment tab character &.
 <argument> Day 4: Policy Options &
                                    Stakeholder Simulation \textbar \ AB CONSULT
-l.373         \item \textit
-                           {Recommended Mitigation:} Mobilize private capita...
+l.372         \item \textit
+                           {Primary Objection:} High capital expenditure for...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1458,7 +1458,7 @@ might try typing `S' now just to see what is salvageable.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-373.
+372.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2280,21 +2280,21 @@ Package rerunfilecheck Info: File `day_4_training_manual.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  28996 strings out of 475506
  125160,1373583 words of node,token memory allocated
- 3066 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 965 attribute, 57 glue_spe
-c, 324 attribute_list, 2 write nodes
-   avail lists: 1:4,2:20248,3:404,4:240,5:374,6:129,7:8349,8:2,9:806,10:20,11:75
+ 3106 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 980 attribute, 57 glue_spe
+c, 329 attribute_list, 2 write nodes
+   avail lists: 1:4,2:20228,3:404,4:240,5:377,6:129,7:8287,8:2,9:806,10:20,11:75
 2
  51171 multiletter control sequences out of 65536+600000
  78 fonts using 22823535 bytes
- 98i,19n,98p,809b,848s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,19n,98p,844b,846s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf
 ></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.o
 tf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Regul
 ar.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-I
 talic.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSan
 s-Bold.ttf>
-Output written on day_4_training_manual.pdf (17 pages, 1478616 bytes).
+Output written on day_4_training_manual.pdf (17 pages, 1434933 bytes).
 
 PDF statistics: 305 PDF objects out of 1000 (max. 8388607)
  256 compressed objects within 3 object streams

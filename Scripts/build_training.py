@@ -463,6 +463,50 @@ def rectify_figures(content: str, filename: str) -> str:
     return content
 
 
+def clean_markdown_formatting(content: str) -> str:
+    """
+    Completely removes Markdown-style formatting (** and #) from LaTeX output.
+    Replaces them with official Tanzanian Blue or Green text emphasis.
+    """
+    # 1. Clean Markdown headers inside \\textbf{\\# ...} or \\textbf{\\#\\# ...}
+    def repl_heading_bf(m):
+        full = m.group(1).replace('#', '').strip()
+        return f'\\textcolor{{tanzaniablue}}{{\\textbf{{{full}}}}}'
+
+    content = re.sub(r'\\textbf\{\\?#+\s*(.*?)\}', repl_heading_bf, content)
+
+    # 2. Clean remaining lines starting with \\# or - Title: \\# ...
+    content = re.sub(r'\\#+\s*', '', content)
+
+    # 3. Handle \\textbf{**Key:** val} patterns
+    def repl_bf_stars(m):
+        inner = m.group(1)
+        cleaned_inner = re.sub(r'\*\*(.*?)\*\*', r'\\textcolor{tanzaniablue}{\1}', inner)
+        return r'\textbf{' + cleaned_inner + '}'
+    content = re.sub(r'\\textbf\{([^{}]*\*\*.*?)\}', repl_bf_stars, content)
+
+    # 4. Handle \\textbf{**...**}
+    content = re.sub(r'\\textbf\{\s*\*\*(.*?)\*\*\s*\}', r'\\textcolor{tanzaniablue}{\\textbf{\1}}', content)
+
+    # 5. Handle remaining **...** with alternating blue/green emphasis
+    colors = ['suagreen', 'tanzaniablue']
+    count = [0]
+    def repl_stars(m):
+        txt = m.group(1).strip()
+        c = colors[count[0] % 2]
+        count[0] += 1
+        return f'\\textcolor{{{c}}}{{\\textbf{{{txt}}}}}'
+    content = re.sub(r'\*\*(.*?)\*\*', repl_stars, content)
+
+    # 6. Clean any stray lone double-stars
+    content = content.replace('**', '')
+
+    # 7. Clean any stray \\# followed by alphanumeric
+    content = re.sub(r'\\#(?=[A-Za-z0-9])', '', content)
+
+    return content
+
+
 def rectify_file(raw_file: Path) -> str:
     """Rectifies a single raw tex file into an official government formatted document."""
     fname = raw_file.name
@@ -519,6 +563,9 @@ def rectify_file(raw_file: Path) -> str:
 
             new_titlepage = build_official_title_page(meta, day_title, day_sub, day_desc)
             body = new_titlepage + body
+
+    # Clean markdown formatting (** and #) and replace with green/blue emphasis
+    body = clean_markdown_formatting(body)
 
     # Rectify figures across the body
     body = rectify_figures(body, fname)

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:07
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:31
  restricted system commands enabled.
 **day_5_training_manual.tex
 (./day_5_training_manual.tex
@@ -1317,12 +1317,12 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 [4]
 \bbl@ensure@english {Chapter} 2.
-<figures/fig_day5_ethical_pillars.png, id=188, 699.5736pt x 320.397pt>
+<figures/fig_day5_ethical_pillars.png, id=188, 686.565pt x 320.397pt>
 File: figures/fig_day5_ethical_pillars.png Graphic file (type png)
 <use figures/fig_day5_ethical_pillars.png>
 Package luatex.def Info: figures/fig_day5_ethical_pillars.png  used on input li
 ne 280.
-(luatex.def)             Requested size: 445.00023pt x 203.80672pt.
+(luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
 
 File: Logo/SUA.png Graphic file (type png)
@@ -1697,12 +1697,12 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [9]
-<figures/fig_day5_tripartite_architecture.png, id=220, 746.79pt x 320.397pt>
+<figures/fig_day5_tripartite_architecture.png, id=220, 686.565pt x 320.397pt>
 File: figures/fig_day5_tripartite_architecture.png Graphic file (type png)
 <use figures/fig_day5_tripartite_architecture.png>
 Package luatex.def Info: figures/fig_day5_tripartite_architecture.png  used on 
 input line 400.
-(luatex.def)             Requested size: 445.00023pt x 190.91968pt.
+(luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
 
 File: Logo/SUA.png Graphic file (type png)
@@ -1910,12 +1910,6 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-4.24504pt}.
 
 [14]
-Underfull \hbox (badness 4168) in paragraph at lines 515--531
-\TU/NotoSans(0)/b/n/10 **Document Se-ries:** AB-COEBS-SR-2026-05  |  **Clas-si-f
-i-ca-tion:** Of-fi-cial Re-search
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 545--545
 []|\TU/NotoSans(0)/m/n/10.95 Ex-e-cuted multi-file tri-an-gu-la-tion query via
  []
@@ -2082,10 +2076,10 @@ Package rerunfilecheck Info: File `day_5_training_manual.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  28995 strings out of 475506
  125160,1373583 words of node,token memory allocated
- 3378 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 1082 attribute, 57 glue_sp
-ec, 363 attribute_list, 2 write nodes
-   avail lists: 1:4,2:19177,3:401,4:248,5:384,6:129,7:8134,8:22,9:720,10:25,11:7
+ 3402 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 1091 attribute, 57 glue_sp
+ec, 366 attribute_list, 2 write nodes
+   avail lists: 1:4,2:19169,3:401,4:248,5:384,6:129,7:8126,8:22,9:720,10:25,11:7
 86
  51170 multiletter control sequences out of 65536+600000
  78 fonts using 22823535 bytes
@@ -2099,7 +2093,7 @@ s-Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 mi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 0.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb>
-Output written on day_5_training_manual.pdf (19 pages, 1237715 bytes).
+Output written on day_5_training_manual.pdf (19 pages, 1204506 bytes).
 
 PDF statistics: 316 PDF objects out of 1000 (max. 8388607)
  264 compressed objects within 3 object streams

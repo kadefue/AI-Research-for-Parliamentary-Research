@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:07
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:31
  restricted system commands enabled.
 **day_2_training_manual.tex
 (./day_2_training_manual.tex
@@ -1209,12 +1209,6 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 ]
 \bbl@ensure@english {Chapter} 1.
 
-Overfull \hbox (1.89635pt too wide) in paragraph at lines 208--209
-[]\TU/NotoSans(0)/m/n/10.95 To-day, Tues-day, 10$[][]$ Novem-ber 2026, we ap-ply
- this au-to-mated in-ges-tion ca-pa-bil-ity to **Topic
- []
-
-
 Overfull \hbox (3.90126pt too wide) in paragraph at lines 210--211
 []\TU/NotoSans(0)/m/n/10.95 In par-lia-men-tary com-mit-tee work, re-searchers 
 and clerks are rou-tinely con-fronted with dense
@@ -1307,12 +1301,12 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 [3]
 \bbl@ensure@english {Chapter} 2.
-<figures/fig_day2_clear_framework.png, id=175, 725.109pt x 320.397pt>
+<figures/fig_day2_clear_framework.png, id=175, 686.565pt x 320.397pt>
 File: figures/fig_day2_clear_framework.png Graphic file (type png)
 <use figures/fig_day2_clear_framework.png>
 Package luatex.def Info: figures/fig_day2_clear_framework.png  used on input li
 ne 280.
-(luatex.def)             Requested size: 445.00023pt x 196.62987pt.
+(luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
 
 File: Logo/SUA.png Graphic file (type png)
@@ -1387,12 +1381,12 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 [5<./figures/fig_day2_clear_framework.png>]
 \bbl@ensure@english {Chapter} 3.
-<figures/fig_day2_workspace.png, id=191, 706.8006pt x 320.397pt>
+<figures/fig_day2_workspace.png, id=191, 686.565pt x 320.397pt>
 File: figures/fig_day2_workspace.png Graphic file (type png)
 <use figures/fig_day2_workspace.png>
 Package luatex.def Info: figures/fig_day2_workspace.png  used on input line 313
 .
-(luatex.def)             Requested size: 445.00023pt x 201.72406pt.
+(luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
 
 File: Logo/SUA.png Graphic file (type png)
@@ -1963,10 +1957,10 @@ Package rerunfilecheck Info: File `day_2_training_manual.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  28949 strings out of 475506
  156457,1373583 words of node,token memory allocated
- 2826 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 875 attribute, 57 glue_spe
-c, 294 attribute_list, 2 write nodes
-   avail lists: 1:4,2:25473,3:401,4:240,5:402,6:129,7:8897,8:2,9:720,10:19,11:74
+ 2842 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 881 attribute, 57 glue_spe
+c, 296 attribute_list, 2 write nodes
+   avail lists: 1:4,2:25453,3:401,4:240,5:406,6:129,7:8856,8:2,9:720,10:19,11:74
 5
  51155 multiletter control sequences out of 65536+600000
  78 fonts using 22823535 bytes
@@ -1977,7 +1971,7 @@ tf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-Regul
 ar.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-I
 talic.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSan
 s-Bold.ttf>
-Output written on day_2_training_manual.pdf (15 pages, 1046518 bytes).
+Output written on day_2_training_manual.pdf (15 pages, 1017008 bytes).
 
 PDF statistics: 282 PDF objects out of 1000 (max. 8388607)
  239 compressed objects within 3 object streams

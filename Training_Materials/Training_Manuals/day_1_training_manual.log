@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:07
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  29 OCT 2026 12:31
  restricted system commands enabled.
 **day_1_training_manual.tex
 (./day_1_training_manual.tex
@@ -1253,29 +1253,22 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 
 [3]
 \bbl@ensure@english {Chapter} 2.
-<figures/fig_day1_auto_ingestion_arch.png, id=160, 717.882pt x 320.397pt>
+<figures/fig_day1_auto_ingestion_arch.png, id=160, 686.565pt x 320.397pt>
 File: figures/fig_day1_auto_ingestion_arch.png Graphic file (type png)
 <use figures/fig_day1_auto_ingestion_arch.png>
 Package luatex.def Info: figures/fig_day1_auto_ingestion_arch.png  used on inpu
 t line 271.
-(luatex.def)             Requested size: 445.00023pt x 198.60497pt.
-
-Overfull \hbox (175.3351pt too wide) in paragraph at lines 279--280
-[]\TU/NotoSans(0)/b/n/10.95 Ex-plicit File Ground-ing: \TU/NotoSans(0)/m/n/10.9
-5 Ev-ery AI prompt must ex-plic-itly ref-er-ence the file name (e.g., \TU/lmtt/
-m/n/10.95 @documents/national_water_policy.pdf\TU/NotoSans(0)/m/n/10.95 ).
- []
-
+(luatex.def)             Requested size: 445.00023pt x 207.66402pt.
 
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
-Package luatex.def Info: Logo/SUA.png  used on input line 280.
+Package luatex.def Info: Logo/SUA.png  used on input line 279.
 (luatex.def)             Requested size: 29.8744pt x 29.87547pt.
 File: Logo/Coat_of_arms_of_Tanzania.png Graphic file (type png)
 <use Logo/Coat_of_arms_of_Tanzania.png>
 Package luatex.def Info: Logo/Coat_of_arms_of_Tanzania.png  used on input line 
-280.
+279.
 (luatex.def)             Requested size: 25.76024pt x 29.87547pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1292,6 +1285,13 @@ Package fancyhdr Warning: \headheight is too small (48.0pt):
 [4
 
 <./figures/fig_day1_auto_ingestion_arch.png>]
+Overfull \hbox (175.3351pt too wide) in paragraph at lines 279--280
+[]\TU/NotoSans(0)/b/n/10.95 Ex-plicit File Ground-ing: \TU/NotoSans(0)/m/n/10.9
+5 Ev-ery AI prompt must ex-plic-itly ref-er-ence the file name (e.g., \TU/lmtt/
+m/n/10.95 @documents/national_water_policy.pdf\TU/NotoSans(0)/m/n/10.95 ).
+ []
+
+
 
 File: Logo/SUA.png Graphic file (type png)
 <use Logo/SUA.png>
@@ -1515,7 +1515,7 @@ Here is how much of LuaTeX's memory you used:
  2506 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 755 attribute, 57 glue_spe
 c, 254 attribute_list, 2 write nodes
-   avail lists: 1:5,2:16938,3:401,4:216,5:367,6:129,7:6810,8:2,9:720,10:19,11:59
+   avail lists: 1:5,2:16926,3:401,4:216,5:367,6:129,7:6752,8:2,9:720,10:19,11:59
 8
  51154 multiletter control sequences out of 65536+600000
  79 fonts using 22949943 bytes
@@ -1527,7 +1527,7 @@ ar.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSans-I
 talic.ttf></usr/local/texlive/2025/texmf-dist/fonts/truetype/google/noto/NotoSan
 s-Bold.ttf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb>
-Output written on day_1_training_manual.pdf (12 pages, 1014666 bytes).
+Output written on day_1_training_manual.pdf (12 pages, 989516 bytes).
 
 PDF statistics: 266 PDF objects out of 1000 (max. 8388607)
  225 compressed objects within 3 object streams
